@@ -13,7 +13,6 @@ function rotating_rect(x, y, rect_size, r) {
   translate (x+43, y-5);
   rotate(r);
   line(0, 0, rect_size, rect_size);
-  resetMatrix();
 }
 
 function draw() {
