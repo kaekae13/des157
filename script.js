@@ -35,9 +35,4 @@ function draw() {
     x = x + 1;
     rot = rot + 0.01;
   }
-
-
-
-
-
 }
