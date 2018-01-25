@@ -1,0 +1,59 @@
+body {
+  height: 750px;
+  background-color: antiquewhite;
+}
+
+header {
+  max-width: 500px;
+}
+
+h1, article {
+  margin-left: 75px;
+  display: block;
+}
+
+
+h1 {
+  font-family: "Avenir", sans-serif;
+  font-size:65px;
+  position: relative;
+}
+
+article {
+  position: relative
+  min-width: 700px;
+  padding: 10px;
+}
+
+#column1, #column2 {
+  display: inline-block;
+}
+
+div {
+  margin: 2%;
+}
+
+label {
+  width: 5em;
+  text-align: right;
+  display: inline-block;
+  padding-right: 3%;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 3%;
+  border-bottom: 3px blue;
+  font-size: 1.5em;
+  background-color: hotpink;
+}
+
+input[type="text"]:focus {
+  border-bottom: 8px cornflowerblue solid;
+  background-color: orange;
+  color: black;
+}
+
+div: last-child {
+  text-align: center;
+}
