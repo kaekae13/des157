@@ -98,16 +98,10 @@ main {
   padding-top: 50px;
 }
 
-#name, #columns {
+#name, #column1, #column2 {
   padding-left: 30px;
   padding-right: 30px;
   display: inline-block;
-}
-
-#column1, #column2 {
-  margin-top: 20px;
-  display:inline-block;
-  vertical-align: top;
 }
 
 ul {
