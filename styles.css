@@ -104,6 +104,10 @@ main {
   display: inline-block;
 }
 
+#column1, #column2 {
+  vertical-align: top;
+}
+
 ul {
   list-style-type: circle;
 }
