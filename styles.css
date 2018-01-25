@@ -72,7 +72,7 @@ article.text, .sources {
 /* BEGIN IMG STYLES */
 #brainstorm {
   margin: 0 auto;
-  width: 400px;
+  max-width: 400px;
 }
 
 .researchimg {
