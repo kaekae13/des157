@@ -65,7 +65,8 @@ main hr {
 }
 
 .sources {
-  margin-bottom:50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 9px;
 }
 
