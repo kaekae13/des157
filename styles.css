@@ -18,6 +18,9 @@
   display: inline-block;
 }
 
+/* BEGIN STYLES FOR MAIN CONTENT */
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -76,6 +79,19 @@ h2 {
   margin-left: 400px;
   margin-top: 100px;
 }
+
+.miracleModus p {
+  width: 300px;
+  margin: auto;
+}
+
+.swifty p {
+  width: 300px;
+  margin: auto;
+}
+/* end main content tyles */
+
+
 /* BEGIN NAV STYLES */
 
 ul {
