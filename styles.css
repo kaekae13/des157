@@ -82,7 +82,7 @@ h2 {
     padding-bottom: 20px;
 }
 
-.text {
+article .text {
   margin-bottom:50px;
   font-size: 11px;
 }
@@ -92,8 +92,7 @@ h2 {
 /* BEGIN IMG STYLES */
 
 #miracle1, #miracle2, #swifty1, #swifty2 {
-  max-width:100%;
-  max-height:100%;
+  width: 700px;
   padding-bottom: 25px;
   padding-top: 25px;
   margin: 0 auto;
