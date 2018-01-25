@@ -106,7 +106,7 @@ main {
 
 #column1, #column2 {
   vertical-align: bottom;
-  margin-top: 35px;
+  padding-top: 15px;
 }
 
 ul {
