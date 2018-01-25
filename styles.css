@@ -81,18 +81,26 @@ h2 {
 }
 
 #comparative {
-  margin: auto;
-  width: 600px;
+  margin-left:75px;
 }
 
-#comparative .miracleModus p {
-  width: 500px;
+#comparative p {
+  width: 300px;
   font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-#comparative .swifty p {
-  width: 500px;
-  font-size: 10px;
+#research1 {
+  float:left;
+  display:inline-block;
+}
+
+#research2 {
+  float:right;
+  display: inline-block;
 }
 /* end main content tyles */
 
