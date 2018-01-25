@@ -4,7 +4,9 @@ body {
 }
 
 header {
-  max-width: 500px;
+  max-width: 1000px;
+  margin-bottom:25px;
+  margin-top: 40px;
 }
 
 h1, article {
@@ -27,6 +29,7 @@ article {
 
 #column1, #column2 {
   display: inline-block;
+  vertical-align: top;
 }
 
 div {
@@ -38,6 +41,7 @@ label {
   text-align: right;
   display: inline-block;
   padding-right: 3%;
+  font-type: "Avenir", sans-serif;
 }
 
 input[type="text"] {
@@ -46,6 +50,7 @@ input[type="text"] {
   border-bottom: 3px blue;
   font-size: 1.5em;
   background-color: hotpink;
+  font-type: "Helvetica", sans-serif;
 }
 
 input[type="text"]:focus {
@@ -56,4 +61,19 @@ input[type="text"]:focus {
 
 div: last-child {
   text-align: center;
+  text-font: "Avenir", sans-serif;
+  text-size: 10px;
+}
+
+footer {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #313537;
+  clear:right;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
