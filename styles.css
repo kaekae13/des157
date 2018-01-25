@@ -56,6 +56,10 @@ main hr {
   margin-left: 75px;
 }
 
+main {
+  margin:0 auto;
+}
+
 #research {
     width: 500px;
     margin: auto;
