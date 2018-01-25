@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* BEGIN STYLES FOR BANNER */
 
 #mySketch {
   width: 100%;
@@ -9,11 +8,7 @@
   margin: auto;
 }
 
-/* end styles for banner */
 
-
-
-/* BEGIN STYLES FOR MAIN CONTENT */
 
 
 body {
@@ -41,10 +36,6 @@ hr {
   width: 185px;
 }
 
-/* end main content styles */
-
-
-/* BEGIN ALL NAV STYLES */
 #container {
   margin: 0 auto;
   padding-top: 35px;
@@ -114,4 +105,3 @@ footer {
   width: 30px;
   padding: 15px
 }
-/* end footer styles */
