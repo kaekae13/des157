@@ -166,4 +166,7 @@ footer {
   padding: 15px
 }
 
+#notFixed {
+  position:absolute;
+}
 /* end footer styles */
