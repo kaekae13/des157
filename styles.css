@@ -86,11 +86,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-#comparative {
-  padding-top: 70px;
-}
-
-#comparative p {
+#comparative #research p {
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   padding-top: 10px;
