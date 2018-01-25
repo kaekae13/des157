@@ -111,6 +111,11 @@ h2 {
   width:275px;
 }
 
+#miracle1, #miracle2, #swifty1, #swifty2 {
+  width: 275px;
+  margin: auto;
+  display: block;
+}
 #sources {
   bottom: 0;
   position: fixed;
