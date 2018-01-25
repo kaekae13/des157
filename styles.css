@@ -75,6 +75,9 @@ h2 {
   margin-top: 20px;
 }
 
+#comparative h1 {
+  margin-left: 75px;
+}
 .research {
   font-weight: bold;
 }
@@ -88,8 +91,8 @@ h2 {
   margin-left:75px;
 }
 
-#comparative #research1 p {
-  width: 200px;
+#comparative p {
+  width: 400px;
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
