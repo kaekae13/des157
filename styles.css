@@ -168,6 +168,6 @@ footer {
 }
 
 #notFixed {
-  position:absolute;
+  position:relative;
 }
 /* end footer styles */
