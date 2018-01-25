@@ -98,7 +98,7 @@ main {
   padding-top: 50px;
 }
 
-#name #column1, #column2 {
+#name, #column1, #column2 {
   padding-left: 30px;
   padding-right: 30px;
   display: inline-block;
