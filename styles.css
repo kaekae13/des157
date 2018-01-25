@@ -107,6 +107,7 @@ main {
 #column1, #column2 {
   margin-top: 20px;
   display:inline-block;
+  vertical-align: top;
 }
 
 ul {
