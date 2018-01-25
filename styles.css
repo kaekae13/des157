@@ -98,12 +98,19 @@ h2 {
 }
 
 #research1, #research2 {
-  display: block;
+  display: inline-block;
 }
 
 #research1 {
   margin-left: 75px;
+  width: 275px;
 }
+
+#research2 {
+  margin-left: 75px;
+  width:275px;
+}
+
 #sources {
   bottom: 0;
   position: fixed;
