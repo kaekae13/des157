@@ -65,7 +65,7 @@ main {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .sources {
@@ -81,8 +81,7 @@ main {
 
 #brainstorm {
   margin: 0 auto;
-  max-width: 400px;
-  margin-left: 75px;
+  max-width: 560px;
 }
 
 .researchimg {
