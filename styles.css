@@ -12,6 +12,7 @@
 /* end styles for banner */
 
 
+
 /* BEGIN STYLES FOR MAIN CONTENT */
 
 
@@ -60,16 +61,19 @@ main hr {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
+    font-size: 9px;
 }
 
-article.text, .sources {
+.sources {
   margin-bottom:50px;
   font-size: 9px;
 }
 
 /* end main content styles */
 
+
 /* BEGIN IMG STYLES */
+
 #brainstorm {
   margin: 0 auto;
   max-width: 400px;
@@ -82,7 +86,6 @@ article.text, .sources {
 }
 
 /* end img styles */
-
 
 
 /* BEGIN ALL NAV STYLES */
@@ -106,6 +109,9 @@ li {
   color: black;
 }
 
+
+/* BEGIN LINK STYLES*/
+
 a {
   color: black;
 }
@@ -125,8 +131,10 @@ a:hover {
 a:active {
   color: darkgray;
 }
+/*end link styles */
 
 /* end all nav styles */
+
 
 
 /* BEGIN FOOTER STYLES */
