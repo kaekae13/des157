@@ -98,7 +98,7 @@ main {
   padding-top: 50px;
 }
 
-#name {
+#name #column1, #column2 {
   padding-left: 30px;
   padding-right: 30px;
   display: inline-block;
@@ -106,10 +106,7 @@ main {
 
 #column1, #column2 {
   vertical-align: bottom;
-  margin-top:20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  display: inline-block;
+  margin-top: 35px;
 }
 
 ul {
