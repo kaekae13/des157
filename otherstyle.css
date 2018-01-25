@@ -59,6 +59,15 @@ body {
 
 /* end img styles */
 
+ul {
+  list-style-type: circle;
+}
+
+li {
+  font-size: 10px;
+  color: black;
+}
+
 a {
   color: black;
 }
@@ -80,7 +89,7 @@ a:active {
 }
 
 footer {
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #313537;
