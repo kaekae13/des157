@@ -76,15 +76,15 @@ h2 {
 }
 
 #research {
-    width: 700px;
+    width: 500px;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-article .text {
+article.text {
   margin-bottom:50px;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 /* end main content styles */
@@ -92,10 +92,9 @@ article .text {
 /* BEGIN IMG STYLES */
 
 #miracle1, #miracle2, #swifty1, #swifty2 {
-  width: 700px;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 /* end img styles */
