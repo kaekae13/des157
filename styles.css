@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* BEGIN STYLES FOR BANNER */
+
 #mySketch {
   width: 100%;
   max-width: 800px;
@@ -7,16 +9,8 @@
   margin: auto;
 }
 
-#container {
-  margin: auto;
-  padding-top: 50px;
-}
+/* end styles for banner */
 
-#name, #column1, #column2 {
-  padding-left: 30px;
-  padding-right: 30px;
-  display: inline-block;
-}
 
 /* BEGIN STYLES FOR MAIN CONTENT */
 
@@ -81,16 +75,16 @@ h2 {
   margin-top: 100px;
 }
 
-#comparative h1 {
-  margin-left: 75px;
-  margin-bottom: 30px;
+#research {
+    width: 700px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
-#comparative #research p {
-  font-size: 10px;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.text {
+  margin-bottom:50px;
+  font-size: 11px;
 }
 
 #research1 {
@@ -100,23 +94,34 @@ h2 {
   margin-right:75px;
 }
 
+
+/* end main content styles */
+
+/* BEGIN IMG STYLES */
+
 #miracle1, #miracle2, #swifty1, #swifty2 {
-  width: 275px;
+  max-width:100%;
+  max-height:100%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+/* end img styles */
+
+
+
+/* BEGIN ALL NAV STYLES */
+#container {
   margin: auto;
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 50px;
 }
 
-#sources {
-  bottom: 0;
-  position: fixed;
-  clear:both;
+#name, #column1, #column2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
 }
-/* end main content tyles */
-
-
-/* BEGIN NAV STYLES */
 
 ul {
   list-style-type: circle;
@@ -147,7 +152,7 @@ a:active {
   color: darkgray;
 }
 
-/* end nav styles */
+/* end all nav styles */
 
 
 /* BEGIN FOOTER STYLES */
