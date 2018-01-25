@@ -7,8 +7,20 @@ h1 {
   margin-top: 35px;
 }
 
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 hr {
   margin-left: 75px;
+  border: 3px #F1604E;
+  margin-top: 30px;
+  border-style: solid;
+
+  width: 185px;
 }
 
 main {
@@ -31,6 +43,51 @@ body {
   font-size: 9px;
 }
 
-#notFixed {
-  position:relative;
+/* BEGIN IMG STYLES */
+
+#brainstormimg {
+  margin-top: 40px;
+  margin-left: 380px;
+  max-width: 530px;
+}
+
+.researchimg {
+  width: 500px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/* end img styles */
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: #F1604E;
+}
+
+a:active {
+  color: darkgray;
+}
+
+footer {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #313537;
+  clear:right;
+  position: relative;
+  bottom:0;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
