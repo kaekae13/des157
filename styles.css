@@ -44,11 +44,10 @@ hr {
 /* end main content styles */
 
 
-
 /* BEGIN ALL NAV STYLES */
 #container {
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
   max-width: 300px;
 }
 
