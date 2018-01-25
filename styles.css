@@ -81,13 +81,15 @@ h2 {
 }
 
 .miracleModus p {
-  width: 300px;
+  width: 500px;
   margin: auto;
+  font-size: 10px;
 }
 
 .swifty p {
-  width: 300px;
+  width: 500px;
   margin: auto;
+  font-size: 10px;
 }
 /* end main content tyles */
 
