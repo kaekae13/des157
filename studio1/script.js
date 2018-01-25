@@ -22,8 +22,8 @@ function processForm() {
   var v1 = document.f.v1.value;
   var v2 = document.f.v2.value;
 
-  myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num + " degrees. "
-  
+  myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num + " degrees. Then take a stick of " + n2 + " and melt it in a 10 inch cast- "
+
 }
 
 document.f.onreset = function(event) {

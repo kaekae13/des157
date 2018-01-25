@@ -28,10 +28,6 @@ h1 {
   color: #313537;
 }
 
-main h1 {
-   margin-left:75px;
-   margin-top: 35px;
-}
 
 h2 {
   margin-bottom: 25px;
@@ -52,25 +48,6 @@ hr {
   width: 185px;
 }
 
-main hr {
-  margin-left: 75px;
-}
-
-main {
-  margin:0 auto;
-}
-
-#research {
-    width: 500px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 10px;
-}
-
-.sources {
-  font-size: 9px;
-}
 
 /* end main content styles */
 
@@ -98,10 +75,15 @@ main {
   padding-top: 50px;
 }
 
-#name, #column1, #column2 {
+#column1 {
+  float: left;
   padding-left: 30px;
   padding-right: 30px;
-  display: inline-block;
+}
+#column2 {
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 ul {
@@ -148,7 +130,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #313537;
-  clear:right;
+  clear:both;
   position: fixed;
   bottom:0;
   width: 100%;
@@ -167,7 +149,5 @@ footer {
   padding: 15px
 }
 
-#notFixed {
-  position:relative;
-}
+
 /* end footer styles */
