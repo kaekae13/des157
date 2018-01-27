@@ -44,7 +44,7 @@ function processForm() {
 }
 
 function clearForm() {
-        myMsg.className = "hide";
+        myMsg.innerHTML = "";
     }
 
-}
+});
