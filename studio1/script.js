@@ -29,7 +29,8 @@ console.log ('processing');
   var v1 = document.f.v1.value;
   var v2 = document.f.v2.value;
 
-
+//capture the myMsg element
+  var myMsg = document.getElementById ('myMsg');
 
 //call alert if not all areas have been filled out
 
@@ -37,7 +38,11 @@ console.log ('processing');
     ) {
           alert('Please fill out the whole form!');
      } else {
+
   myMsg. className = "show";
+
+
+  //concatenate results
 
   myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num +
   " degrees. Then take a stick of " + n2 + " and melt it in a 10 inch cast-" +
@@ -45,8 +50,14 @@ console.log ('processing');
   + " the mixture. Add milk and " + n5 + " beat together. Pour the mixture into a well-buttered " +
   n6 + " and place in the oven! Bake until a golden " +
   a2 + " color. Bon Appetit!"
+
+
+// prevent page from reloading
+  return false;
+}
 }
 
-document.f.onreset = function(event) {
-  document.getElementById('myMsg').classList.add("hidden");
+
+function clearForm() {
+  myMsg.className = "hide";
 }
