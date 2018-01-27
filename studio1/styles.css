@@ -14,11 +14,11 @@ h1, article {
   display: block;
 }
 
-
 h1 {
-  font-family: "Avenir", sans-serif;
+  font-family: 'Marck Script', cursive;
   font-size:65px;
   position: relative;
+  margin-top: 30px;
 }
 
 article {
@@ -33,23 +33,25 @@ article {
 }
 
 div {
-  margin: 2%;
+  margin: 1.5%;
 }
 
 label {
   width: 5em;
   text-align: right;
+  font-family: 'Kreon', serif;
+  font-size: 15px;
+  font-weight: bold;
   display: inline-block;
   padding-right: 3%;
-  font-type: "Avenir", sans-serif;
 }
 
 input[type="text"] {
-  width: 60%;
-  padding: 3%;
+  width: 50%;
+  padding: 2%;
   border-bottom: 3px blue;
   font-size: 1.5em;
-  font-type: "Helvetica", sans-serif;
+  font-type: 'Kreon', serif;
 }
 
 input[type="text"]:focus {
