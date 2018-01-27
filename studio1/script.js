@@ -2,7 +2,8 @@
 use strict;
 
 console.log ('reading');
-
+document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
 //document.addEventListener("DOMContentLoaded", function(event) {
 //console.log("DOM fully loaded and parsed");
 
@@ -35,7 +36,7 @@ function processForm() {
   var myMsg = document.getElementById ('myMsg');
 
   //concatenate results
-  myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num + " degrees. Then take a stick of " + n2 + " and melt it in a 10 inch cast-" + a1 + " pan. In a bowl, " + v1 + " granulated " + n3 + " & " + n4 + " and " + v2 + " the mixture. Add milk and " + n5 + " beat together. Pour the mixture into a well-buttered " + n6 + " and place in the oven! Bake until a golden " + a2 + " color. Bon Appetit!";
+  myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num + " degrees.Then take a stick of " + n2 + " and melt it in a 10 inch cast-" + a1 + " pan. In a bowl, " + v1 + " granulated " + n3 + " & " + n4 + " and " + v2 + " the mixture. Add milk and " + n5 + " beat together. Pour the mixture into a well-buttered " + n6 + " and place in the oven! Bake until a golden " + a2 + " color. Bon Appetit!";
   myMsg.className = "show";
 
 // prevent page from reloading
@@ -46,4 +47,4 @@ function clearForm() {
         myMsg.className = "hide";
     }
 
-//  };
+}
