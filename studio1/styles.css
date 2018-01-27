@@ -15,7 +15,7 @@ h1, article {
 }
 
 h1 {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Amatic SC';
   font-size:65px;
   position: relative;
   margin-top: 30px;
@@ -39,7 +39,7 @@ div {
 label {
   width: 5em;
   text-align: right;
-  font-family: 'Kreon', serif;
+  font-family: 'Amatic SC';
   font-size: 15px;
   font-weight: bold;
   display: inline-block;
@@ -52,7 +52,7 @@ input[type="text"] {
   padding: 3%;
   border-bottom: 3px blue;
   font-size: 1.5em;
-  font-family: 'Kreon', serif;
+  font-family: 'Amatic SC';
 }
 
 input[type="text"]:focus {
@@ -73,6 +73,7 @@ input[type="submit"] {
   border: none; /*remove default*/
   border-radius: 3px;
   font-weight: bold;
+  font-family: 'Amatic SC';
   font-size: 12px;
   background-color: antiquewhite;
   color: #333;
