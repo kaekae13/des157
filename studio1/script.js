@@ -53,6 +53,5 @@ function processForm() {
 }
 
 function clearForm() {
-  myMsg.innterHTML="";
   myMsg.className = "hide";
 }
