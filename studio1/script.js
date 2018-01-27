@@ -1,4 +1,5 @@
-use strict;
+
+//use strict;
 
 console.log ('reading');
 
@@ -38,9 +39,7 @@ console.log ('processing');
     ) {
           alert('Please fill out the whole form!');
      } else {
-
   myMsg. className = "show";
-
 
   //concatenate results
 
