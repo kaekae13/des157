@@ -40,7 +40,6 @@ function processForm() {
           alert('Please fill out the whole form!');
      } else {
 
-  myMsg.className = "show";
 
   //concatenate results
 
@@ -50,6 +49,7 @@ function processForm() {
 // prevent page from reloading
   return false;
 }
+
 }
 
 function clearForm() {
