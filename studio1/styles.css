@@ -59,12 +59,6 @@ input[type="text"]:focus {
   border-bottom: 5px cornflowerblue solid;
 }
 
-div: last-child {
-  font-family: 'Amatic SC';;
-  font-size: 10px;
-  margin: 0 auto;
-}
-
 input[type="reset"],
 input[type="submit"] {
   width: 20%;
@@ -82,15 +76,6 @@ input[type="submit"] {
 #buttons {
   clear: both;
   margin: 0 auto;
-  display: block;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
 }
 
 p {
@@ -104,6 +89,14 @@ p {
   line-height: 28px;
   background-color: purple;
   color: antiquewhite;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 footer {
