@@ -3,8 +3,8 @@
 
 console.log ('reading');
 
-document.addEventListener("DOMContentLoaded", function(event) {
-console.log("DOM fully loaded and parsed");
+//document.addEventListener("DOMContentLoaded", function(event) {
+//console.log("DOM fully loaded and parsed");
 
 // capture submit event
 document.f.onsubmit = processForm;
