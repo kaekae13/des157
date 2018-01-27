@@ -29,13 +29,22 @@ console.log ('processing');
   var v1 = document.f.v1.value;
   var v2 = document.f.v2.value;
 
+
+
+//call alert if not all areas have been filled out
+
+  if (n1 == "" || n2 == "" || n3 == "" || n4 == "" || n5 == "" || n6 == "" || num == "" || a1 == "" || a2 == "" || a3 == "" || v1 == "" || v2 == ""
+    ) {
+          alert('Please fill out the whole form!');
+     } else {
+  myMsg. className = "show";
+
   myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num +
   " degrees. Then take a stick of " + n2 + " and melt it in a 10 inch cast-" +
   a1 + " pan. In a bowl, " + v1 + " granulated " + n3 + " & " + n4 " and " +v2
   + " the mixture. Add milk and " + n5 + " beat together. Pour the mixture into a well-buttered " +
   n6 + " and place in the oven! Bake until a golden " +
   a2 + " color. Bon Appetit!"
-
 }
 
 document.f.onreset = function(event) {
