@@ -33,7 +33,7 @@ article {
 }
 
 div {
-  margin: 1.5%;
+  margin: 1%;
 }
 
 label {
@@ -60,7 +60,7 @@ input[type="text"]:focus {
 }
 
 div: last-child {
-  text-font: "Avenir", sans-serif;
+  text-font: 'Kreon', serif;
   text-size: 10px;
 }
 
