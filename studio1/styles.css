@@ -85,6 +85,14 @@ input[type="submit"] {
   display: block;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 p {
   width: 80%;
   min-width: 700px;
