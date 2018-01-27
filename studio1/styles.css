@@ -52,7 +52,7 @@ input[type="text"] {
   padding: 3%;
   border-bottom: 3px blue;
   font-size: 1.5em;
-  font-family: 'Amatic SC';
+  font-family: 'Helvetica', sans-serif;
 }
 
 input[type="text"]:focus {
@@ -60,7 +60,7 @@ input[type="text"]:focus {
 }
 
 div: last-child {
-  font-family: 'Kreon', serif;
+  font-family: 'Amatic SC';;
   font-size: 10px;
   margin: 0 auto;
 }
