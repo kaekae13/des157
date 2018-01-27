@@ -72,7 +72,6 @@ input[type="submit"] {
   padding: 12px;
   border: none; /*remove default*/
   border-radius: 3px;
-  border-bottom: 4px orange solid;
   font-weight: bold;
   font-size: 12px;
   background-color: antiquewhite;
@@ -82,6 +81,7 @@ input[type="submit"] {
 #buttons {
   clear: both;
   margin: 0 auto;
+  display: block;
 }
 
 p {
