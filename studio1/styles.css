@@ -74,15 +74,20 @@ input[type="submit"] {
   border-radius: 3px;
   border-bottom: 4px orange solid;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 12px;
   background-color: antiquewhite;
   color: #333;
+}
+
+#buttons {
+  clear: both;
+  margin: 0 auto;
 }
 
 p {
   width: 80%;
   min-width: 700px;
-  margin-left: 12px;
+  margin: 0 auto;
   padding: 24px;
   border-radius: 11px;
   font-size: 20px;
@@ -90,6 +95,7 @@ p {
   line-height: 28px;
   background-color: purple;
   color: antiquewhite;
+
 }
 
 footer {
