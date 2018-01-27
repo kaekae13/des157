@@ -30,7 +30,7 @@ function processForm() {
   var v1 = document.f.v1.value;
   var v2 = document.f.v2.value;
 
-//capture the myMsg element
+//capture myMsg element
   var myMsg = document.getElementById ('myMsg');
 
 //call alert if not all areas have been filled out
@@ -66,5 +66,5 @@ a2 + " color. Bon Appetit!";
 
 function clearForm() {
   myMsg.innterHTML="";
-  myMsg.setAttribute("class", "hide");
+  myMsg.className = "hide";
 }
