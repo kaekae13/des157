@@ -1,5 +1,5 @@
 
-//use strict;
+use strict;
 
 console.log ('reading');
 
@@ -12,9 +12,7 @@ document.f.onreset = clearForm;
 
 //capture process function
 function processForm() {
-
-//console.log ('processing');
-
+  console.log ('processing');
   //store nouns in variables
   var n1 = document.f.n1.value;
   var n2 = document.f.n2.value;
