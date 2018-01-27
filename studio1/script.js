@@ -48,4 +48,4 @@ function clearForm() {
         myMsg.className = "hide";
     }
 
-  });
+//  };
