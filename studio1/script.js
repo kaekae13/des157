@@ -39,7 +39,8 @@ function processForm() {
     ) {
           alert('Please fill out the whole form!');
      } else {
-  myMsg. className = "show";
+
+  myMsg.className = "show";
 
   //concatenate results
 
