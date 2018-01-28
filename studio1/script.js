@@ -45,5 +45,3 @@ function processForm() {
 function clearForm() {
         myMsg.innerHTML = "";
     }
-
-});
