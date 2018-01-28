@@ -43,7 +43,8 @@ input[type="text"] {
   width: 50%;
   height: 10%;
   padding: 3%;
-  border-bottom: 3px blue;
+  border: none;
+  border-radius: 3px;
   font-size: 12px;
   font-family: 'Helvetica', sans-serif;
 }
@@ -84,6 +85,7 @@ p {
   font-size: 15px;
   line-height: 20px;
   margin: 0 auto;
+  width: 200px;
 }
 
 .show {
