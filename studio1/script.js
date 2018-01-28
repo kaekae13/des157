@@ -3,14 +3,13 @@
 
 console.log ('reading');
 
-
 // capture submit event
 document.f.onsubmit = processForm;
 document.f.onreset = clearForm;
 
 //capture process function
 function processForm() {
-  console.log ('processing');
+  console.log ()'processing');
   //store nouns in variables
   var n1 = document.f.n1.value;
   console.log(n1);
