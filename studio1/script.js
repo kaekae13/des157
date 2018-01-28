@@ -18,6 +18,7 @@ function processForm() {
   var n2 = document.f.n2.value;
   var n3 = document.f.n3.value;
   var n4 = document.f.n4.value;
+  console.log(n4);
   var n5 = document.f.n5.value;
   var n6 = document.f.n6.value;
   var num = document.f.num.value;
