@@ -47,6 +47,7 @@ function processForm() {
 // prevent page from reloading
   return false;
 }
+}
 
 function clearForm() {
         myMsg.className = "hide";
