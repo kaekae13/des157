@@ -3,27 +3,21 @@ body {
 }
 
 header {
-  max-width: 1000px;
   margin-bottom:25px;
   margin-top: 40px;
-}
-
-h1, article {
-  margin-left: 75px;
-  display: block;
 }
 
 h1 {
   font-family: 'Amatic SC';
   font-size:65px;
   position: relative;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 article {
+  margin-left: 75px;
+  display: block;
   position: relative
-  min-width: 700px;
-  padding: 10px;
 }
 
 #column1, #column2 {
@@ -32,7 +26,7 @@ article {
 }
 
 div {
-  margin: 1%;
+ padding: 1%;
 }
 
 label {
@@ -40,22 +34,21 @@ label {
   text-align: right;
   font-family: 'Amatic SC';
   font-size: 15px;
-  font-weight: bold;
   display: inline-block;
   padding-right: 3%;
 }
 
 input[type="text"] {
   width: 50%;
-  height: 20%;
+  height: 10%;
   padding: 3%;
   border-bottom: 3px blue;
-  font-size: 1.5em;
+  font-size: 12px;
   font-family: 'Helvetica', sans-serif;
 }
 
 input[type="text"]:focus {
-  border-bottom: 5px cornflowerblue solid;
+  color: cornflowerblue;
 }
 
 input[type="reset"],
@@ -73,7 +66,6 @@ input[type="submit"] {
 }
 
 #buttons {
-  clear: both;
   margin: 0 auto;
 }
 
