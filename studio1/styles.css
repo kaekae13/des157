@@ -80,7 +80,7 @@ input[type="submit"] {
   display: inline-block;
 }
 
-section {
+#results {
   width: 50%;
   margin-left: 75px;
   border-radius: 11px;
