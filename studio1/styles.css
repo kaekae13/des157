@@ -9,9 +9,10 @@ header {
 
 h1 {
   font-family: 'Amatic SC';
+  margin-left: 75px;
   font-size:65px;
   position: relative;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 article {
@@ -26,11 +27,11 @@ article {
 }
 
 div {
- padding: 1%;
+ margin: 10px;
 }
 
 label {
-  width: 5em;
+  width: 4em;
   text-align: right;
   font-family: 'Amatic SC';
   font-size: 15px;
@@ -68,15 +69,28 @@ input[type="submit"] {
   display: inline-block;
 }
 
-p {
+section {
   width: 50%;
-  margin: 0 auto;
-  padding: 30px;
+  margin-left: 75px;
   border-radius: 11px;
-  font-size: 15px;
-  line-height: 20px;
   background-color: purple;
   color: white;
+  margin-bottom: 2%;
+}
+
+p {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 footer {
