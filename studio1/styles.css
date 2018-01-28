@@ -57,6 +57,11 @@ input[type="text"]:focus {
   margin-left: 125px;
 }
 
+img {
+  width: 250px;
+  display: inline-block;
+}
+
 input[type="reset"],
 input[type="submit"] {
   width: 7%;
