@@ -1,5 +1,6 @@
 body {
   background-color: antiquewhite;
+  font-family: 'Chelsea Market', cursive;
 }
 
 header {
@@ -8,7 +9,6 @@ header {
 }
 
 h1 {
-  font-family: 'Amatic SC';
   margin-left: 75px;
   font-size:65px;
   position: relative;
@@ -33,7 +33,6 @@ div {
 label {
   width: 4em;
   text-align: right;
-  font-family: 'Amatic SC';
   font-size: 15px;
   display: inline-block;
   padding-right: 3%;
@@ -71,7 +70,6 @@ input[type="submit"] {
   padding: 12px;
   border: none; /*remove default*/
   border-radius: 3px;
-  font-family: 'Amatic SC';
   font-size: 12px;
   background-color: white;
   display: inline-block;
@@ -105,7 +103,7 @@ p {
 
 footer {
   font-size: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-align: center;
   color: #313537;
   position: relative;
