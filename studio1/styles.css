@@ -97,7 +97,7 @@ footer {
   text-align: center;
   color: #313537;
   clear:both;
-  position: fixed;
+  position: relative;
   bottom:0;
   width: 100%;
   margin: 0 auto;
