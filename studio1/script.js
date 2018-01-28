@@ -16,6 +16,8 @@ function processForm() {
   console.log ('processing');
   //store nouns in variables
   var n1 = document.f.n1.value;
+  console.log(n1);
+  
   var n2 = document.f.n2.value;
   var n3 = document.f.n3.value;
   var n4 = document.f.n4.value;
