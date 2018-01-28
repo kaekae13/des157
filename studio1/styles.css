@@ -21,6 +21,11 @@ article {
   position: relative
 }
 
+h2 {
+  font-size: 20px;
+  padding: 20px;
+}
+
 #column1, #column2 {
   display: inline-block;
   vertical-align: top;
