@@ -53,7 +53,7 @@ input[type="text"]:focus {
 }
 
 #buttons {
-  margin: 0 auto;
+  margin-left: 125px;
 }
 
 input[type="reset"],
