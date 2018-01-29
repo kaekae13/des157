@@ -13,19 +13,18 @@ function processForm() {
   //store nouns in variables
   var n1 = document.f.n1.value;
   console.log(n1);
-
+  var num = document.f.num.value;
   var n2 = document.f.n2.value;
   var n3 = document.f.n3.value;
   var n4 = document.f.n4.value;
   console.log(n4);
   var n5 = document.f.n5.value;
   var n6 = document.f.n6.value;
-  var num = document.f.num.value;
+
 
   //store adjectives in variables
   var a1 = document.f.a1.value;
   var a2 = document.f.a2.value;
-  var a3 = document.f.a3.value;
 
   //store verbs in variables
   var v1 = document.f.v1.value;
