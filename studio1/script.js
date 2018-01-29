@@ -1,11 +1,11 @@
 
 //use strict;
 
-console.log ('reading');
-
 // capture submit event
 document.f.onsubmit = processForm;
 document.f.onreset = clearForm;
+
+console.log ('reading');
 
 //capture process function
 function processForm() {
@@ -35,19 +35,22 @@ function processForm() {
 
   //call a new alert() to concatenate a message with fill out for if any areas arent filled
 
-      if (n1 == "" || n2 == "" || n3 == "" || n4 == "" || n5 == "" || n6 == "" || num == "" || a1 == "" || a2 == "" || a3 == "" || v1 == "" || v2 == "" ) {
-          alert("We're still missing some ingredients!");
-     } else {
+    //  if (n1 == "" || n2 == "" || n3 == "" || n4 == "" || n5 == "" || n6 == "" || num == "" || a1 == "" || a2 == "" || a3 == "" || v1 == "" || v2 == "" ) {
+        //  alert("We're still missing some ingredients!");
+  //   } else {
 
-          myMsg.className = "show";
+
   //concatenate results
           myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num + " degrees.Then take a stick of " + n2 + " and melt it in a 10 inch cast-" + a1 + " pan. In a bowl, " + v1 + " granulated " + n3 + " & " + n4 + " and " + v2 + " the mixture. Add milk and " + n5 + " beat together. Pour the mixture into a well-buttered " + n6 + " and place in the oven! Bake until a golden " + a2 + " color. Bon Appetit!";
           console.log("myMsg");
+
+          myMsg.className = "show";
 // prevent page from reloading
   return false;
-}
+//}
 }
 
 function clearForm() {
+        console.log("you're inside clearForm function");
         myMsg.className = "hide";
     }
