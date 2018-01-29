@@ -1,5 +1,6 @@
 body {
   font-family: 'Avenir', sans-serif;
+    background-color: #FCCAE3;
 }
 
 header {
@@ -17,9 +18,7 @@ h1 {
 article {
   margin-left: 75px;
   display: block;
-  position: relative
-  background-color: #FCCAE3;
-
+  position: relative;
 }
 
 h2 {
