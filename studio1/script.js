@@ -1,5 +1,5 @@
 
-//use strict;
+"use strict";
 
 // capture submit event
 document.f.onsubmit = processForm;
