@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: white;
   font-family: 'Avenir', sans-serif;
 }
 
@@ -19,6 +19,8 @@ article {
   margin-left: 75px;
   display: block;
   position: relative
+  background-color: #FCCAE3;
+
 }
 
 h2 {
@@ -84,7 +86,7 @@ input[type="submit"] {
   width: 50%;
   margin-left: 75px;
   border-radius: 11px;
-  background-color: purple;
+  background-color: #FCCAE3;
   color: white;
   margin-bottom: 2%;
 }
