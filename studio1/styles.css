@@ -76,7 +76,7 @@ label, input[type="text"] {
 
 input[type="reset"],
 input[type="submit"] {
-  height: 20px;
+  height: 25px;
   width: 20%;
   margin: 2%;
   padding: 2%;
@@ -84,9 +84,9 @@ input[type="submit"] {
   background-color: #D0463E;
   color: antiquewhite;
   border-radius: 3px;
+  border: none;
   font-size: 12px;
   display: inline-block;
-  border: none;
 }
 
 #results {
