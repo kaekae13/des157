@@ -43,8 +43,7 @@ hr {
 
 #column1, #column2{
   display: inline-block;
-  vertical-align: top;
-  padding: 3%;
+  padding: 5%;
 }
 
 ul {
