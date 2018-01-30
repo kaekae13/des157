@@ -43,15 +43,15 @@ h2 {
 }
 
 label {
-  width: 4em;
+  width: 3.5em;
   text-align: right;
   font-size: 15px;
-  padding-right: 3%;
+  padding-right: 2%;
   font-family: 'Pacifico', cursive;
 }
 
 input[type="text"] {
-  width: 65px;
+  width: 25%;
   height: 4%;
   padding: 2%;
   margin: 5px;
@@ -79,7 +79,8 @@ input[type="submit"] {
   width: 40px;
   margin: 2%;
   padding: 12px;
-  background-color: #D0463E
+  font-family: 'Helvetica'sans-serif;
+  background-color: #D0463E;
   color: antiquewhite;
   border-radius: 3px;
   font-size: 12px;
