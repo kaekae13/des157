@@ -93,7 +93,7 @@ input[type="submit"] {
 
 #results {
   float: right;
-  width: 50%;
+  width: 400px;
   margin-right: 200px;
   margin-bottom: 2%;
   background-color: #D0463E;
