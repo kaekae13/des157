@@ -16,7 +16,7 @@ h1 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   font-size: 60px;
-  margin-left:45%;
+  margin-left:15%;
   margin-top: 10%;
   color: #313537;
 }
@@ -37,11 +37,12 @@ hr {
   margin: 0 auto;
   padding-top: 35px;
   max-width: 300px;
+  float: left;
 }
 
 #column1, #column2{
-  float: left;
   margin-left: 45%;
+  display: inline-block;
 }
 
 ul {
