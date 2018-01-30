@@ -46,9 +46,11 @@ input[type="text"] {
   width: 40%;
   height: 7%;
   padding: 2%;
-  border-bottom: 3px #D0463E solid;
+  border-radius: 3px;
+  background-color: antiquewhite;
   font-size: 12px;
   font-family: 'Avenir', sans-serif;
+  color: #D0463E; 
 }
 
 input[type="text"]:focus {
@@ -72,7 +74,8 @@ input[type="submit"] {
   width: 40px;
   margin: 2%;
   padding: 12px;
-  border-bottom: 2px #D0463E solid;
+  background-color: antiquewhite;
+  border-radius: 3px;
   font-size: 12px;
   display: inline-block;
 }
