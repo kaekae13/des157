@@ -21,19 +21,21 @@ img {
 
 article {
   margin-left: 75px;
-  position: relative;
   float: left;
 }
 
 article, #results {
   display: inline-block;
-  vertical-align: top;
 }
 
 h2 {
   font-size: 20px;
   padding: 15px;
   font-family: 'Avenir', sans-serif;
+}
+
+h2, #results {
+  vertical-align: top;
 }
 
 #column1, #column2 {
@@ -69,6 +71,7 @@ input[type="text"]:focus {
 
 #buttons {
   margin-left: 135px;
+  margin-top: 15px;
 }
 
 input[type="reset"],
@@ -87,8 +90,7 @@ input[type="submit"] {
 #results {
   float: right;
   width: 50%;
-  margin-right: 75px;
-  margin-left: 75px;
+  margin-right: 200px;
   margin-bottom: 2%;
   background-color: #D0463E;
   border-radius: 11px;
@@ -120,7 +122,6 @@ footer {
   margin:0 auto;
   padding-bottom: 15px;
 }
-
 
 a:link {
   text-decoration: none;
