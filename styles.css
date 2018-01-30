@@ -36,15 +36,16 @@ hr {
 #container {
   margin: 0 auto;
   padding-top: 35px;
-  max-width: 300px;
-  float: left;
-  margin-left: 35%;
+  max-width: 1000px;
+  /*margin-left: 35%;*/
 }
 
 #column1, #column2{
-  display: inline-block;
+  /*display: inline-block;*/
   padding: 5%;
   margin: 5%;
+  float: left;
+  background-color: red;
 }
 
 ul {
