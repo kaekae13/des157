@@ -36,6 +36,11 @@ h2 {
   font-family: 'Avenir', sans-serif;
 }
 
+#column1, #column2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
 label {
   width: 4em;
   text-align: right;
