@@ -41,9 +41,10 @@ label {
 }
 
 input[type="text"] {
-  width: 40%;
-  height: 7%;
+  width: 25%;
+  height: 6%;
   padding: 2%;
+  margin: 3%;
   border-radius: 3px;
   background-color: antiquewhite;
   font-size: 12px;
