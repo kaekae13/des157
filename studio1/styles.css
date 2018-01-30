@@ -59,7 +59,7 @@ input[type="text"] {
   border-radius: 3px;
   background-color: antiquewhite;
   font-size: 12px;
-  font-family: 'Avenir', sans-serif;
+  font-family:'Avenir', sans-serif;
   color: #D0463E;
   border: none;
 }
@@ -80,7 +80,7 @@ input[type="submit"] {
   width: 40px;
   margin: 2%;
   padding: 12px;
-  font-family: 'Helvetica'sans-serif;
+  font-family: 'Helvetica', sans-serif;
   background-color: #D0463E;
   color: antiquewhite;
   border-radius: 3px;
