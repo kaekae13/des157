@@ -9,17 +9,15 @@ console.log ('reading');
 
 //capture process function
 function processForm(){
-  console.log ('processing');
+
   //store nouns in variables
   var n1 = document.f.n1.value;
-  console.log(n1);
-  var num = document.f.num.value;
   var n2 = document.f.n2.value;
   var n3 = document.f.n3.value;
   var n4 = document.f.n4.value;
-  console.log(n4);
   var n5 = document.f.n5.value;
   var n6 = document.f.n6.value;
+  var num = document.f.num.value;
 
   //store adjectives in variables
   var a1 = document.f.a1.value;
@@ -35,12 +33,10 @@ function processForm(){
   //concatenate results
           myMsg.innerHTML = "First, you preheat your " + n1 + " to " + num + " degrees.Then take a stick of " + n2 + " and melt it in a 10 inch cast-" + a1 + " pan. In a bowl, " + v1 + " granulated " + n3 + " & " + n4 + " and " + v2 + " the mixture. Add milk and " + n5 + " beat together. Pour the mixture into a well-buttered " + n6 + " and place in the oven! Bake until a golden " + a2 + " color. Bon Appetit!";
 
-          console.log("myMsg");
 
           myMsg.className = "show";
 // prevent page from reloading
-  return false;
-
+          return false;
 }
 
 function clearForm(){
