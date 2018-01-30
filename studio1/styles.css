@@ -87,6 +87,10 @@ input[type="submit"] {
   border-radius: 5px;
 }
 
+article {
+  display: inline-block;
+}
+
 p {
   padding: 10px;
   font-size: 12px;
