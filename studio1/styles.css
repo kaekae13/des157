@@ -22,10 +22,12 @@ img {
 article {
   margin-left: 75px;
   position: relative;
+  float: left;
 }
 
-article, p {
+article, #results {
   display: inline-block;
+  vertical-align: top;
 }
 
 h2 {
@@ -87,10 +89,6 @@ input[type="submit"] {
   background-color: #D0463E;
   border-radius: 11px;
   border-radius: 5px;
-}
-
-article {
-  display: inline-block;
 }
 
 p {
