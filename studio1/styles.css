@@ -97,7 +97,7 @@ input[type="submit"] {
 #results {
   float: right;
   width: 400px;
-  margin-left: 30px;
+  margin-right: 30px;
   background-color: #D0463E;
   border-radius: 5px;
 }
@@ -106,7 +106,7 @@ p {
   padding: 10px;
   font-size: 12px;
   line-height: 20px;
-  width: 100%;
+  width: 85%;
   color: antiquewhite;
   font-family: 'Avenir', sans-serif;
 }
