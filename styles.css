@@ -16,10 +16,9 @@ h1 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   font-size: 60px;
-  margin-left:245px;
-  margin-top: 30px;
+  margin-left:45%;
+  margin-top: 10%;
   color: #313537;
-  position: fixed;
 }
 
 h2 {
@@ -42,7 +41,7 @@ hr {
 
 #column1, #column2{
   float: left;
-  margin-left: 15%;
+  margin-left: 45%;
 }
 
 ul {
