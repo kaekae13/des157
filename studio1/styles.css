@@ -106,12 +106,12 @@ p {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 11px;
   font-family: 'Avenir', sans-serif;
   text-align: center;
   color: #313537;
   position: relative;
   bottom:0;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin:0 auto;
+  padding-bottom: 15px;
 }
