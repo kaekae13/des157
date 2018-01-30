@@ -111,3 +111,20 @@ footer {
   margin:0 auto;
   padding-bottom: 15px;
 }
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #D0463E;
+}
+
+a:hover {
+  color: #D0463E;
+}
+
+a:active {
+  color: #F05E7D;
+}
