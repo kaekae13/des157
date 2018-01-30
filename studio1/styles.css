@@ -87,7 +87,8 @@ input[type="submit"] {
   width: 40px;
   margin: 2%;
   padding: 12px;
-  background-color: antiquewhite;
+  background-color: #D0463E
+  color: antiquewhite;
   border-radius: 3px;
   font-size: 12px;
   display: inline-block;
