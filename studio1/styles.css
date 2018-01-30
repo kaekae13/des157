@@ -72,8 +72,7 @@ input[type="submit"] {
   width: 7%;
   margin: 2%;
   padding: 12px;
-  border-bottom: 2px
-  border-color: #D0463E;
+  border-bottom: 2px #D0463E solid;
   font-size: 12px;
   display: inline-block;
 }
@@ -85,13 +84,17 @@ input[type="submit"] {
   color: #D0463E;
   margin-bottom: 2%;
   display: inline-block;
+  background-color: #D0463E;
+  border-radius: 3px;
 }
 
 p {
   padding: 10px;
   font-size: 15px;
   line-height: 20px;
-  width: 200px;
+  width: 400px;
+  color: white;
+  font-family: 'Pacifico', cursive;
 }
 
 .show {
