@@ -63,10 +63,10 @@ input[type="text"]:focus {
 }
 
 img {
-  width: 200px;
-  display: inline-block;
-  padding: 40px;
-  margin-left: 300px;
+  width: 95px;
+  display:block;
+  padding: 15px;
+  margin-left: 75px;
 }
 
 input[type="reset"],
@@ -86,11 +86,10 @@ input[type="submit"] {
   width: 50%;
   margin-left: 75px;
   border-radius: 11px;
-  color: #D0463E;
   margin-bottom: 2%;
   display: inline-block;
   background-color: #D0463E;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 p {
@@ -98,7 +97,7 @@ p {
   font-size: 12px;
   line-height: 20px;
   width: 100%;
-  color: white;
+  color: antiquewhite;
   font-family: 'Avenir', sans-serif;
 }
 
