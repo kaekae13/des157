@@ -29,10 +29,6 @@ h2 {
   vertical-align: top;
 }
 
-div {
- margin: 10px;
-}
-
 label {
   width: 4em;
   text-align: right;
@@ -59,14 +55,14 @@ input[type="text"]:focus {
 }
 
 #buttons {
-  margin-left: 125px;
+  margin-left: 135px;
 }
 
 img {
   width: 95px;
   display:block;
   padding: 15px;
-  margin-left: 75px;
+  margin-left: 135px;
 }
 
 input[type="reset"],
