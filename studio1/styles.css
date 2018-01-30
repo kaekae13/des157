@@ -86,6 +86,7 @@ input[type="submit"] {
   display: inline-block;
   background-color: #D0463E;
   border-radius: 5px;
+  float: right;
 }
 
 p {
