@@ -21,8 +21,11 @@ img {
 
 article {
   margin-left: 75px;
-  display: block;
   position: relative;
+}
+
+article, p {
+  display: inline-block;
 }
 
 h2 {
@@ -42,9 +45,9 @@ label {
 
 input[type="text"] {
   width: 20%;
-  height: 5%;
+  height: 4%;
   padding: 2%;
-  margin: 7px;
+  margin: 5px;
   border-radius: 3px;
   background-color: antiquewhite;
   font-size: 12px;
