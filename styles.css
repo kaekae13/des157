@@ -42,8 +42,7 @@ hr {
 
 #column1, #column2{
   float: left;
-  padding: 35px;
-  position: fixed;
+  margin-left: 15%;
 }
 
 ul {
