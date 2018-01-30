@@ -38,10 +38,10 @@ hr {
   padding-top: 35px;
   max-width: 300px;
   float: left;
+  margin-left: 35%;
 }
 
 #column1, #column2{
-  margin-left: 45%;
   display: inline-block;
 }
 
@@ -80,7 +80,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #313537;
-  clear:right;
+  clear:left;
   position: fixed;
   bottom:0;
   width: 100%;
