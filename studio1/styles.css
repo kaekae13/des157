@@ -10,6 +10,14 @@ h1 {
   position: relative;
   margin-top: 50px;
   font-family: 'Pacifico', cursive;
+  display: inline-block;
+}
+
+img {
+  width: 95px;
+  display:inline-block;
+  padding: 15px;
+  margin-left: 25px;
 }
 
 article {
@@ -58,12 +66,7 @@ input[type="text"]:focus {
   margin-left: 135px;
 }
 
-img {
-  width: 95px;
-  display:block;
-  padding: 15px;
-  margin-left: 135px;
-}
+
 
 input[type="reset"],
 input[type="submit"] {
