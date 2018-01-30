@@ -8,12 +8,10 @@ h1 {
   margin-left: 75px;
   font-size:35px;
   font-family: 'Pacifico', cursive;
-  display: inline-block;
 }
 
 img {
   width: 95px;
-  display:inline-block;
   padding: 15px;
   margin-left: 25px;
   padding-top: 15px;
@@ -21,6 +19,7 @@ img {
 
 h1, img {
   vertical-align: middle;
+  display: inline-block;
 }
 
 article {
@@ -34,7 +33,7 @@ article, #results {
 
 h2 {
   font-size: 20px;
-  padding: 15px;
+  padding-bottom: 15px;
   font-family: 'Helvetica', sans-serif;
 }
 
@@ -98,10 +97,8 @@ input[type="submit"] {
 #results {
   float: right;
   width: 400px;
-  margin-right: 200px;
-  margin-bottom: 2%;
+  margin-left: 30px;
   background-color: #D0463E;
-  border-radius: 11px;
   border-radius: 5px;
 }
 
