@@ -51,7 +51,6 @@ label {
   width: 4em;
   text-align: right;
   font-size: 15px;
-  display: inline-block;
   padding-right: 3%;
   font-family: 'Pacifico', cursive;
 }
@@ -69,12 +68,17 @@ input[type="text"] {
   border: none;
 }
 
+label, input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 input[type="text"]:focus {
   color: #D0463E;
 }
 
 #buttons {
-  margin-left: 135px;
+  margin-left: 100px;
   margin-top: 15px;
 }
 
