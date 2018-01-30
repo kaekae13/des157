@@ -50,11 +50,12 @@ input[type="text"] {
   background-color: antiquewhite;
   font-size: 12px;
   font-family: 'Avenir', sans-serif;
-  color: #D0463E; 
+  color: #D0463E;
+  border: none;
 }
 
 input[type="text"]:focus {
-  color: cornflowerblue;
+  color: #D0463E;
 }
 
 #buttons {
@@ -78,6 +79,7 @@ input[type="submit"] {
   border-radius: 3px;
   font-size: 12px;
   display: inline-block;
+  border: none;
 }
 
 #results {
@@ -93,7 +95,7 @@ input[type="submit"] {
 
 p {
   padding: 10px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 20px;
   width: 100%;
   color: white;
