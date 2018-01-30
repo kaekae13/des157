@@ -42,10 +42,10 @@ label {
 }
 
 input[type="text"] {
-  width: 25%;
-  height: 6%;
+  width: 20%;
+  height: 5%;
   padding: 2%;
-  margin: 3%;
+  margin: 7px;
   border-radius: 3px;
   background-color: antiquewhite;
   font-size: 12px;
