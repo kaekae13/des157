@@ -43,11 +43,10 @@ label {
 }
 
 input[type="text"] {
-  width: 50%;
-  height: 10%;
-  padding: 3%;
-  border-bottom: 3px;
-  border-color:#D0463E;
+  width: 40%;
+  height: 7%;
+  padding: 2%;
+  border-bottom: 3px #D0463E solid;
   font-size: 12px;
   font-family: 'Avenir', sans-serif;
 }
@@ -69,7 +68,8 @@ img {
 
 input[type="reset"],
 input[type="submit"] {
-  width: 7%;
+  height: 20px
+  width: 40px;
   margin: 2%;
   padding: 12px;
   border-bottom: 2px #D0463E solid;
