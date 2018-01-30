@@ -16,7 +16,7 @@ h1 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   font-size: 60px;
-  margin-left:20%;
+  margin-left:25%;
   margin-top: 5%;
   color: #313537;
 }
@@ -29,23 +29,20 @@ hr {
   border: 3px #F1604E;
   margin-top: 30px;
   border-style: solid;
-  margin-left: 245px;
+  margin-left: 25%;
   width: 185px;
 }
 
 #container {
   margin: 0 auto;
-  padding-top: 35px;
-  max-width: 1000px;
+  margin-left: 50%
   /*margin-left: 35%;*/
 }
 
 #column1, #column2{
   /*display: inline-block;*/
-  padding: 5%;
   margin: 5%;
   float: left;
-  background-color: red;
 }
 
 ul {
@@ -53,7 +50,7 @@ ul {
 }
 
 li {
-  font-size: 12px;
+  font-size: 13px;
   color: black;
 }
 
