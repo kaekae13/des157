@@ -76,7 +76,7 @@ label, input[type="text"] {
 
 input[type="reset"],
 input[type="submit"] {
-  height: 20px
+  height: 20px;
   width: 40px;
   margin: 2%;
   padding: 12px;
