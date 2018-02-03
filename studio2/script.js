@@ -55,7 +55,7 @@ laptop.addEventListener('click',function() {
   n.className="fade";
   n.style.opacity="1";
 
-  d.innerHTML="I use my laptop for everything - I would definitely say a laptop is one of the most essential tools a designer can have. I wouldn't have been able to code this website without it!"
+  d.innerHTML="A laptop is one of the most essential tools for a designer. My first 3 years of college, I didn't have a laptop and so I would spend countless hours on campus at the lab - I practically lived at the SCC. Because of that experience, now that I have a laptop, I don't take it for granted - I can't imagine not having one now! And I most definitely think I would not be able to take on in this class if I didn't have one."
   d.className="fade";
   d.style.opacity="1";
 
@@ -71,15 +71,15 @@ bottle.addEventListener('click',function() {
 
   overlay.className="show";
 
-  n.innerHTML="Water Bottle"; 
+  n.innerHTML="Water Bottle";
   n.className="fade";
   n.style.opacity="1";
 
-  d.innerHTML="It's so important to drink water throughout the day, especially when you're spending long hours on campus. Water makes such a big difference in my day! It energizes me and especially with the amount of coffee I drink, I always try to stay hydrated.";
+  d.innerHTML="It's so important to drink water throughout the day, especially when you're spending long hours on campus. Water makes such a big difference in my day! It energizes me and especially with the amount of coffee I drink, I always try to stay hydrated. When I don't have any coffee on hand, taking a few sips of water can help me stop drowsing off in my earliest lectures!";
   d.className="fade";
   d.style.opacity="1";
 
-  objImg.innerHTML="<img src='images/bottle.png'>";
+  objImg.innerHTML="<img src='images/bottle1.png'>";
 });
 
 
