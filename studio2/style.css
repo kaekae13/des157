@@ -10,6 +10,10 @@
      margin-bottom: 1%;
    }
 
+   h2 {
+     font-size: 2.5em;
+   }
+
    h3 {
      padding-bottom: 3%;
      font-size: 1em;
@@ -23,6 +27,7 @@
      display: block;
      padding: 7%;
    }
+
 
    #container {
      width: 100%;
@@ -51,6 +56,49 @@
     font-size: 0.75em;
     padding-bottom: 5%;
   }
+
+  /* overlay styles */
+
+  .show {
+    padding-top: 3%;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+  #close {
+    margin-top: 2%;
+    margin-right: 2%
+  }
+
+  #overlay hr {
+    width: 40%;
+    padding-left: 15%;
+    margin: 0 auto;
+  }
+
+  #titlefade, #textfade, #objectImg {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #titlefade {
+    margin-top: 7em;
+    width: 75%;
+    text-align: center;
+  }
+
+  #textfade {
+    width: 50%;
+    margin-top: 7%;
+    font-size: .75em;
+    line-height: 1.3em;
+  }
+
+  #objImg img {
+    margin: 0 auto;
+    width: 55%;
+  }
 }
 
 
@@ -63,6 +111,12 @@
     margin-top: 14%;
     font-size: 4em;
     margin-bottom: 1%;
+  }
+
+  h2 {
+    font-size: 3em;
+    margin-left: 15%;
+    margin-bottom: 2%;
   }
 
   h3 {
@@ -104,17 +158,57 @@
     padding-bottom: 3%;
     margin-top: 4%;
   }
+
+/* overlay styles */
+
+  .show {
+    margin-top:5%;
+  }
+
+  #close {
+    margin-right:5%;
+    margin-top:5%;
+  }
+
+  #overlay hr {
+    width: 30%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }
+
+  #titlefade, col {
+    display: block;
+  }
+
+  #textfade, #objImg {
+    display: inline-block;
+  }
+
+  #textfade {
+    width: 30%;
+    margin-left:15%;
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+
+  #objImg {
+    float: right;
+  }
 }
 
 
-
 /* general styles */
+
+#wrapper {
+  z-index: -1;
+  position: absolute;
+}
 
 header {
   margin: 0 auto;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Special Elite', cursive;
   font-weight: lighter;
 }
@@ -131,21 +225,61 @@ img {
   cursor: url(images/cursor.png), auto;
 }
 
+
+/* overlay */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  border-style: solid;
+  border-color: #5DBAF2;
+  border-width: 0.5em;
+  border-radius:15px;
+}
+
+#description {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#close {
+    color: #5DBAF2;
+    display: block;
+    float: right;
+}
+
+/* fade in and fade out styles */
 .fade {
-    opacity: 0.6;
-    transition: opacity 1s ease-in;
+    animation-name: displayFade;
+    animation-duration: 1.5s;
 }
 
-.fadein {
-    opacity: 1;
-    transition: opacity 1s;
+@keyframes displayFade {
+  0%{opacity:0}
+  100%{opacity:1}
 }
- .textfade{
-   opacity:0;
-   transition: opacity 1s ease-in;
- }
+
+.disappear{
+  animation-name: displayDisappear;
+  animation-duration:0.75s;
+}
+
+@keyframes displayDisappear {
+  0%{opacity:1}
+  100%{opacity:0}
+}
 
 
+/* rotate image with hover */
+img:hover {
+  transform: rotate(15deg);
+}
+
+
+/* link styles */
 a:link {
   text-decoration: none;
   color: black;
