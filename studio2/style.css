@@ -90,7 +90,7 @@
   }
 
   #textfade {
-    width: 60%;
+    width: 75%;
     margin-top: 7%;
     font-size: 1em;
     line-height: 1.3em;
@@ -98,7 +98,7 @@
 
   #objImg img {
     margin: 0 auto;
-    width: 55%;
+    width: 65%;
   }
 }
 
