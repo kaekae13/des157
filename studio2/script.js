@@ -90,4 +90,4 @@ c.addEventListener('click', function() {
 
   overlay.className="hide";
   return false;
-})
+});
