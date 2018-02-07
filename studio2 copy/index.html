@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
   </head>
 
-<div id=wrapper>
+<section id='wrapper'>
     <body>
     <header>
         <h1>Hey There!</h1>
@@ -19,42 +19,33 @@
     </header>
 
 
-        <div id=container>
-            <img src="images/chapstick.png" id="chapstick" alt = "chapstick graphic">
-            <img src="images/laptop.png" id="laptop" alt = "laptop graphic">
-            <img src="images/bottle.png" id="bottle" alt = "bottle graphic">
-        </div>
+        <nav id='container'>
+          <ul>
+            <li><img src="images/chapstick.png" id="chapstick" alt = "chapstick graphic"></li>
+            <li><img src="images/laptop.png" id="laptop" alt = "laptop graphic"></li>
+            <li><img src="images/bottle.png" id="bottle" alt = "bottle graphic"></li>
+          </ul>
+        </nav>
+</section>
 
-      <hr />
+        <section id="overlay" class="hide">
+              <div id="close">&otimes;</div>
+              <div id="titlefade" class="textfade">
+                  <p id="name"></p>
+              </div>
+            <div id=column>
+                <div id="textfade" class="textfade">
+                    <p id="description"></p>
+                </div>
+                <div id="objImg"></div>
+            </div>
+        </section>
+
       <footer>
         <a href="https://kaekae13.github.io/des157/">Home //</a>
         <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5 //</a>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
       </footer>
-</div>
-
-
-    <div id="overlay" class="hide">
-          <div id="close">&otimes;</div>
-
-
-          <div id="titlefade" class="textfade">
-              <p id="name"></p>
-          </div>
-
-          <hr>
-
-        <div id=col>
-          <div id="textfade" class="textfade">
-              <p id="description"></p>
-          </div>
-
-          <div id="objImg"></div>
-        </div>
-
-      </div>
-
-
 
     <script src="script.js"></script>
   </body>
