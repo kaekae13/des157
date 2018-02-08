@@ -308,7 +308,7 @@ a:hover {
    }
 
    #description {
-     font-size: 1.3em;
+     font-size: 1em;
      line-height:1.3em;
      margin-right: 0;
      padding-right: 3%;
@@ -329,50 +329,4 @@ a:hover {
      font-size: 1em;
      font-weight: bold;
    }
-}
-
-   @media only screen and (min-width: 1400px) {
-
-     /* nav and main content */
-     img {
-       display: inline-block;
-       vertical-align: middle;
-       padding: 4.5%;
-     }
-
-     #container {
-       width: 85%;
-       margin-left: 15%;
-       margin-bottom: 4%;
-     }
-
-     #bottle {
-       width: 7%;
-       margin-left: 3%;
-     }
-
-     #chapstick {
-       width: 16%;
-     }
-
-     #laptop {
-       width: 23%;
-     }
-
-
-     /* overlay styles */
-
-     #description {
-       font-size: 0.75em;
-       width: 45%;
-     }
-
-     #textfade, #objImg {
-       vertical-align: middle;
-     }
-
-     #objimg img {
-       width: 10%;
-     }
-
 }
