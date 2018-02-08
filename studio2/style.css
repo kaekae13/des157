@@ -234,7 +234,8 @@ a:hover {
 
    /* nav and main content */
    #container {
-     width: 85%;
+     width: 100%;
+     margin: 0 auto;
    }
 
    #container ul{
@@ -248,17 +249,19 @@ a:hover {
 
    #chapstick {
      width:50%;
+     margin-right: 0;
    }
 
    #laptop {
      width: 55%;
-     margin-left:13%;
+     margin-left: 15%;
+     margin-right: 10%;
    }
 
    #bottle {
      width: 45%;
-     margin-right: 35%;
-     margin-left: 0;
+     margin: 0;
+     margin-left: 10%;
    }
 
 
