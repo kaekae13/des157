@@ -240,6 +240,7 @@ a:hover {
 
    #container ul{
      list-style-type: none;
+     margin: 0 auto;
    }
 
    #container ul li {
