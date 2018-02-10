@@ -53,7 +53,7 @@ p {
 #audiencePersona {
   margin: 0 auto;
   padding-top: 15px;
-  width: 50%;
+  width: 500px;
 }
 
 #personaMain {
@@ -62,7 +62,7 @@ p {
 
 #personaMain p {
   line-height: 17px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 #research {
