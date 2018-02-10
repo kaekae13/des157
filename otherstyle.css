@@ -15,18 +15,18 @@ h3 {
 }
 
 h2 {
-  font-size: 30px;
+  color: #313537;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Helvetica', sans-serif
-  color: #313537;
 }
 
 h4 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   color: #313537;
-  font-size: 15px;
-  margin-top: 30px;
+  font-size: 14px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -38,6 +38,13 @@ hr {
   width: 185px;
 }
 
+#column hr {
+    border: 1px #F1604E;
+    border-style: solid;
+    width: 50px;
+    margin-left: 0;
+    margin-top: 15px;
+}
 main {
   margin:0 auto;
 }
@@ -52,17 +59,17 @@ p {
 
 #audiencePersona {
   margin: 0 auto;
-  padding-top: 15px;
-  width: 500px;
+  padding-top: 35px;
+  width: 600px;
 }
 
 #personaMain {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 #personaMain p {
   line-height: 17px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 #research {
@@ -101,7 +108,7 @@ p {
 }
 
 #audience {
-  width:300px;
+  width:275px;
   padding-top: 30px;
 }
 /* end img styles */
@@ -121,7 +128,7 @@ li {
 
 #demographics li {
   line-height: 20px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 a {
