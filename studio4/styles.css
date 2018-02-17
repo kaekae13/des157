@@ -1,10 +1,10 @@
 body {
-
+/*background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);*/
 }
 
 h1 {
   font-family: 'Special Elite', cursive;
-  font-size: 30px;
+  font-size: 4em;
   padding-left: 3%;
   padding-top: 3%;
   color: #2C2C2C;
@@ -12,8 +12,9 @@ h1 {
 }
 
 #mainImg {
-width: 60%;
+width: 50%;
 float: right;
+margin-right: 10%;
 }
 
 #mainImg, #buttons {
@@ -35,11 +36,11 @@ footer {
   bottom: 0;
   float: right;
   padding-right:5%;
+  font-size: 3em;
   font-family: 'Special Elite', cursive;
 }
 
 #waveContainer {
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   position: absolute;
   z-index: 1;
   top: 30px;

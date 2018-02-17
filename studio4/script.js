@@ -12,7 +12,7 @@ var pause = document.getElementById('pausebutton');
 
 
 function preload() {
-  song = loadSound('audio.mp3');
+  song = loadSound('audio/audio.mp3');
 }
 
 function setup() {
@@ -23,14 +23,19 @@ function setup() {
   song.loop();
   song.setVolume (0.1);
 
-  amp = new p5.Amplitude();
+  fft = new p5.FFT(0, 250);
 }
 
 
 function draw() {
-  var spectrum = amplitude.getLevel();
+  var spectrum = fft.analyze();
+  for (var i = 0; i< spectrum.length; i++) {
+    var fft = spectrum[i];
+    var y = map(amp, 0, 250, height, 0);
+    rect(i, height, i, y);
+  }
   noStroke();
-  fill('#2C2C2C');
-  rect(0, 0, 10, constrain(spectrum * width * 20, 0, height));
-  rect(15, 0, 10, constrain(spectrum *width * 20, 0, height));
+  background('#2C2C2C');
+//  rect(0, 0, 10, constrain(spectrum * width * 20, 0, height));
+  //rect(15, 0, 10, constrain(spectrum *width * 20, 0, height));
 }
