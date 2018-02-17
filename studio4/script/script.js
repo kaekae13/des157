@@ -12,7 +12,7 @@ var play = document.getElementById('playbutton');
 var pause = document.getElementById('pausebutton');
 
 function preload() {
-  song = loadSound("https://kaekae13github.io/des157/studio4/audio/audioFile.mp3");
+  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
 }
 
 function setup() {
