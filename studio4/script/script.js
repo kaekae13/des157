@@ -2,40 +2,53 @@
 
 console.log("reading js");
 
-var song;
-var fft;
-var amplitude;
-var loadSound;
-var w;
-
-var play = document.getElementById('playbutton');
-var pause = document.getElementById('pausebutton');
+var song,
+    loadSound,
+    fft,
+    amp,
+    spectrum,
+    y,
+    w;
 
 function preload() {
   song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
 }
 
 function setup() {
-  var canvas = createCanvas(500,300);
+  console.log('playing');
+
+  noFill();
+  var canvas = createCanvas(750,300);
   canvas.parent('waveContainer');
 
-  song.loop();
-  song.setVolume (0.1);
 
-  fft = new p5.FFT(0.9, 250);
+  song.loop();
+  song.setVolume(0.1);
+
+  fft = new p5.FFT(0.9, 64);
+  amp = new p5.Amplitude();
+
   w = width/64;
 }
 
 
+
+
+
+
 function draw() {
-  var spectrum = fft.analyze();
-  for (var i = 0; i< spectrum.length; i++) {
-    var fft = spectrum[i];
-    var y = map(amp, 0, 250, height, 0);
-    noStroke();
-    fill('#2C2C2C')
-    rect(i * w, y, w-5, height - y);
-  }
+
   noStroke();
-  background(0);
+  fill(255);
+
+  //var level = amp.getLevel();
+  var spectrum = fft.analyze();
+
+
+  for (var i = 0; i< spectrum.length; i+=2) {
+    var amp = spectrum[i];
+    var y =  map(amp, 0, 250, height, 0);
+    rect(i * w , y, w - 2, height * 2 - y);
+}
+
 }

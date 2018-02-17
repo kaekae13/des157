@@ -1,50 +1,51 @@
 body {
-/*background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);*/
-}
-
-h1 {
-  font-family: 'Special Elite', cursive;
-  font-size: 20px;
-  padding-left: 3%;
-  padding-top: 3%;
-  color: #2C2C2C;
-  z-index: 1;
+  /*background-image: linear-gradient(to top, #fff1eb 75%, #ace0f9 100%);*/
+background-image: url("images/background.png");
 }
 
 #mainImg {
-width: 50%;
-float: right;
-margin-right: 10%;
+width: 63%;
+position: absolute;
+left: 575px;
+z-index: -1;
+top: 10px;
 }
 
-#mainImg, #buttons {
+#mainImg, #buttons1 {
+  display: block;
+  font-size: 3em;
+}
+
+#buttons1 {
+  margin-top: 500px;
+  margin-left: 100px;
   display: block;
 }
 
-#buttons2 {
-  margin-left: 55%;
-  padding-top: 3%;
-}
-
-#playButton, #pauseButton {
-  display: inline-block;
-  width: 5%;
-  padding: 1%;
+.volume {
+  font-size: .30em;
 }
 
 footer {
   bottom: 0;
-  float: right;
-  padding-right:5%;
+  padding-bottom:3%;
   font-size: 1em;
+  position: fixed;
+  margin-left: 100px;
   font-family: 'Special Elite', cursive;
 }
 
 #waveContainer {
   position: absolute;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+
   z-index: 1;
-  top: 30px;
-  left: 30px;
+  top: 130px;
+  left: 100px;
+  display: block;
+  border-radius: 3%;
 }
 
 /*.loader.loading  { display: block; }

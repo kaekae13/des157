@@ -7,29 +7,24 @@
         <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <script src= "script/p5.js"></script>
-        <script src= "script/p5.min.js"></script>
         <script src= "script/p5.sound.js"></script>
-        <script src= "script/p5.sound.min.js"></script>
+        
     </head>
 
 
   <body>
         <section>
-          <h1>Kyle Thornton - Talk is Cheap</h1>
-
+            <img id = 'mainImg' src='images/mainimage.png' alt = "Main graphic">
             <div id = "waveContainer"></div>
 
-            <img id = 'mainImg' src='images/mainimage.png' alt = "Main graphic">
+
 
             <div id = "buttons1">
-              <button id = "increase" onclick="document.getElementById('audioElement').volume+=0.1" class="btn btn-play btn-volume">&#43;</button>
-              <button id = "decrease" onclick="document.getElementById('audioElement').volume-=0.1" class="btn btn-play btn-volume">&minus;</button>
+              <button id="start" onclick="startMusic()" class="btn btn-play"><span id="btnIcon" class="start-icon"></span></button>
+              <button id = "increase" onclick="document.getElementById('audioElement').volume+=0.2" class="btn btn-play btn-volume">&#43;</button>
+              <button id = "decrease" onclick="document.getElementById('audioElement').volume-=0.2" class="btn btn-play btn-volume">&minus;</button>
             </div>
 
-          <div id ='buttons2'>
-            <img id = 'playButton' src = 'images/play.png' alt = "Play Button">
-            <img id = 'pauseButton' src = 'images/pause.png' alt = "Pause Button">
-          </div>
         </section>
 
 
