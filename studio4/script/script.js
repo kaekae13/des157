@@ -56,8 +56,5 @@ function draw() {
   for (var i = 0; i< 800; i++){
     canvas.rect(i, 300, 10, 50+rms*100);
   }
-//ellipse(i-50, 300, 50,50);
-//rect (i-250,240,10, 50);
-
  }
 //}
