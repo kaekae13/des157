@@ -4,6 +4,8 @@ console.log("reading js");
 
 var song,
     analyzer;
+  //var mic,
+    //  fft;
   //  w;
 
 
@@ -13,7 +15,7 @@ var song,
 // load audio audioFile
 
 function preload() {
-  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
+  song = loadSound( "https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
   }
 
 function setup() {
@@ -56,16 +58,14 @@ function setup() {
 
 // Create audiovisualizer with bars that react to amplitude of song
 function draw() {
-  console.log('audiovisualizer');
+  //console.log('audiovisualizer');
   fill('#EFC2CE');
   noStroke();
 
-
-  var rms = analyzer.getLevel();
-  for (var i = 0; i< width; i+= width/50){
-    var y = map(rms, 0, 1, height, 0);
-    rect(i, 250, width/50 - 5 , 10+y*600);
-
+var rms = analyzer.getLevel();
+for (var i = 0; i< width; i+= width/50){
+  var y = map(rms, 0, 1, height, 0);
+  rect(i, 250, width/50 - 5 , 10+y*600);
   }
 }
 //}
