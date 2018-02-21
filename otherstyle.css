@@ -1,3 +1,5 @@
+/* typography */
+
 h1 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
@@ -19,6 +21,13 @@ h2 {
   font-size: 25px;
   font-weight: bold;
   font-family: 'Helvetica', sans-serif
+}
+
+#visualResearch h3 {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 27.5%;
 }
 
 h4 {
@@ -45,12 +54,15 @@ hr {
     margin-left: 0;
     margin-top: 15px;
 }
-main {
-  margin:0 auto;
-}
+
+/* positioning main content */
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+main {
+  margin:0 auto;
 }
 
 p {
@@ -93,6 +105,10 @@ p {
   display: inline-block;
   vertical-align: middle;
 }
+
+#moodboardContainer {
+  width: 100%;
+}
 /* BEGIN IMG STYLES */
 
 #brainstormimg {
@@ -110,6 +126,12 @@ p {
 #audience {
   width:275px;
   padding-top: 30px;
+}
+
+#moodBoard {
+  width:45%;
+  margin-left:27.5%;
+  margin-right: 27.5%;
 }
 /* end img styles */
 
