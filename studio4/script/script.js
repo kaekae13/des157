@@ -17,10 +17,13 @@ function preload() {
 
 function setup() {
   console.log('playing');
+
   var canvas = createCanvas(800,300);
   canvas.parent('waveContainer');
+
   song.loop();
   song.setVolume(0.1);
+
   analyzer = new p5.Amplitude();
   analyzer.setInput(song);
 }
@@ -48,13 +51,14 @@ function setup() {
   //song.volume-=0.1;
 //}
 
+// Create audiovisualizer with bars that react to amplitude of song
 function draw() {
   //console.log('audiovisualizer');
-  fill('#EFC2CE');
+  fill(255);
   noStroke();
   var rms = analyzer.getLevel();
   for (var i = 0; i< 800; i++){
-    canvas.rect(i, 300, 10, 50+rms*100);
+    rect(i, 300, 10, 50+rms*100);
   }
  }
 //}
