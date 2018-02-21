@@ -3,16 +3,18 @@
 console.log("reading js");
 
 var song,
-    loadSound,
-    analyzer;
+    analyzer,
+    w;
 
+var volhistory = [];
 //var play = document.getElementById('play');
 //var pause = document.getElementById('pause');
 
 // load audio audioFile
 
 function preload() {
-  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
+song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
+
 }
 
 function setup() {
@@ -26,6 +28,8 @@ function setup() {
 
   analyzer = new p5.Amplitude();
   analyzer.setInput(song);
+
+  w = width/64;
 }
 
 //pause and play events
@@ -54,11 +58,15 @@ function setup() {
 // Create audiovisualizer with bars that react to amplitude of song
 function draw() {
   //console.log('audiovisualizer');
-  fill(255);
+  fill('#EFC2CE');
   noStroke();
+
+
   var rms = analyzer.getLevel();
-  for (var i = 0; i< 800; i++){
-    rect(i, 300, 10, 50+rms*100);
+  for (var i = 0; i< width; i+= width/50){
+    //var y = map(rms, 0, 1, height, 0);
+    rect(i, 250, width/50 - 4 , 10+rms*400);
+    //ellipse(-100, 50, 50,50);
   }
  }
 //}
