@@ -1,9 +1,9 @@
 h1 {
-  font-size:1.2em;
-  margin-left: 15%;
+  font-size:1.4em;
+  margin-left: 7%;
   padding-top: 10%;
   color: white;
-  line-height:1.4em;
+  line-height:1.6em;
 }
 
 body {
@@ -18,29 +18,26 @@ body {
 }
 
 #waveContainer {
-  top: 11%;
-  position: absolute;
-  z-index: -1;
+  top: 17%;
+  position: fixed;
   left: 0;
   border-bottom: 2px white solid;
 }
 
 
 #mainImg {
-  width: 85%;
+  width: 80%;
   margin-left: 13%;
-  top: 1%;
+  top: 7%;
+  z-index: 1;
   position: absolute;
-
-
 }
 
 /* buttons */
-#buttons {
-  display: block;
-  margin-top: 15%;
-  margin-left: 15%;
+#btn {
+  margin-left: 7%;
   position: relative;
+  margin-top: 15%;
 }
 
 #playPause, #volume {
@@ -83,7 +80,7 @@ footer {
   font-size: 0.75em;
   position: fixed;
   float: left;
-  margin-left: 15%;
+  margin-left: 7%;
 }
 
 a {

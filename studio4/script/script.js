@@ -52,11 +52,11 @@ play.onclick = function (event) {
 
 // volume events
 increase.onclick = function(event) {
-  song.volume+=0.2;
+  song.volume+=0.1;
 }
 
 decrease.onclick = function(event) {
-  song.volume-=0.2;
+  song.volume-=0.1;
 }
 
 // Create audiovisualizer with bars that react to amplitude of song
