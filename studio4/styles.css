@@ -18,7 +18,7 @@ body {
 }
 
 #waveContainer {
-  top: 8%;
+  top: 15%;
   position: absolute;
   z-index: -1;
   left: 0;
@@ -28,7 +28,7 @@ body {
 
 #mainImg {
   width: 65%;
-  margin-left: 20%;
+  margin-left: 23%;
   top: 10%;
   position: absolute;
 
@@ -38,7 +38,7 @@ body {
 /* buttons */
 #buttons {
   display: block;
-  margin-top: 18%;
+  margin-top: 19%;
   margin-left: 15%;
   position: relative;
 }
