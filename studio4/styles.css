@@ -1,12 +1,13 @@
 h1 {
-  font-size:1.1em;
+  font-size:1.2em;
   margin-left: 15%;
   padding-top: 10%;
   color: white;
+  line-height:1.4em;
 }
 
 body {
-  background-color:#838E83;
+  background-color:#FFD79B;
   font-family: 'Special Elite', cursive;
 }
 
@@ -17,7 +18,7 @@ body {
 }
 
 #waveContainer {
-  top: 15%;
+  top: 18%;
   position: absolute;
   z-index: -1;
   left: 0;
@@ -27,17 +28,17 @@ body {
 
 
 #mainImg {
-  width: 55%;
+  width: 65%;
   position: absolute;
-  left: 575px;
-  top: 10%;
-  margin-right: 8%;
+  margin-left: 25%;
+  top: 7%;
+
 }
 
 /* buttons */
 #buttons {
   display: block;
-  margin-top: 20%;
+  margin-top: 16.5%;
   margin-left: 15%;
   position: relative;
 }

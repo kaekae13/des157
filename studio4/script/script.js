@@ -13,11 +13,12 @@ var pause = document.getElementById('pause');
 var increase = document.getElementById('increase');
 var decrease = document.getElementById('decrease');
 
-// load audio audioFile
+// load audio
 
 function preload() {
   song = loadSound( "https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
   }
+
 
 function setup() {
   console.log('playing');
@@ -63,14 +64,12 @@ function draw() {
   //console.log('audiovisualizer');
 
   var spectrum = fft.analyze();
-
-  stroke('#838E83');
+  fill('white');
+  stroke('#FFD79B');
   strokeWeight(5.5);
   for (var i = 0; i< spectrum.length; i++) {
       var x = map(i, 0, spectrum.length, 0, width);
-      fill('white');
       var h = -height + map(spectrum[i], 0, 255, height, 0);
       rect (x + w, height, width / spectrum.length, h);
   }
 }
-//}
