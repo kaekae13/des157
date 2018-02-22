@@ -13,8 +13,9 @@ body {
 
 /* audiovisualizer */
 #musicPlayer {
-  position: static;
+  position: block;
 }
+
 #waveContainer {
   top: 15%;
   position: absolute;
