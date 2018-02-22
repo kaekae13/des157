@@ -3,10 +3,8 @@
 console.log("reading js");
 
 var song,
-    analyzer;
-  //var mic,
-    //  fft;
-  //  w;
+    fft,
+    w;
 
 
 //var play = document.getElementById('play');
@@ -20,17 +18,18 @@ function preload() {
 
 function setup() {
   console.log('playing');
-
-  var canvas = createCanvas(800,300);
+  var canvas = createCanvas(700,300);
   canvas.parent('waveContainer');
 
   song.loop();
   song.setVolume(0.1);
 
-  analyzer = new p5.Amplitude();
-  analyzer.setInput(song);
+  fft = new p5.FFT(0.9, 64);
+  fft.setInput(song);
+
+  w = width/64;
 }
-//  w = width/64;
+
 
 
 //pause and play events
@@ -59,13 +58,16 @@ function setup() {
 // Create audiovisualizer with bars that react to amplitude of song
 function draw() {
   //console.log('audiovisualizer');
-  fill('#EFC2CE');
-  noStroke();
 
-var rms = analyzer.getLevel();
-for (var i = 0; i< width; i+= width/50){
-  var y = map(rms, 0, 1, height, 0);
-  rect(i, 250, width/50 - 5 , 10+y*600);
+  var spectrum = fft.analyze();
+  fill('#2B2C2C');
+  stroke(255);
+  strokeWeight(5);
+  for (var i = 0; i< spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      fill(i,20,100);
+      var h = -height + map(spectrum[i], 0, 255, height, 0);
+      rect (x + w, height, width / spectrum.length, h);
   }
 }
 //}

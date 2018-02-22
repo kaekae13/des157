@@ -7,17 +7,10 @@ body {
 /* audiovisualizer */
 
 #waveContainer {
-  z-index: 1;
-  position: absolute;
   top: 15%;
-  left: 0;
+  left: 10%;
   display: block;
-  border-bottom: 5px #EFC2CE solid;
-  /* #EFC2CE */
 }
-
-
-/*linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);*/
 
 
 #mainImg {
@@ -28,9 +21,6 @@ body {
   top: 10%;
   margin-right: 5%;
 }
-
-
-
 
 
 /* footer and links */
