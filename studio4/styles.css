@@ -18,7 +18,7 @@ body {
 }
 
 #waveContainer {
-  top: 18%;
+  top: 20%;
   position: absolute;
   z-index: -1;
   left: 0;
@@ -72,6 +72,7 @@ body {
 #increase, #decrease {
   border-radius: 21px;
   width: 36px;
+  background: white;
 }
 
 /* footer and links */
