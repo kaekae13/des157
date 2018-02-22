@@ -14,7 +14,7 @@ body {
 
 /* audiovisualizer */
 #musicPlayer {
-  position: block;
+  display: block;
 }
 
 #waveContainer {
