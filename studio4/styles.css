@@ -6,16 +6,17 @@ h1 {
 }
 
 body {
-  background-color:#546A7B;
+  background-color:#838E83;
   font-family: 'Special Elite', cursive;
 }
 
 
-
 /* audiovisualizer */
-
+#musicPlayer {
+  position: static;
+}
 #waveContainer {
-  top: 20%;
+  top: 15%;
   position: absolute;
   z-index: -1;
   left: 0;
@@ -28,17 +29,16 @@ body {
   width: 55%;
   position: absolute;
   left: 575px;
-  z-index: 1;
   top: 10%;
   margin-right: 8%;
 }
 
 /* buttons */
-
 #buttons {
   display: block;
-  margin-top: 27%;
+  margin-top: 20%;
   margin-left: 15%;
+  position: relative;
 }
 
 #playPause, #volume {

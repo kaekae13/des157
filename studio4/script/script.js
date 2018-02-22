@@ -64,7 +64,7 @@ function draw() {
 
   var spectrum = fft.analyze();
 
-  stroke('#546A7B');
+  stroke('#838E83');
   strokeWeight(5.5);
   for (var i = 0; i< spectrum.length; i++) {
       var x = map(i, 0, spectrum.length, 0, width);
