@@ -1,0 +1,187 @@
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+  color: #353535;
+  font-size: 2.5em;
+  margin-top: 12%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  z-index: 1;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 0.75em;
+  color: #353535;
+}
+
+#waveContainer, #barContainer {
+  left: 0;
+  height: 95%;
+}
+
+#barContainer {
+  z-index: -1;
+}
+section {
+  margin-bottom: 2%;
+}
+/* basic buttons and choices */
+#btnMenu {
+  padding-top: 2%;
+  text-align: center;
+  width: 100%;
+}
+
+#btnMenu, #chooseAudio, #visualizers {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#chooseAudio input {
+  font-size: 0.75em;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#controlBtn {
+  display: inline-block;
+  width: 245px;
+}
+
+#audioFile, .loader {
+  display: inline-block;
+}
+
+#audioFile {
+  width: 200px;
+  border: 1px black;
+  color: #353535;
+}
+
+#controlBtn button {
+  background-color: white;
+}
+
+#playPause {
+  margin-right: 1.5%;
+}
+
+#playPause, #volume {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#pause {
+  width: 32px;
+  height: 32px;
+  border-radius: 21px;
+  font-size: 0.5em;
+  z-index: -1;
+}
+
+#increase, #decrease {
+  display: inline-block;
+  border-radius: 10px;
+  color: #353535;
+}
+
+ .hide {
+   display: none;
+ }
+
+ .btnShow {
+   width: 32px;
+   height: 32px;
+   border-radius: 21px;
+   font-size: 0.5em;
+   margin-right: 1%;
+   z-index: 1;
+   background-color: white;
+ }
+
+#visualizers button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #353535;
+  border-radius: 15px;
+  background-color: white;
+}
+
+ /* color picker buttons */
+
+.colorPicker {
+  padding-top: 1.5%;
+  text-align: center;
+}
+
+.colorPicker button {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-style: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 21px;
+}
+
+ #color1 {
+   background-color: #FD8BD9;
+ }
+
+ #color2 {
+   background-color: #ffd1ff;
+ }
+
+ #color3 {
+   background-color: #ffafbd;
+ }
+
+ #color4 {
+   background-color: #fcb69f;
+ }
+
+ #color5 {
+   background-color: #fddb92;
+ }
+
+ #color6 {
+   background-color: #f9f586;
+ }
+
+ #color7 {
+   background-color: #92fe9d;
+ }
+
+#color8 {
+  background-color: #2af598;
+}
+
+#color9 {
+  background-color: #00cdac;
+}
+
+#color10 {
+  background-color: #00f2fe;
+}
+
+#color11 {
+  background-color: #00c6fb;
+}
+
+#color12 {
+  background-color: #4facfe;
+}
+
+#color13 {
+  background-color: #cd9cf2;
+}
+
+#color14 {
+  background-color: #d57eeb;
+}
+
+
+ /* end color button styles */
