@@ -16,6 +16,10 @@ h3 {
   margin-bottom: 10px;
 }
 
+#brief h3 {
+  margin-top: 15px;
+}
+
 h2 {
   color: #313537;
   font-size: 25px;
