@@ -129,9 +129,15 @@ p {
 
 .flow {
   margin-top: 7%;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+  width: 65%;
+}
+
+#wireframe {
+  width:75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 
 #audience {
