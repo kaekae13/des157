@@ -18,26 +18,27 @@ body {
 }
 
 #waveContainer {
-  top: 17%;
+  top: 20%;
   position: fixed;
   left: 0;
   border-bottom: 2px white solid;
+  z-index: -1;
 }
 
 
 #mainImg {
   width: 80%;
+  top: 13%;
+  position: fixed;
   margin-left: 13%;
-  top: 7%;
-  z-index: 1;
-  position: absolute;
 }
 
 /* buttons */
 #btn {
   margin-left: 7%;
-  position: relative;
-  margin-top: 15%;
+  position: fixed;
+  margin-top: 17%;
+  z-index: 1;
 }
 
 #playPause, #volume {
