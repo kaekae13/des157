@@ -24,48 +24,51 @@
 	.st18{opacity:0.5;fill:#7C7777;stroke:#F8F4F4;stroke-miterlimit:10;enable-background:new    ;}
 	.st19{fill:#5C5B5B;}
 	.st20{fill:#FCFAFC;}
-	.st21{fill:none;stroke:#FDFEFE;stroke-miterlimit:10;}
-	.st22{fill:#FFFEFF;}
-	.st23{fill:none;stroke:#FCFAFC;stroke-miterlimit:10;}
-	.st24{clip-path:url(#SVGID_2_);}
-	.st25{opacity:0.5;fill:#E0DADC;enable-background:new    ;}
-	.st26{fill:none;stroke:#231F20;stroke-miterlimit:10;}
-	.st27{fill:none;stroke:#231F20;stroke-width:0.75;stroke-miterlimit:10;}
-	.st28{font-size:7px;}
-	.st29{fill:none;stroke:#020202;stroke-width:2;stroke-miterlimit:10;}
-	.st30{fill:#F8F7F9;}
-	.st31{fill:#DDDBDD;}
-	.st32{fill:#C2C1C0;}
-	.st33{fill:#9F9E9F;}
-	.st34{fill:#878787;}
-	.st35{fill:#686868;}
-	.st36{fill:#444545;}
-	.st37{fill:#232223;}
-	.st38{fill:#E5DADA;}
-	.st39{fill:#CCC6C6;}
-	.st40{fill:#B7AEAE;}
-	.st41{fill:#A8A0A0;}
-	.st42{fill:#8E8888;}
-	.st43{fill:#726E6E;}
-	.st44{fill:#595554;}
-	.st45{fill:none;stroke:#020202;stroke-miterlimit:10;}
-	.st46{font-size:3.23px;}
-	.st47{font-size:2.15px;}
-	.st48{fill:#E0E0E0;}
-	.st49{fill:#C9C9C9;}
-	.st50{fill:#B7B7B7;}
-	.st51{fill:#A5A4A4;}
-	.st52{fill:#8E8E8E;}
-	.st53{fill:#848484;}
-	.st54{fill:#6B6B6B;}
-	.st55{fill:#565656;}
-	.st56{fill:#40403F;}
-	.st57{fill:#444345;}
-	.st58{fill:#333333;}
-	.st59{fill:#121212;}
-	.st60{fill:#FFFFFF;}
-	.st61{font-size:1.91px;}
-	.st62{font-size:2.5px;}
+	.st21{fill:#FFFEFF;}
+	.st22{clip-path:url(#SVGID_2_);}
+	.st23{opacity:0.5;fill:#E0DADC;enable-background:new    ;}
+	.st24{fill:none;stroke:#231F20;stroke-miterlimit:10;}
+	.st25{fill:none;stroke:#231F20;stroke-width:0.75;stroke-miterlimit:10;}
+	.st26{fill:#939292;stroke:#231F20;stroke-miterlimit:10;}
+	.st27{font-size:7px;}
+	.st28{fill:none;stroke:#020202;stroke-width:2;stroke-miterlimit:10;}
+	.st29{fill:#F8F7F9;}
+	.st30{fill:#DDDBDD;}
+	.st31{fill:#C2C1C0;}
+	.st32{fill:#9F9E9F;}
+	.st33{fill:#878787;}
+	.st34{fill:#686868;}
+	.st35{fill:#444545;}
+	.st36{fill:#232223;}
+	.st37{fill:#E5DADA;}
+	.st38{fill:#CCC6C6;}
+	.st39{fill:#B7AEAE;}
+	.st40{fill:#A8A0A0;}
+	.st41{fill:#8E8888;}
+	.st42{fill:#726E6E;}
+	.st43{fill:#595554;}
+	.st44{fill:none;stroke:#020202;stroke-miterlimit:10;}
+	.st45{font-size:3.23px;}
+	.st46{font-size:2.15px;}
+	.st47{fill:#E0E0E0;}
+	.st48{fill:#C9C9C9;}
+	.st49{fill:#B7B7B7;}
+	.st50{fill:#A5A4A4;}
+	.st51{fill:#8E8E8E;}
+	.st52{fill:#848484;}
+	.st53{fill:#6B6B6B;}
+	.st54{fill:#565656;}
+	.st55{fill:#40403F;}
+	.st56{fill:#444345;}
+	.st57{fill:#333333;}
+	.st58{fill:#121212;}
+	.st59{fill:#FFFFFF;}
+	.st60{font-size:1.91px;}
+	.st61{font-size:2.5px;}
+	.st62{fill:#938F90;stroke:#050505;stroke-width:0.25;stroke-miterlimit:10;}
+	.st63{fill:none;}
+	.st64{fill:none;stroke:#FDFEFE;stroke-miterlimit:10;}
+	.st65{fill:none;stroke:#FFFEFF;stroke-miterlimit:10;}
 </style>
 <title>Artboard 1</title>
 <path class="st0" d="M18,3.9h44.1c8.9,0,16.1,7.2,16.1,16.1v91.7c0,8.9-7.2,16.1-16.1,16.1H18c-8.9,0-16.1-7.2-16.1-16.1V20
@@ -86,7 +89,7 @@
 <rect x="112.6" y="17.6" class="st5" width="66.6" height="93.7"/>
 <path class="st0" d="M237.7,3.9h44.1c8.9,0,16.1,7.2,16.1,16.1v91.7c0,8.9-7.2,16.1-16.1,16.1h-44.1c-8.9,0-16.1-7.2-16.1-16.1V20
 	C221.6,11.1,228.8,3.9,237.7,3.9z"/>
-<circle class="st0" cx="259.9" cy="120" r="4.7"/>
+<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 99.8182 357.3222)" class="st0" cx="259.9" cy="120" rx="4.7" ry="4.7"/>
 <rect x="226.2" y="17.6" class="st5" width="66.6" height="93.7"/>
 <path class="st0" d="M349.2,3.9h44.1c8.9,0,16.1,7.2,16.1,16.1v91.7c0,8.9-7.2,16.1-16.1,16.1h-44.1c-8.9,0-16.1-7.2-16.1-16.1V20
 	C333,11.1,340.3,3.9,349.2,3.9z"/>
@@ -125,9 +128,9 @@
 <circle class="st11" cx="383.5" cy="92.4" r="2.5"/>
 <rect x="382.3" y="91.2" class="st1" width="0.9" height="2.4"/>
 <rect x="384" y="91.2" class="st1" width="0.9" height="2.4"/>
-<path class="st8" d="M395.1,91.8h2.8c0.7,0,1.2,0.5,1.2,1.2v0c0,0.7-0.5,1.2-1.2,1.2h-2.8c-0.7,0-1.2-0.5-1.2-1.2v0
+<path class="st8" d="M395.1,91.8h2.8c0.7,0,1.2,0.5,1.2,1.2l0,0c0,0.7-0.5,1.2-1.2,1.2h-2.8c-0.7,0-1.2-0.5-1.2-1.2l0,0
 	C393.9,92.3,394.4,91.8,395.1,91.8z"/>
-<path class="st12" d="M388.6,91.8h2.8c0.7,0,1.2,0.5,1.2,1.2v0c0,0.7-0.5,1.2-1.2,1.2h-2.8c-0.7,0-1.2-0.5-1.2-1.2v0
+<path class="st12" d="M388.6,91.8h2.8c0.7,0,1.2,0.5,1.2,1.2l0,0c0,0.7-0.5,1.2-1.2,1.2h-2.8c-0.7,0-1.2-0.5-1.2-1.2l0,0
 	C387.4,92.3,387.9,91.8,388.6,91.8z"/>
 <line class="st13" x1="395.7" y1="92.9" x2="397.1" y2="92.9"/>
 <line class="st13" x1="389.2" y1="92.9" x2="390.6" y2="92.9"/>
@@ -146,7 +149,7 @@
 <text transform="matrix(1 0 0 1 10.73 179.25)" class="st1 st2 st6">visuali</text>
 <text transform="matrix(1 0 0 1 34.14 179.25)" class="st1 st2 st6">z</text>
 <text transform="matrix(1 0 0 1 37.91 179.25)" class="st1 st2 st6">e music?</text>
-<path class="st8" d="M13.3,234.8h13.9c1.3,0,2.4,1.1,2.4,2.4v0c0,1.3-1.1,2.4-2.4,2.4H13.3c-1.3,0-2.4-1.1-2.4-2.4v0
+<path class="st8" d="M13.3,234.8h13.9c1.3,0,2.4,1.1,2.4,2.4l0,0c0,1.3-1.1,2.4-2.4,2.4H13.3c-1.3,0-2.4-1.1-2.4-2.4l0,0
 	C10.9,235.9,12,234.8,13.3,234.8z"/>
 <text transform="matrix(1 0 0 1 12.29 237.99)" class="st1 st9 st10">Choose Fi</text>
 <text transform="matrix(1 0 0 1 25.76 237.99)" class="st1 st9 st10">l</text>
@@ -179,7 +182,7 @@
 <text transform="matrix(1 0 0 1 116.73 179.25)" class="st1 st2 st6">visuali</text>
 <text transform="matrix(1 0 0 1 140.14 179.25)" class="st1 st2 st6">z</text>
 <text transform="matrix(1 0 0 1 143.91 179.25)" class="st1 st2 st6">e music?</text>
-<path class="st8" d="M119.3,234.8h13.9c1.3,0,2.4,1.1,2.4,2.4v0c0,1.3-1.1,2.4-2.4,2.4h-13.9c-1.3,0-2.4-1.1-2.4-2.4v0
+<path class="st8" d="M119.3,234.8h13.9c1.3,0,2.4,1.1,2.4,2.4l0,0c0,1.3-1.1,2.4-2.4,2.4h-13.9c-1.3,0-2.4-1.1-2.4-2.4l0,0
 	C116.9,235.9,118,234.8,119.3,234.8z"/>
 <text transform="matrix(1 0 0 1 118.29 237.99)" class="st1 st9 st10">Choose Fi</text>
 <text transform="matrix(1 0 0 1 131.76 237.99)" class="st1 st9 st10">l</text>
@@ -200,12 +203,6 @@
 <rect x="144.3" y="238.4" class="st1" width="4.6" height="1"/>
 <path class="st19" d="M113.1,48.3c0,0,11.4,5.1,22.9,2.2c2.2-0.6,4.4-1.5,6.4-2.7c5.6-3.3,11.9-5.3,18.4-6
 	c5.4-0.5,10.7,0.4,15.7,2.4c1.2,0.5,2.2,1,2.2,1.4v65.2h-65.8C112.9,110.7,113.1,49.2,113.1,48.3z"/>
-<text transform="matrix(1 0 0 1 117 64.59)" class="st20 st2 st3">R</text>
-<text transform="matrix(1 0 0 1 123.75 64.59)" class="st20 st2 st3">es</text>
-<text transform="matrix(1 0 0 1 134.22 64.59)" class="st20 st2 st3">e</text>
-<text transform="matrix(1 0 0 1 139.96 64.59)" class="st20 st2 st3">a</text>
-<text transform="matrix(1 0 0 1 146.1 64.59)" class="st20 st2 st3">r</text>
-<text transform="matrix(1 0 0 1 150.01 64.59)" class="st20 st2 st3">ch</text>
 <text transform="matrix(1 0 0 1 117.19 72.97)" class="st20 st2 st10">Lo</text>
 <text transform="matrix(1 0 0 1 120.66 72.97)" class="st20 st2 st10">r</text>
 <text transform="matrix(1 0 0 1 121.83 72.97)" class="st20 st2 st10">em ipsum do</text>
@@ -236,72 +233,70 @@
 <text transform="matrix(1 0 0 1 117.19 92.97)" class="st20 st2 st10">ad minim </text>
 <text transform="matrix(1 0 0 1 131.17 92.97)" class="st20 st2 st10">v</text>
 <text transform="matrix(1 0 0 1 132.8 92.97)" class="st20 st2 st10">eniam, quis nostrud</text>
-<polyline class="st21" points="171.7,101.7 174.8,104.6 171.7,107.3 "/>
-<line class="st21" x1="174.7" y1="104.5" x2="168.2" y2="104.5"/>
 <path class="st19" d="M226.8,48.3c0,0,11.4,5.1,22.9,2.2c2.2-0.6,4.4-1.5,6.4-2.7c5.6-3.3,11.9-5.3,18.4-6
 	c5.4-0.5,10.8,0.4,15.7,2.4c1.2,0.5,2.2,1,2.2,1.4v65.2h-65.7C226.6,110.7,226.8,49.2,226.8,48.3z"/>
-<text transform="matrix(1 0 0 1 230.68 64.59)" class="st22 st2 st3">About...</text>
-<text transform="matrix(1 0 0 1 230.87 72.97)" class="st22 st2 st10">Lo</text>
-<text transform="matrix(1 0 0 1 234.34 72.97)" class="st22 st2 st10">r</text>
-<text transform="matrix(1 0 0 1 235.51 72.97)" class="st22 st2 st10">em ipsum do</text>
-<text transform="matrix(1 0 0 1 253.74 72.97)" class="st22 st2 st10">l</text>
-<text transform="matrix(1 0 0 1 254.47 72.97)" class="st22 st2 st10">or sit amet, </text>
-<text transform="matrix(1 0 0 1 230.87 76.97)" class="st22 st2 st10">consec</text>
-<text transform="matrix(1 0 0 1 240.68 76.97)" class="st22 st2 st10">t</text>
-<text transform="matrix(1 0 0 1 241.81 76.97)" class="st22 st2 st10">etuer adipiscing elit, sed </text>
-<text transform="matrix(1 0 0 1 230.87 80.97)" class="st22 st2 st10">diam nonum</text>
-<text transform="matrix(1 0 0 1 248.67 80.97)" class="st22 st2 st10">m</text>
-<text transform="matrix(1 0 0 1 251.4 80.97)" class="st22 st2 st10">y nibh euismod </text>
-<text transform="matrix(1 0 0 1 230.87 84.97)" class="st22 st2 st10">tinci</text>
-<text transform="matrix(1 0 0 1 236.68 84.97)" class="st22 st2 st10">d</text>
-<text transform="matrix(1 0 0 1 238.57 84.97)" class="st22 st2 st10">unt ut lao</text>
-<text transform="matrix(1 0 0 1 252.18 84.97)" class="st22 st2 st10">r</text>
-<text transform="matrix(1 0 0 1 253.35 84.97)" class="st22 st2 st10">eet do</text>
-<text transform="matrix(1 0 0 1 262.4 84.97)" class="st22 st2 st10">l</text>
-<text transform="matrix(1 0 0 1 263.13 84.97)" class="st22 st2 st10">o</text>
-<text transform="matrix(1 0 0 1 264.95 84.97)" class="st22 st2 st10">r</text>
-<text transform="matrix(1 0 0 1 266.12 84.97)" class="st22 st2 st10">e magna </text>
-<text transform="matrix(1 0 0 1 230.87 88.97)" class="st22 st2 st10">aliquam e</text>
-<text transform="matrix(1 0 0 1 244.87 88.97)" class="st22 st2 st10">r</text>
-<text transform="matrix(1 0 0 1 246.07 88.97)" class="st22 st2 st10">at </text>
-<text transform="matrix(1 0 0 1 249.89 88.97)" class="st22 st2 st10">v</text>
-<text transform="matrix(1 0 0 1 251.52 88.97)" class="st22 st2 st10">o</text>
-<text transform="matrix(1 0 0 1 253.33 88.97)" class="st22 st2 st10">l</text>
-<text transform="matrix(1 0 0 1 254.08 88.97)" class="st22 st2 st10">utpat. Ut wisi enim </text>
-<text transform="matrix(1 0 0 1 230.87 92.97)" class="st22 st2 st10">ad minim </text>
-<text transform="matrix(1 0 0 1 244.85 92.97)" class="st22 st2 st10">v</text>
-<text transform="matrix(1 0 0 1 246.48 92.97)" class="st22 st2 st10">eniam, quis nostrud</text>
-<polyline class="st23" points="285.4,101.7 288.5,104.6 285.4,107.3 "/>
-<line class="st23" x1="288.4" y1="104.5" x2="281.8" y2="104.5"/>
+<text transform="matrix(1 0 0 1 117.8074 64.59)" class="st21 st2 st3">About...</text>
+<text transform="matrix(1 0 0 1 230.87 72.97)" class="st21 st2 st10">Lo</text>
+<text transform="matrix(1 0 0 1 234.34 72.97)" class="st21 st2 st10">r</text>
+<text transform="matrix(1 0 0 1 235.51 72.97)" class="st21 st2 st10">em ipsum do</text>
+<text transform="matrix(1 0 0 1 253.74 72.97)" class="st21 st2 st10">l</text>
+<text transform="matrix(1 0 0 1 254.47 72.97)" class="st21 st2 st10">or sit amet, </text>
+<text transform="matrix(1 0 0 1 230.87 76.97)" class="st21 st2 st10">consec</text>
+<text transform="matrix(1 0 0 1 240.68 76.97)" class="st21 st2 st10">t</text>
+<text transform="matrix(1 0 0 1 241.81 76.97)" class="st21 st2 st10">etuer adipiscing elit, sed </text>
+<text transform="matrix(1 0 0 1 230.87 80.97)" class="st21 st2 st10">diam nonum</text>
+<text transform="matrix(1 0 0 1 248.67 80.97)" class="st21 st2 st10">m</text>
+<text transform="matrix(1 0 0 1 251.4 80.97)" class="st21 st2 st10">y nibh euismod </text>
+<text transform="matrix(1 0 0 1 230.87 84.97)" class="st21 st2 st10">tinci</text>
+<text transform="matrix(1 0 0 1 236.68 84.97)" class="st21 st2 st10">d</text>
+<text transform="matrix(1 0 0 1 238.57 84.97)" class="st21 st2 st10">unt ut lao</text>
+<text transform="matrix(1 0 0 1 252.18 84.97)" class="st21 st2 st10">r</text>
+<text transform="matrix(1 0 0 1 253.35 84.97)" class="st21 st2 st10">eet do</text>
+<text transform="matrix(1 0 0 1 262.4 84.97)" class="st21 st2 st10">l</text>
+<text transform="matrix(1 0 0 1 263.13 84.97)" class="st21 st2 st10">o</text>
+<text transform="matrix(1 0 0 1 264.95 84.97)" class="st21 st2 st10">r</text>
+<text transform="matrix(1 0 0 1 266.12 84.97)" class="st21 st2 st10">e magna </text>
+<text transform="matrix(1 0 0 1 230.87 88.97)" class="st21 st2 st10">aliquam e</text>
+<text transform="matrix(1 0 0 1 244.87 88.97)" class="st21 st2 st10">r</text>
+<text transform="matrix(1 0 0 1 246.07 88.97)" class="st21 st2 st10">at </text>
+<text transform="matrix(1 0 0 1 249.89 88.97)" class="st21 st2 st10">v</text>
+<text transform="matrix(1 0 0 1 251.52 88.97)" class="st21 st2 st10">o</text>
+<text transform="matrix(1 0 0 1 253.33 88.97)" class="st21 st2 st10">l</text>
+<text transform="matrix(1 0 0 1 254.08 88.97)" class="st21 st2 st10">utpat. Ut wisi enim </text>
+<text transform="matrix(1 0 0 1 230.87 92.97)" class="st21 st2 st10">ad minim </text>
+<text transform="matrix(1 0 0 1 244.85 92.97)" class="st21 st2 st10">v</text>
+<text transform="matrix(1 0 0 1 246.48 92.97)" class="st21 st2 st10">eniam, quis nostrud</text>
 <g>
-	<defs>
-		<rect id="SVGID_1_" x="6.4" y="34.2" width="66.6" height="77.1"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g class="st24">
-		<path class="st25" d="M123.9,84.8c0,0-20.4,9-53.9,9.3c-18,0.2-31.7-1.9-38-8.3c-0.1-0.1-4.7-3.7-4.8-3.8c-2.8-2-2.7-2.2-6.2-3.8
-			c-4.6-2-9.6-3.1-14.7-3.3v36.2h118.1L123.9,84.8z"/>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="6.4" y="34.2" width="66.6" height="77.1"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st22">
+			<path class="st23" d="M123.9,84.8c0,0-20.4,9-53.9,9.3c-18,0.2-31.7-1.9-38-8.3c-0.1-0.1-4.7-3.7-4.8-3.8c-2.8-2-2.7-2.2-6.2-3.8
+				c-4.6-2-9.6-3.1-14.7-3.3v36.2h118.1L123.9,84.8z"/>
+		</g>
 	</g>
 </g>
-<rect x="6.5" y="17.6" class="st26" width="66.6" height="93.7"/>
-<path class="st27" d="M124.6,210.4h1.9l0.3-3.6l0.8,6.7l0.6-12.1l1.9,11.6c0.1-6.1,0.3-12.2,0.6-18.3c2.2,7.9,2.6,17.6,4.5,25.9
+<rect x="6.5" y="17.6" class="st24" width="66.6" height="93.7"/>
+<path class="st25" d="M124.6,210.4h1.9l0.3-3.6l0.8,6.7l0.6-12.1l1.9,11.6c0.1-6.1,0.3-12.2,0.6-18.3c2.2,7.9,2.6,17.6,4.5,25.9
 	c-0.2-6.7,0-13.4,0.5-20l1.8,15l0.9-8.4l0.7,5.9l0.8-2.9l0.5,1.9c0.2-2.2,0.6-4.3,1.1-6.4c0.6,2.5,1.1,5,1.5,7.7l1.2-19.2l2.1,25.8
 	l1-16.8l1.1,8.4c0.3-1.6,0.5-3.2,0.5-4.8l0.6,4.5c0.1-1.5,0.4-2.9,0.6-4.3l0.3,2.8c0.3,0.1,0.6,0,0.7-0.2"/>
-<polyline class="st27" points="151.2,209.6 171,209.6 171.9,207.2 173,212.6 175.3,199.1 "/>
-<line class="st27" x1="116.5" y1="210.3" x2="126.6" y2="210.3"/>
+<polyline class="st25" points="151.2,209.6 171,209.6 171.9,207.2 173,212.6 175.3,199.1 "/>
+<line class="st25" x1="116.5" y1="210.3" x2="126.6" y2="210.3"/>
 <path class="st0" d="M238.8,148.1h44.1c8.9,0,16.1,7.2,16.1,16.1v91.7c0,8.9-7.2,16.1-16.1,16.1h-44.1c-8.9,0-16.1-7.2-16.1-16.1
 	v-91.7C222.7,155.3,229.9,148.1,238.8,148.1z"/>
 <circle class="st0" cx="261" cy="264.2" r="4.7"/>
-<rect x="227.4" y="161.8" class="st5" width="66.6" height="93.7"/>
+<rect x="227.4" y="161.8" class="st26" width="66.6" height="93.7"/>
 <text transform="matrix(1 0 0 1 231.22 171.25)" class="st1 st2 st6">How do </text>
 <text transform="matrix(1 0 0 1 262.1 171.25)" class="st1 st2 st6">y</text>
 <text transform="matrix(1 0 0 1 266.69 171.25)" class="st1 st2 st6">ou </text>
 <text transform="matrix(1 0 0 1 231.22 179.25)" class="st1 st2 st6">visuali</text>
 <text transform="matrix(1 0 0 1 254.63 179.25)" class="st1 st2 st6">z</text>
 <text transform="matrix(1 0 0 1 258.4 179.25)" class="st1 st2 st6">e music?</text>
-<path class="st8" d="M233.8,234.8h13.9c1.3,0,2.4,1.1,2.4,2.4v0c0,1.3-1.1,2.4-2.4,2.4h-13.9c-1.3,0-2.4-1.1-2.4-2.4v0
+<path class="st8" d="M233.8,234.8h13.9c1.3,0,2.4,1.1,2.4,2.4l0,0c0,1.3-1.1,2.4-2.4,2.4h-13.9c-1.3,0-2.4-1.1-2.4-2.4l0,0
 	C231.4,235.9,232.5,234.8,233.8,234.8z"/>
 <text transform="matrix(1 0 0 1 232.78 237.99)" class="st1 st9 st10">Choose Fi</text>
 <text transform="matrix(1 0 0 1 246.25 237.99)" class="st1 st9 st10">l</text>
@@ -320,34 +315,34 @@
 <rect x="258.8" y="235.1" class="st1" width="4.6" height="1"/>
 <rect x="258.8" y="236.7" class="st1" width="4.6" height="1"/>
 <rect x="258.8" y="238.4" class="st1" width="4.6" height="1"/>
-<text transform="matrix(1 0 0 1 318.72 245.73)" class="st1 st9 st28">CO</text>
-<text transform="matrix(1 0 0 1 328.65 245.73)" class="st1 st9 st28">L</text>
-<text transform="matrix(1 0 0 1 332.31 245.73)" class="st1 st9 st28">OR PICKER (d</text>
-<text transform="matrix(1 0 0 1 376.9 245.73)" class="st1 st9 st28">r</text>
-<text transform="matrix(1 0 0 1 379.44 245.73)" class="st1 st9 st28">op down </text>
-<text transform="matrix(1 0 0 1 318.72 253.73)" class="st1 st9 st28">menu for mobi</text>
-<text transform="matrix(1 0 0 1 366.44 253.73)" class="st1 st9 st28">l</text>
-<text transform="matrix(1 0 0 1 367.98 253.73)" class="st1 st9 st28">e viewport)</text>
-<polyline class="st29" points="306.4,238.5 306,229.8 314.6,230.2 "/>
-<line class="st29" x1="306.1" y1="229.9" x2="315.7" y2="239.5"/>
-<rect x="227.9" y="191.9" class="st30" width="65.6" height="27.7"/>
-<circle class="st31" cx="233.1" cy="200.4" r="2.9"/>
-<circle class="st32" cx="242.8" cy="200.4" r="2.9"/>
-<circle class="st33" cx="252" cy="200.4" r="2.9"/>
-<circle class="st34" cx="261.4" cy="200.4" r="2.9"/>
-<circle class="st35" cx="270.8" cy="200.4" r="2.9"/>
-<circle class="st36" cx="279.9" cy="200.4" r="2.9"/>
-<circle class="st37" cx="288.7" cy="200.4" r="2.9"/>
-<circle class="st38" cx="233.1" cy="210.4" r="2.9"/>
-<circle class="st39" cx="242.8" cy="210.4" r="2.9"/>
-<circle class="st40" cx="252" cy="210.4" r="2.9"/>
-<circle class="st41" cx="261.4" cy="210.4" r="2.9"/>
-<circle class="st42" cx="270.8" cy="210.4" r="2.9"/>
-<circle class="st43" cx="279.9" cy="210.4" r="2.9"/>
-<circle class="st44" cx="288.7" cy="210.4" r="2.9"/>
-<path class="st45" d="M14.9,297.7H158c6.6,0,12,5.4,12,12v96.2c0,6.6-5.4,12-12,12H14.9c-6.6,0-12-5.4-12-12v-96.2
+<text transform="matrix(1 0 0 1 318.72 245.73)" class="st1 st9 st27">CO</text>
+<text transform="matrix(1 0 0 1 328.65 245.73)" class="st1 st9 st27">L</text>
+<text transform="matrix(1 0 0 1 332.31 245.73)" class="st1 st9 st27">OR PICKER (d</text>
+<text transform="matrix(1 0 0 1 376.9 245.73)" class="st1 st9 st27">r</text>
+<text transform="matrix(1 0 0 1 379.44 245.73)" class="st1 st9 st27">op down </text>
+<text transform="matrix(1 0 0 1 318.72 253.73)" class="st1 st9 st27">menu for mobi</text>
+<text transform="matrix(1 0 0 1 366.44 253.73)" class="st1 st9 st27">l</text>
+<text transform="matrix(1 0 0 1 367.98 253.73)" class="st1 st9 st27">e viewport)</text>
+<polyline class="st28" points="306.4,238.5 306,229.8 314.6,230.2 "/>
+<line class="st28" x1="306.1" y1="229.9" x2="315.7" y2="239.5"/>
+<rect x="227.9" y="187.5" class="st29" width="65.6" height="32.1"/>
+<circle class="st30" cx="233.1" cy="200.4" r="2.9"/>
+<circle class="st31" cx="242.8" cy="200.4" r="2.9"/>
+<circle class="st32" cx="252" cy="200.4" r="2.9"/>
+<circle class="st33" cx="261.4" cy="200.4" r="2.9"/>
+<circle class="st34" cx="270.8" cy="200.4" r="2.9"/>
+<circle class="st35" cx="279.9" cy="200.4" r="2.9"/>
+<circle class="st36" cx="288.7" cy="200.4" r="2.9"/>
+<circle class="st37" cx="233.1" cy="210.4" r="2.9"/>
+<circle class="st38" cx="242.8" cy="210.4" r="2.9"/>
+<circle class="st39" cx="252" cy="210.4" r="2.9"/>
+<circle class="st40" cx="261.4" cy="210.4" r="2.9"/>
+<circle class="st41" cx="270.8" cy="210.4" r="2.9"/>
+<circle class="st42" cx="279.9" cy="210.4" r="2.9"/>
+<circle class="st43" cx="288.7" cy="210.4" r="2.9"/>
+<path class="st44" d="M14.9,297.7H158c6.6,0,12,5.4,12,12v96.2c0,6.6-5.4,12-12,12H14.9c-6.6,0-12-5.4-12-12v-96.2
 	C2.9,303,8.2,297.7,14.9,297.7z"/>
-<rect x="7.6" y="310.1" class="st45" width="156.8" height="97.5"/>
+<rect x="7.6" y="310.1" class="st44" width="156.8" height="97.5"/>
 <rect x="12.1" y="364.8" class="st7" width="1.6" height="13.2"/>
 <rect x="15.2" y="358.4" class="st7" width="1.6" height="19.6"/>
 <rect x="18.5" y="354.7" class="st7" width="1.6" height="23.3"/>
@@ -398,10 +393,10 @@
 <rect x="158.5" y="373.8" class="st7" width="1.6" height="4.2"/>
 <path class="st8" d="M21.2,389.8h15.3c1.3,0,2.4,1.1,2.4,2.4v0.4c0,1.3-1.1,2.4-2.4,2.4H21.2c-1.3,0-2.4-1.1-2.4-2.4v-0.4
 	C18.8,390.9,19.9,389.8,21.2,389.8z"/>
-<text transform="matrix(1 0 0 1 20.26 393.2)" class="st1 st9 st46">Choose Fi</text>
-<text transform="matrix(1 0 0 1 34.74 393.2)" class="st1 st9 st46">l</text>
-<text transform="matrix(1 0 0 1 35.45 393.2)" class="st1 st9 st46">e</text>
-<text transform="matrix(1 0 0 1 43.14 392.86)" class="st1 st9 st47">Loading...</text>
+<text transform="matrix(1 0 0 1 20.26 393.2)" class="st1 st9 st45">Choose Fi</text>
+<text transform="matrix(1 0 0 1 34.74 393.2)" class="st1 st9 st45">l</text>
+<text transform="matrix(1 0 0 1 35.45 393.2)" class="st1 st9 st45">e</text>
+<text transform="matrix(1 0 0 1 43.14 392.86)" class="st1 st9 st46">Loading...</text>
 <circle class="st11" cx="72.9" cy="392.4" r="3.7"/>
 <rect x="71.1" y="390.6" class="st1" width="1.3" height="3.7"/>
 <rect x="73.6" y="390.6" class="st1" width="1.3" height="3.7"/>
@@ -412,19 +407,19 @@
 	C81.5,391.7,82,391.1,82.7,391.1z"/>
 <line class="st13" x1="83.9" y1="392.6" x2="85.8" y2="392.6"/>
 <line class="st13" x1="84.8" y1="393.6" x2="84.8" y2="391.7"/>
-<circle class="st48" cx="50.4" cy="383.5" r="1.8"/>
-<circle class="st49" cx="56.4" cy="383.5" r="1.8"/>
-<circle class="st50" cx="62.1" cy="383.5" r="1.8"/>
-<circle class="st51" cx="68" cy="383.5" r="1.8"/>
-<circle class="st52" cx="73.9" cy="383.5" r="1.8"/>
-<circle class="st53" cx="79.7" cy="383.5" r="1.8"/>
-<circle class="st54" cx="85.5" cy="383.5" r="1.8"/>
-<circle class="st55" cx="91.4" cy="383.5" r="1.8"/>
-<circle class="st56" cx="97.2" cy="383.5" r="1.8"/>
-<circle class="st57" cx="103.3" cy="383.5" r="1.8"/>
-<circle class="st56" cx="109.2" cy="383.5" r="1.8"/>
-<circle class="st58" cx="115" cy="383.5" r="1.8"/>
-<circle class="st59" cx="120.9" cy="383.5" r="1.8"/>
+<circle class="st47" cx="50.4" cy="383.5" r="1.8"/>
+<circle class="st48" cx="56.4" cy="383.5" r="1.8"/>
+<circle class="st49" cx="62.1" cy="383.5" r="1.8"/>
+<circle class="st50" cx="68" cy="383.5" r="1.8"/>
+<circle class="st51" cx="73.9" cy="383.5" r="1.8"/>
+<circle class="st52" cx="79.7" cy="383.5" r="1.8"/>
+<circle class="st53" cx="85.5" cy="383.5" r="1.8"/>
+<circle class="st54" cx="91.4" cy="383.5" r="1.8"/>
+<circle class="st55" cx="97.2" cy="383.5" r="1.8"/>
+<circle class="st56" cx="103.3" cy="383.5" r="1.8"/>
+<circle class="st55" cx="109.2" cy="383.5" r="1.8"/>
+<circle class="st57" cx="115" cy="383.5" r="1.8"/>
+<circle class="st58" cx="120.9" cy="383.5" r="1.8"/>
 <text transform="matrix(1 0 0 1 29.15 333.47)" class="st1 st2 st6">How do </text>
 <text transform="matrix(1 0 0 1 60.03 333.47)" class="st1 st2 st6">y</text>
 <text transform="matrix(1 0 0 1 64.62 333.47)" class="st1 st2 st6">ou visuali</text>
@@ -432,66 +427,84 @@
 <text transform="matrix(1 0 0 1 103.51 333.47)" class="st1 st2 st6">e music?</text>
 <path class="st1" d="M233,229.3h5.1c0.6,0,1,0.5,1,1v0.9c0,0.6-0.5,1-1,1H233c-0.6,0-1-0.5-1-1v-0.9
 	C232,229.8,232.4,229.3,233,229.3z"/>
-<text transform="matrix(1 0 0 1 233 231.41)" class="st60 st2 st61">BARS</text>
+<text transform="matrix(1 0 0 1 233 231.41)" class="st59 st2 st60">BARS</text>
 <path class="st1" d="M251.1,229.3h5.4c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.4c-0.7,0-1.2-0.5-1.2-1.2v-0.6
 	C249.9,229.8,250.4,229.3,251.1,229.3z"/>
-<text transform="matrix(1 0 0 1 250.52 231.28)" class="st60 st2 st61">RADIAL</text>
+<text transform="matrix(1 0 0 1 250.52 231.28)" class="st59 st2 st60">RADIAL</text>
 <path class="st1" d="M241.7,229.3h5.6c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.6c-0.7,0-1.2-0.5-1.2-1.2v-0.6
 	C240.5,229.8,241.1,229.3,241.7,229.3z"/>
-<text transform="matrix(1 0 0 1 241.33 231.35)" class="st60 st2 st61">W</text>
-<text transform="matrix(1 0 0 1 243.1 231.35)" class="st60 st2 st61">A</text>
-<text transform="matrix(1 0 0 1 244.15 231.35)" class="st60 st2 st61">VES</text>
+<text transform="matrix(1 0 0 1 241.33 231.35)" class="st59 st2 st60">W</text>
+<text transform="matrix(1 0 0 1 243.1 231.35)" class="st59 st2 st60">A</text>
+<text transform="matrix(1 0 0 1 244.15 231.35)" class="st59 st2 st60">VES</text>
 <path class="st1" d="M121.2,391h7.3c0.6,0,1,0.5,1,1v1.8c0,0.6-0.5,1-1,1h-7.3c-0.6,0-1-0.5-1-1V392
 	C120.2,391.4,120.6,391,121.2,391z"/>
-<text transform="matrix(1 0 0 1 121.51 393.72)" class="st60 st2 st62">BARS</text>
-<path class="st1" d="M144.9,390.9h7.9c0.7,0,1.2,0.5,1.2,1.2v1.5c0,0.7-0.5,1.2-1.2,1.2h-7.9c-0.7,0-1.2-0.5-1.2-1.2v-1.5
+<text transform="matrix(1 0 0 1 121.51 393.72)" class="st59 st2 st61">BARS</text>
+<path class="st62" d="M144.9,390.9h7.9c0.7,0,1.2,0.5,1.2,1.2v1.5c0,0.7-0.5,1.2-1.2,1.2h-7.9c-0.7,0-1.2-0.5-1.2-1.2v-1.5
 	C143.7,391.5,144.2,390.9,144.9,390.9z"/>
-<text transform="matrix(1 0 0 1 144.5 393.55)" class="st60 st2 st62">RADIAL</text>
-<path class="st1" d="M132.6,391h8.1c0.7,0,1.2,0.5,1.2,1.2v1.6c0,0.7-0.5,1.2-1.2,1.2h-8.1c-0.7,0-1.2-0.5-1.2-1.2v-1.6
+<text transform="matrix(1 0 0 1 144.5 393.55)" class="st59 st2 st61">RADIAL</text>
+<path class="st62" d="M132.6,391h8.1c0.7,0,1.2,0.5,1.2,1.2v1.6c0,0.7-0.5,1.2-1.2,1.2h-8.1c-0.7,0-1.2-0.5-1.2-1.2v-1.6
 	C131.4,391.5,131.9,391,132.6,391z"/>
-<text transform="matrix(1 0 0 1 132.44 393.64)" class="st60 st2 st62">W</text>
-<text transform="matrix(1 0 0 1 134.77 393.64)" class="st60 st2 st62">A</text>
-<text transform="matrix(1 0 0 1 136.14 393.64)" class="st60 st2 st62">VES</text>
-<path class="st1" d="M117.9,229.3h5.1c0.6,0,1,0.5,1,1v0.9c0,0.6-0.5,1-1,1h-5.1c-0.6,0-1-0.5-1-1v-0.9
+<text transform="matrix(1 0 0 1 132.44 393.64)" class="st59 st2 st61">W</text>
+<text transform="matrix(1 0 0 1 134.77 393.64)" class="st59 st2 st61">A</text>
+<text transform="matrix(1 0 0 1 136.14 393.64)" class="st59 st2 st61">VES</text>
+<path class="st62" d="M117.9,229.3h5.1c0.6,0,1,0.5,1,1v0.9c0,0.6-0.5,1-1,1h-5.1c-0.6,0-1-0.5-1-1v-0.9
 	C116.9,229.8,117.3,229.3,117.9,229.3z"/>
-<text transform="matrix(1 0 0 1 117.91 231.41)" class="st60 st2 st61">BARS</text>
-<path class="st1" d="M136,229.3h5.5c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2H136c-0.7,0-1.2-0.5-1.2-1.2v-0.6
+<text transform="matrix(1 0 0 1 117.91 231.41)" class="st59 st2 st60">BARS</text>
+<path class="st62" d="M136,229.3h5.5c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2H136c-0.7,0-1.2-0.5-1.2-1.2v-0.6
 	C134.8,229.8,135.3,229.3,136,229.3z"/>
-<text transform="matrix(1 0 0 1 135.43 231.28)" class="st60 st2 st61">RADIAL</text>
+<text transform="matrix(1 0 0 1 135.43 231.28)" class="st59 st2 st60">RADIAL</text>
 <path class="st1" d="M126.6,229.3h5.6c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.6c-0.7,0-1.2-0.5-1.2-1.2v-0.6
 	C125.4,229.8,126,229.3,126.6,229.3z"/>
-<text transform="matrix(1 0 0 1 126.24 231.35)" class="st60 st2 st61">W</text>
-<text transform="matrix(1 0 0 1 128.01 231.35)" class="st60 st2 st61">A</text>
-<text transform="matrix(1 0 0 1 129.06 231.35)" class="st60 st2 st61">VES</text>
-<path class="st1" d="M12.1,229.3h5.1c0.6,0,1,0.5,1,1v0.9c0,0.6-0.5,1-1,1h-5.1c-0.6,0-1-0.5-1-1v-0.9
+<text transform="matrix(1 0 0 1 126.24 231.35)" class="st59 st2 st60">W</text>
+<text transform="matrix(1 0 0 1 128.01 231.35)" class="st59 st2 st60">A</text>
+<text transform="matrix(1 0 0 1 129.06 231.35)" class="st59 st2 st60">VES</text>
+<path class="st62" d="M12.1,229.3h5.1c0.6,0,1,0.5,1,1v0.9c0,0.6-0.5,1-1,1h-5.1c-0.6,0-1-0.5-1-1v-0.9
 	C11.1,229.8,11.6,229.3,12.1,229.3z"/>
-<text transform="matrix(1 0 0 1 12.14 231.41)" class="st60 st2 st61">BARS</text>
+<text transform="matrix(1 0 0 1 12.14 231.41)" class="st59 st2 st60">BARS</text>
 <path class="st1" d="M30.2,229.3h5.4c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.4c-0.7,0-1.2-0.5-1.2-1.2v-0.6
 	C29,229.8,29.6,229.3,30.2,229.3z"/>
-<text transform="matrix(1 0 0 1 29.66 231.28)" class="st60 st2 st61">RADIAL</text>
-<path class="st1" d="M20.9,229.3h5.6c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.6c-0.7,0-1.2-0.5-1.2-1.2v-0.6
+<text transform="matrix(1 0 0 1 29.66 231.28)" class="st59 st2 st60">RADIAL</text>
+<path class="st62" d="M20.9,229.3h5.6c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.6c-0.7,0-1.2-0.5-1.2-1.2v-0.6
 	C19.7,229.8,20.2,229.3,20.9,229.3z"/>
-<text transform="matrix(1 0 0 1 20.47 231.35)" class="st60 st2 st61">W</text>
-<text transform="matrix(1 0 0 1 22.24 231.35)" class="st60 st2 st61">A</text>
-<text transform="matrix(1 0 0 1 23.29 231.35)" class="st60 st2 st61">VES</text>
+<text transform="matrix(1 0 0 1 20.47 231.35)" class="st59 st2 st60">W</text>
+<text transform="matrix(1 0 0 1 22.24 231.35)" class="st59 st2 st60">A</text>
+<text transform="matrix(1 0 0 1 23.29 231.35)" class="st59 st2 st60">VES</text>
 <path class="st1" d="M342.5,84.8h5.1c0.6,0,1,0.5,1,1v0.9c0,0.6-0.5,1-1,1h-5.1c-0.6,0-1-0.5-1-1v-0.9
 	C341.5,85.2,341.9,84.8,342.5,84.8z"/>
-<text transform="matrix(1 0 0 1 342.53 86.87)" class="st60 st2 st61">BARS</text>
-<path class="st1" d="M360.6,84.8h5.4c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.4c-0.7,0-1.2-0.5-1.2-1.2v-0.6
+<text transform="matrix(1 0 0 1 342.53 86.87)" class="st59 st2 st60">BARS</text>
+<path class="st62" d="M360.6,84.8h5.4c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.4c-0.7,0-1.2-0.5-1.2-1.2V86
 	C359.4,85.3,360,84.8,360.6,84.8z"/>
-<text transform="matrix(1 0 0 1 360.05 86.74)" class="st60 st2 st61">RADIAL</text>
-<path class="st1" d="M351.2,84.8h5.6c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.6c-0.7,0-1.2-0.5-1.2-1.2V86
+<text transform="matrix(1 0 0 1 360.05 86.74)" class="st59 st2 st60">RADIAL</text>
+<path class="st62" d="M351.2,84.8h5.6c0.7,0,1.2,0.5,1.2,1.2v0.6c0,0.7-0.5,1.2-1.2,1.2h-5.6c-0.7,0-1.2-0.5-1.2-1.2V86
 	C350,85.3,350.6,84.8,351.2,84.8z"/>
-<text transform="matrix(1 0 0 1 350.86 86.81)" class="st60 st2 st61">W</text>
-<text transform="matrix(1 0 0 1 352.63 86.81)" class="st60 st2 st61">A</text>
-<text transform="matrix(1 0 0 1 353.68 86.81)" class="st60 st2 st61">VES</text>
-<text transform="matrix(1 0 0 1 186.74 385.14)" class="st1 st9 st28">D</text>
-<text transform="matrix(1 0 0 1 191.83 385.14)" class="st1 st9 st28">esk</text>
-<text transform="matrix(1 0 0 1 202.75 385.14)" class="st1 st9 st28">t</text>
-<text transform="matrix(1 0 0 1 205.09 385.14)" class="st1 st9 st28">op Viewport</text>
-<polyline class="st29" points="174.4,377.9 174,369.2 182.6,369.7 "/>
-<line class="st29" x1="174.1" y1="369.3" x2="183.7" y2="378.9"/>
-<line class="st21" x1="174.7" y1="104.5" x2="168.2" y2="104.5"/>
-<polyline class="st21" points="66.2,101.7 69.3,104.6 66.2,107.3 "/>
-<line class="st21" x1="69.2" y1="104.5" x2="62.7" y2="104.5"/>
+<text transform="matrix(1 0 0 1 350.86 86.81)" class="st59 st2 st60">W</text>
+<text transform="matrix(1 0 0 1 352.63 86.81)" class="st59 st2 st60">A</text>
+<text transform="matrix(1 0 0 1 353.68 86.81)" class="st59 st2 st60">VES</text>
+<text transform="matrix(1 0 0 1 186.74 385.14)" class="st1 st9 st27">D</text>
+<text transform="matrix(1 0 0 1 191.83 385.14)" class="st1 st9 st27">esk</text>
+<text transform="matrix(1 0 0 1 202.75 385.14)" class="st1 st9 st27">t</text>
+<text transform="matrix(1 0 0 1 205.09 385.14)" class="st1 st9 st27">op Viewport</text>
+<polyline class="st28" points="174.4,377.9 174,369.2 182.6,369.7 "/>
+<line class="st28" x1="174.1" y1="369.3" x2="183.7" y2="378.9"/>
+<g>
+	<rect x="230.2" y="57.3" class="st63" width="57.6" height="20.1"/>
+	<text transform="matrix(1 0 0 1 230.1875 64.7163)" class="st21 st2 st3">Instructions</text>
+</g>
+<g>
+	<polyline class="st64" points="62.4,98.5 65.5,101.4 62.4,104.1 	"/>
+	<line class="st64" x1="65.4" y1="101.3" x2="58.9" y2="101.3"/>
+	<circle class="st65" cx="62.3" cy="101.4" r="5.7"/>
+</g>
+<g>
+	<polyline class="st64" points="169.2,98.5 172.3,101.4 169.2,104.1 	"/>
+	<line class="st64" x1="172.2" y1="101.3" x2="165.7" y2="101.3"/>
+	<circle class="st65" cx="169.1" cy="101.4" r="5.7"/>
+</g>
+<g>
+	<polyline class="st64" points="283.4,98.5 286.5,101.4 283.4,104.1 	"/>
+	<line class="st64" x1="286.4" y1="101.3" x2="279.9" y2="101.3"/>
+	<circle class="st65" cx="283.3" cy="101.4" r="5.7"/>
+</g>
+<rect x="230.3" y="189.5" class="st63" width="23.8" height="3.9"/>
+<text transform="matrix(1 0 0 1 230.3027 191.7334)" class="st2 st10">COLOR PICKER</text>
 </svg>
