@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 647.9 759.5" style="enable-background:new 0 0 647.9 759.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F1604E;stroke:#F1604E;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Helvetica-Bold';}
+	.st3{font-size:26px;}
+	.st4{fill:none;stroke:#F1604E;stroke-width:7;stroke-miterlimit:10;}
+	.st5{fill:#231F20;}
+	.st6{font-family:'Helvetica';}
+	.st7{font-size:10px;}
+	.st8{font-size:18px;}
+	.st9{font-size:14px;}
+</style>
+<title>Artboard 1</title>
+<rect x="5.2" y="155.8" class="st0" width="87.1" height="80"/>
+<text transform="matrix(1 0 0 1 16.94 188.29)" class="st1 st2 st3">main </text>
+<text transform="matrix(1 0 0 1 16.94 212.29)" class="st1 st2 st3">page</text>
+<line class="st4" x1="231.2" y1="105.2" x2="151.9" y2="105.2"/>
+<rect x="503.5" y="54.6" class="st0" width="102.9" height="80"/>
+<text transform="matrix(1 0 0 1 520.1 100.43)" class="st1 st2 st3">about</text>
+<rect x="254.3" y="55.6" class="st0" width="125.2" height="80"/>
+<text transform="matrix(1 0 0 1 262.49 101.42)" class="st1 st2 st3">research</text>
+<rect x="504" y="373.1" class="st0" width="103.6" height="83.9"/>
+<text transform="matrix(1 0 0 1 519.23 410.09)" class="st1 st2 st3">music </text>
+<text transform="matrix(1 0 0 1 519.23 434.09)" class="st1 st2 st3">player</text>
+<text transform="matrix(1 0 0 1 503.67 148.03)" class="st5 st6 st7">Users wil read basic </text>
+<text transform="matrix(1 0 0 1 503.67 160.03)" class="st5 st6 st7">instructions as well as get a </text>
+<text transform="matrix(1 0 0 1 503.67 172.03)" class="st5 st6 st7">simple overview of the </text>
+<text transform="matrix(1 0 0 1 503.67 184.03)" class="st5 st6 st7">interface and its functions.</text>
+<text transform="matrix(1 0 0 1 253 155.43)" class="st5 st6 st7">Users can read about the </text>
+<text transform="matrix(1 0 0 1 253 167.43)" class="st5 st6 st7">background of this project </text>
+<text transform="matrix(1 0 0 1 253 179.43)" class="st5 st6 st7">and why it is significant.</text>
+<line class="st4" x1="119.8" y1="419.8" x2="490.2" y2="419.8"/>
+<text transform="matrix(1 0 0 1 248.24 314.52)" class="st5 st6 st7">Users have 14-15 </text>
+<text transform="matrix(1 0 0 1 248.24 326.52)" class="st5 st6 st7">color options (for the </text>
+<text transform="matrix(1 0 0 1 248.24 338.52)" class="st5 st6 st7">audiovisualizer).</text>
+<polyline class="st4" points="212.5,89.6 234.5,105.2 212.6,121.5 "/>
+<line class="st4" x1="483" y1="106.1" x2="403.9" y2="106.1"/>
+<polyline class="st4" points="464.3,90.5 486.3,106.2 464.4,122.4 "/>
+<line class="st4" x1="556.6" y1="354.8" x2="556.6" y2="196.4"/>
+<polyline class="st4" points="572.1,336.1 556.5,358.1 540.2,336.2 "/>
+<line class="st4" x1="102.3" y1="192.5" x2="155.4" y2="192.5"/>
+<line class="st4" x1="155.4" y1="106.4" x2="155.4" y2="196.1"/>
+<line class="st4" x1="231.2" y1="105.2" x2="151.9" y2="105.2"/>
+<polyline class="st4" points="212.5,89.6 234.5,105.2 212.6,121.5 "/>
+<text transform="matrix(1 0 0 1 504.01 473.43)" class="st5 st6 st7">Users can navigate through </text>
+<text transform="matrix(1 0 0 1 504.01 485.43)" class="st5 st6 st7">di</text>
+<text transform="matrix(1 0 0 1 511.79 485.43)" class="st5 st6 st7">f</text>
+<text transform="matrix(1 0 0 1 514.4 485.43)" class="st5 st6 st7">ferent menus and options </text>
+<text transform="matrix(1 0 0 1 504.01 497.43)" class="st5 st6 st7">depending on how they </text>
+<text transform="matrix(1 0 0 1 504.01 509.43)" class="st5 st6 st7">want their audio visualizer </text>
+<text transform="matrix(1 0 0 1 504.01 521.43)" class="st5 st6 st7">to look.</text>
+<text transform="matrix(1 0 0 1 536.25 521.43)" class="st5 st6 st7"> A</text>
+<text transform="matrix(1 0 0 1 544.61 521.43)" class="st5 st6 st7"> default track and </text>
+<text transform="matrix(1 0 0 1 504.01 533.43)" class="st5 st6 st7">audio visualizer type/color </text>
+<text transform="matrix(1 0 0 1 504.01 545.43)" class="st5 st6 st7">will be playing on load.</text>
+<line class="st4" x1="369.8" y1="266.7" x2="369.8" y2="581.9"/>
+<line class="st4" x1="315.7" y1="269.9" x2="373.3" y2="269.9"/>
+<line class="st4" x1="316.4" y1="582.4" x2="373.3" y2="582.4"/>
+<rect x="249.9" y="242.6" class="st0" width="68.6" height="57"/>
+<text transform="matrix(1 0 0 1 260.36 266.38)" class="st1 st2 st8">color</text>
+<text transform="matrix(1 0 0 1 260.36 285.38)" class="st1 st2 st8">menu</text>
+<rect x="204.9" y="391.7" class="st0" width="85.6" height="57"/>
+<text transform="matrix(1 0 0 1 212.49 415.49)" class="st1 st2 st8">audio </text>
+<text transform="matrix(1 0 0 1 212.49 434.49)" class="st1 st2 st8">controls</text>
+<rect x="172.7" y="561.8" class="st0" width="145.8" height="39.8"/>
+<text transform="matrix(1 0 0 1 179.12 586.64)" class="st1 st2 st8">audiovisualizer</text>
+<line class="st4" x1="154.8" y1="348" x2="154.8" y2="491.7"/>
+<line class="st4" x1="158.3" y1="348.3" x2="108.3" y2="348.3"/>
+<line class="st4" x1="158.3" y1="491.5" x2="108.3" y2="491.5"/>
+<rect x="45.3" y="325.8" class="st0" width="62.9" height="46.3"/>
+<text transform="matrix(1 0 0 1 52.9 344.44)" class="st1 st2 st9">volume </text>
+<text transform="matrix(1 0 0 1 52.9 359.44)" class="st1 st2 st9">(+/-)</text>
+<rect x="23.6" y="477.4" class="st0" width="84.6" height="26.2"/>
+<text transform="matrix(1 0 0 1 29.48 494.69)" class="st1 st2 st9">play/pause</text>
+<rect x="45.5" y="400.5" class="st0" width="74.6" height="40.5"/>
+<text transform="matrix(1 0 0 1 53.14 417.77)" class="st1 st2 st9">Upload </text>
+<text transform="matrix(1 0 0 1 53.14 432.77)" class="st1 st2 st9">audio file</text>
+<line class="st4" x1="243.5" y1="591.9" x2="243.5" y2="722.7"/>
+<rect x="202" y="723.1" class="st0" width="84.6" height="26.2"/>
+<text transform="matrix(1 0 0 1 207.92 740.45)" class="st1 st2 st9">waveforms</text>
+<line class="st4" x1="119.8" y1="671.2" x2="373.1" y2="671.2"/>
+<line class="st4" x1="369.8" y1="667.9" x2="369.8" y2="725.2"/>
+<line class="st4" x1="123.1" y1="667.9" x2="123.1" y2="724.5"/>
+<rect x="83.3" y="723.1" class="st0" width="84.6" height="26.2"/>
+<text transform="matrix(1 0 0 1 88.17 740.45)" class="st1 st2 st9">sound bars</text>
+<rect x="328.4" y="723.1" class="st0" width="127.5" height="26.2"/>
+<text transform="matrix(1 0 0 1 334.31 740.45)" class="st1 st2 st9">radial waveforms</text>
+</svg>
