@@ -151,6 +151,13 @@ p {
   margin-left:27.5%;
   margin-right: 27.5%;
 }
+
+#prototype {
+  transform: rotate(90deg);
+  width: 70%;
+  margin-left: 13%;
+  margin-right: 17%;
+}
 /* end img styles */
 
 ul {
