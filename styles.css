@@ -83,11 +83,9 @@ footer {
   text-align: center;
   color: #313537;
   clear:left;
-  position: fixed;
   bottom:0;
   width: 100%;
   margin-bottom: 25px;
-  margin-top: 25px;
 }
 
 .wrapper {
