@@ -5,7 +5,7 @@ var colorMenu = document.getElementById('colors');
 dropDown.addEventListener ('click', function() {
 
 
-colors.className = "fade";
-colors.style.opacity = '1';
+colorMenu.className = "fade";
+colorMenu.style.opacity = '1';
 
 });
