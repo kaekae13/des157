@@ -76,6 +76,21 @@ section {
   display: inline-block;
 }
 
+#dropDown {
+  margin-left: 1%;
+background-color: black
+  border: 2px black solid;
+}
+
+#dropDown p {
+  font-size: 0.25em;
+  padding: 0.25%;
+
+
+border: 2px black solid;
+
+}
+
 #audioFile {
   width: 200px;
   border: 1px black;
