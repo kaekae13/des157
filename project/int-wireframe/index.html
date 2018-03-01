@@ -6,71 +6,40 @@
         <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
         <link rel= "stylesheet" href="styles.css">
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js'></script>
     </head>
 
   <body>
     <header>
-        <h1>How do you visualize music?</h1>
+        <h1 id='title'>How do you<br>visualize music?</h1>
     </header>
 
-    <section>
-        <div id = 'musicPlayer'>
-          <div id='barContainer'></div>
-          <div id='waveContainer'></div>
-        </div>
+    <section class='hide' id= 'about'>
+      <h1 id='title1'>About...</h1>
+      <p id= "content">Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. These findings bring forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions in a way that brings forth visual creativity and accesses personal music preferences.</p>
+      <img class = 'back' id='goBack1' src='images/btn-nxt.svg'>
+      <img class = 'next' id='nxtPage1' src='images/btn-nxt.svg'>
+    </section>
 
-        <div id='btnMenu'>
+    <section class='hide' id='instructions'>
+      <h1 id="title2">Instructions</h1>
+      <ol id ='steps'>
+        <li>Upload your audiofile (mp3).</li>
+        <li>Select one of the three choices for the type of audiovisualizer that will be displayed</li>
+        <li>Tap the drop-down menu (located between the audio upload button and the audio control buttons) to display the color picker menu.<br>*To make the menu disappear, just tap the menu again!*</li>
+      </ol>
 
-          <div id='chooseAudio'>
-            <input id='audioFile' type = 'file'/>
-            <h3 class='loader'>Loading...</h3>
-          </div>
-
-          <div id='controlBtn'>
-              <div id='playPause'>
-                  <button id="play" class= "hide">&#9658;</button>
-                  <button id="pause">&#9612;&#9612;</button>
-              </div>
-
-              <div id='volume'>
-                  <button id="increase">&#43;</button>
-                  <button id="decrease">&minus;</button>
-              </div>
-          </div>
-
-          <div id='visualizers'>
-            <button id='bar'>BARS</button>
-            <button id='wave'>SOUNDWAVES</button>
-            <button id='radial'>RADIAL</button>
-          </div>
-        </div>
+      <img class = 'back' id='goBack2' src='images/btn-nxt.svg'>
+      <a href="musicPlayer/player.html"><img class = 'next' id='nxtPage2' src='images/btn-nxt.svg'></a>
 
 
-           <menu id= 'colorMenu'>
-             <div class='colorPicker'>
-                <button class='colorbtn1' id='color1'></button>
-                <button class='colorbtn2' id='color2'></button>
-                <button class='colorbtn3' id='color3'></button>
-                <button class='colorbtn4' id='color4'></button>
-                <button class='colorbtn5' id='color5'></button>
-                <button class='colorbtn6' id='color6'></button>
-                <button class='colorbtn7' id='color7'></button>
-                <button class='colorbtn8' id='color8'></button>
-                <button class='colorbtn9' id='color9'></button>
-                <button class='colorbtn10' id='color10'></button>
-                <button class='colorbtn11' id='color11'></button>
-                <button class='colorbtn12' id='color12'></button>
-                <button class='colorbtn13' id='color13'></button>
-                <button class='colorbtn14' id='color14'></button>
-             </div>
-           </menu>
+    </section>
 
 
-      </section>
-    <script src = "script.js"></script>
+  <img class = 'next' id='nxtPage' src='images/btn-nxt.svg'>
+
+  <script src="script.js"></script>
   </body>
 
   </html>

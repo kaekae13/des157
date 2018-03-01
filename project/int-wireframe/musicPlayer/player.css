@@ -1,0 +1,208 @@
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+  color: #353535;
+  font-size: 2.5em;
+  margin-top: 8%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  z-index: 1;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 0.75em;
+  color: #353535;
+}
+
+
+
+#musicPlayer {
+  height: 300px;
+  width: 100%;
+background-color: lightGrey;
+
+  margin-top:3%;
+  margin-bottom: 3%;
+}
+
+
+
+#barContainer p {
+font-size: 1.5em;
+  text-align: center;
+  padding-top: 12%;
+}
+
+section {
+  margin-bottom: 2%;
+}
+/* basic buttons and choices */
+#btnMenu {
+  padding-top: 2%;
+  text-align: center;
+  width: 100%;
+}
+
+#btnMenu, #chooseAudio, #visualizers, #dropDown {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* #dropDown {
+  background-color:
+} */
+#dropBar {
+  width: 0.5em;
+  height: 0.03em;
+  color: black;
+  padding: 0.25%;
+}
+
+#chooseAudio input {
+  font-size: 0.75em;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#controlBtn {
+  display: inline-block;
+  width: 245px;
+}
+
+#audioFile, .loader {
+  display: inline-block;
+}
+
+#audioFile {
+  width: 200px;
+  border: 1px black;
+  color: #353535;
+}
+
+#controlBtn button {
+  background-color: white;
+}
+
+#playPause {
+  margin-right: 1.5%;
+}
+
+#playPause, #volume {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#pause {
+  width: 32px;
+  height: 32px;
+  border-radius: 21px;
+  font-size: 0.5em;
+  z-index: -1;
+}
+
+#increase, #decrease {
+  display: inline-block;
+  border-radius: 10px;
+  color: #353535;
+}
+
+ .hide {
+   display: none;
+ }
+
+ .btnShow {
+   width: 32px;
+   height: 32px;
+   border-radius: 21px;
+   font-size: 0.5em;
+   margin-right: 1%;
+   z-index: 1;
+   background-color: white;
+ }
+
+#visualizers button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #353535;
+  border-radius: 15px;
+  background-color: white;
+}
+
+ /* color picker buttons */
+
+#colors {
+  margin-top: 30%;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+
+  padding-top: 5%;
+  padding-bottom:5%;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 15px;
+  border: 3px darkGrey solid;
+
+}
+
+#colors button {
+  margin-left:2%;
+  margin-right: 2%;
+  border-style: none;
+  width:30px;
+  height: 30px;
+  border-radius: 21px;
+  border: 0.5px darkGrey solid;
+}
+
+ #color1 {
+   background-color: white;
+
+ }
+
+ #color2 {
+   background-color: lightGrey;
+ }
+
+ #color3 {
+   background-color: grey;
+ }
+
+ #color4 {
+   background-color: darkGrey;
+ }
+
+ #color5 {
+   background-color: black;
+ }
+
+
+
+
+ /* end color button styles */
+
+ /* overlay for color menu */
+
+ .fade {
+   animation-name: displayFade;
+   animation-duration:1s;
+ }
+
+ @keyframes displayFade {
+   0%{opacity:0}
+   100%{opacity:1}
+ }
+
+ .disappear{
+   animation-name: displayDisappear;
+   animation-duration:1s;
+ }
+
+ @keyframes displayDisappear {
+   0%{opacity:1}
+   100%{opacity:0}
+ }

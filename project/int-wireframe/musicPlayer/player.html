@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Audiovisualizer</title>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel= "stylesheet" href="player.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js'></script>
+    </head>
+
+  <body id = 'body'>
+    <header>
+        <h1>How do you visualize music?</h1>
+    </header>
+
+    <section>
+        <div id = 'musicPlayer'>
+          <div id='barContainer'><p>[Audiovisualizer]</div>
+        </div>
+
+        <div id='btnMenu'>
+
+          <div id='chooseAudio'>
+            <input id='audioFile' type = 'file'/>
+            <h3 class='loader'>Loading...</h3>
+          </div>
+
+          <div id='dropDown'><p>Dropdown Color Menu</p>
+         </div>
+
+          <div id='controlBtn'>
+              <div id='playPause'>
+                  <button id="play" class= "hide">&#9658;</button>
+                  <button id="pause">&#9612;&#9612;</button>
+              </div>
+
+              <div id='volume'>
+                  <button id="increase">&#43;</button>
+                  <button id="decrease">&minus;</button>
+              </div>
+          </div>
+
+          <div id='visualizers'>
+            <button id='bar'>BARS</button>
+            <button id='wave'>SOUNDWAVES</button>
+            <button id='radial'>RADIAL</button>
+          </div>
+        </div>
+
+
+           <menu id= 'colorMenu'>
+
+
+             <div id='colors' class='hide'>
+                <button class='colorbtn1' id='color1'></button>
+                <button class='colorbtn2' id='color2'></button>
+                <button class='colorbtn3' id='color3'></button>
+                <button class='colorbtn4' id='color4'></button>
+                <button class='colorbtn5' id='color5'></button>
+             </div>
+           </menu>
+
+
+      </section>
+    <script src = "script2.js"></script>
+  </body>
+
+  </html>
