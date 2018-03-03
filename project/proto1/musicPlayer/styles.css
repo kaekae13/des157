@@ -185,3 +185,34 @@ section {
 
 
  /* end color button styles */
+
+ /* footer and linkes */
+
+ footer {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 0.75em;
+   text-align: center;
+   bottom:0;
+   width: 100%;
+   padding-bottom: 2%;
+ }
+
+ a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: lightBlue;
+}
+
+a:active {
+  color: gray;
+}
