@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+}
+
+body {
+background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+color: white;
+font-family: 'Quicksand', sans-serif;
+}
+
+/*#header, #nxtPage {
+  z-index: -1;
+} */
+h1 {
+  font-weight:bolder;
+  margin-left: 7%;
+  font-size: 5em;
+  margin-top:7%;
+}
+
+
+ol {
+  margin-top: 6%;
+  margin-left:7%;
+  list-style:decimal;
+  width: 50%;
+}
+
+li {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+p {
+  margin-left: 7%;
+  width: 50%;
+  line-height: 1.25em;
+  margin-top: 4%;
+}
+
+/* overlay */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  z-index: 1;
+  top: 0;
+  position: absolute;
+
+}
+
+.fade {
+  animation-name: displayFade;
+  animation-duration:1s;
+}
+
+@keyframes displayFade {
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
+.disappear{
+  animation-name: displayDisappear;
+  animation-duration:1s;
+}
+
+@keyframes displayDisappear {
+  0%{opacity:1}
+  100%{opacity:0}
+}
+
+#about, #instructions {
+  padding-top: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  width: 70%;
+}
+
+
+/* buttons */
+
+#nxtPage {
+  bottom: 0;
+  width: 8.5%;
+  padding-top:26%;
+  float: right;
+  padding-right: 5%;
+}
+
+
+#nxtPage1 {
+  display: inline-block;
+  bottom: 0;
+  width: 7%;
+  padding-top:26%;
+  margin-top: 5%;
+  float: right;
+  margin-right: 45%;
+
+}
+
+#goBack1, #goBack2 {
+  float: left;
+  margin-left: 5%;
+  padding-top:26%;
+  margin-top: 5%;
+  transform: rotate(180deg);
+  display: inline-block;
+  width: 7%;
+}
+
+
+ #nxtPage2 {
+
+   display: inline-block;
+   bottom: 0;
+   width: 7%;
+   padding-top: 5%;
+   float: right;
+   margin-right: 40%;
+
+ }
+
+
+#goBack1, #nxtPage1 {
+  padding-top: 0;
+  vertical-align: middle;
+}
+
+#goBack2, #nxtPage2 {
+  vertical-align: middle;
+}
