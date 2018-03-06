@@ -115,13 +115,9 @@ decrease.onclick = function(event) {
 
 
 // create separate function for sound bars
-function bars() {
-    var spectrum = fft.analyze();
-    stroke('white');
-    strokeWeight(6);
 
     // eventlisteners for color buttons
-
+function bars() {
     color1.addEventListener('click', function() {
       fill(colorChoices[0]);
     });
@@ -178,6 +174,11 @@ function bars() {
       fill(colorChoices[13]);
     });
 
+
+
+  stroke('white');
+  strokeWeight(6);
+var spectrum = fft.analyze();
     for (var i = 0; i< spectrum.length; i++) {
         var x = map(i, 0, spectrum.length, 0, width);
         var h = -height + map(spectrum[i], 0, 255, height, 0);
@@ -185,44 +186,91 @@ function bars() {
       }
   }
 
-
 function waves() {
-  var spectrum = fft.analyze();
-  noFill();
+  color1.addEventListener('click', function() {
+    stroke(colorChoices[0]);
+  });
+
+  color2.addEventListener('click', function() {
+    stroke(colorChoices[1]);
+  });
+
+  color3.addEventListener('click', function() {
+    stroke(colorChoices[2]);
+  });
+
+  color4.addEventListener('click', function() {
+    stroke(colorChoices[3]);
+  });
+
+  color5.addEventListener('click', function() {
+    stroke(colorChoices[4]);
+  });
+
+  color6.addEventListener('click', function() {
+    stroke(colorChoices[5]);
+  });
+
+  color7.addEventListener('click', function() {
+    stroke(colorChoices[6]);
+  });
+
+  color8.addEventListener('click', function() {
+    stroke(colorChoices[7]);
+  });
+
+  color9.addEventListener('click', function() {
+    stroke(colorChoices[8]);
+  });
+
+  color10.addEventListener('click', function() {
+    stroke(colorChoices[9]);
+  });
+
+  color11.addEventListener('click', function() {
+    stroke(colorChoices[10]);
+  });
+
+  color12.addEventListener('click', function() {
+    stroke(colorChoices[11]);
+  });
+
+  color13.addEventListener('click', function() {
+    stroke(colorChoices[12]);
+  });
+
+  color14.addEventListener('click', function() {
+    stroke(colorChoices[13]);
+  });
+
+  var spectrum=fft.analyze();
   beginShape();
-  stroke(colorChoices[3]);
-  strokeWeight(1);
-  for (var i = 0; i< spectrum.length; i++){
-    var x = map(i, 0, spectrum.length, 0, width);
-    var y = map( spectrum[i], -1, 1, 0, height);
-    vertex(x,y);
-  }
-  endShape();
+  smooth();
+  noFill();
+  strokeWeight(2);
+
+   for (var i = 0; i<spectrum.length; i++) {
+     var x = map(i, 0, spectrum.length, 0, width);
+     var h = map(spectrum[i], 0, 255, height-50, 0);
+     vertex(i+x, h);
+     clear();
+   }
+   endShape();
 }
 
 
 
-
-
-
-
-
-
 function draw() {
+
+
+  waves();
+
+bar.addEventListener('click', function() {
   bars();
 
-  bar.addEventListener('click', function() {
-    bars();
+})
 
-  });
 
-  wave.addEventListener('click', function() {
-    waves();
-  });
-
-  radial.addEventListener ('click', function() {
-    radial();
-  });
 }
 
 
