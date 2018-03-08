@@ -72,8 +72,7 @@ function setup() {
   var canvas = createCanvas(1600,360);
   canvas.parent('barContainer');
 
-
-
+  
   song.loop();
   song.setVolume(0.1);
 
