@@ -55,6 +55,15 @@ section {
   font-family: 'Raleway', sans-serif;
 }
 
+.fade {
+  animation-name: displayFade;
+  animation-duration:2s;
+}
+
+@keyframes displayFade {
+  0%{opacity:0}
+  100%{opacity:1}
+}
 
 #controlBtn {
   display: inline-block;

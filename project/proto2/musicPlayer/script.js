@@ -72,7 +72,7 @@ function setup() {
   var canvas = createCanvas(1600,360);
   canvas.parent('barContainer');
 
-  
+
   song.loop();
   song.setVolume(0.1);
 
@@ -173,18 +173,19 @@ function bars() {
       fill(colorChoices[13]);
     });
 
-
-
-  stroke('white');
-  strokeWeight(6);
-var spectrum = fft.analyze();
+    stroke('black');
+    strokeWeight(6);
+    var spectrum = fft.analyze();
     for (var i = 0; i< spectrum.length; i++) {
         var x = map(i, 0, spectrum.length, 0, width);
         var h = -height + map(spectrum[i], 0, 255, height, 0);
         rect (x + w, height,  width / spectrum.length, h);
       }
+
   }
 
+
+//waveform function
 function waves() {
   color1.addEventListener('click', function() {
     stroke(colorChoices[0]);
@@ -246,7 +247,7 @@ function waves() {
   beginShape();
   smooth();
   noFill();
-  strokeWeight(2);
+  strokeWeight(3);
 
    for (var i = 0; i<spectrum.length; i++) {
      var x = map(i, 0, spectrum.length, 0, width);
@@ -260,17 +261,24 @@ function waves() {
 
 
 function draw() {
-
-
-  waves();
-
-bar.addEventListener('click', function() {
+  background('white');
   bars();
 
-})
 
 
+  bar.addEventListener('click', function() {
+    bars();
+
+  })
+
+  wave.addEventListener('click', function() {
+
+    waves();
+
+  })
 }
+
+
 
 
 
