@@ -178,6 +178,23 @@ li {
   font-size: 11px;
 }
 
+#audienceTest article {
+  margin-left: 10%;
+  margin-top: 25%;
+
+}
+
+#audienceTest h3 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#audienceTest ol li {
+  list-style: decimal;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
 a {
   color: black;
 }
@@ -209,4 +226,9 @@ footer {
   width: 100%;
   margin-bottom: 25px;
   margin-top: 25px;
+}
+
+#audienceTest footer {
+  bottom:0;
+  position: fixed;
 }
