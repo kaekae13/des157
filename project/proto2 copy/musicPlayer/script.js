@@ -173,12 +173,13 @@ function bars() {
       fill(colorChoices[13]);
     });
 
-    noStroke();
+    stroke('black');
+    strokeWeight(6);
     var spectrum = fft.analyze();
     for (var i = 0; i< spectrum.length; i++) {
         var x = map(i, 0, spectrum.length, 0, width);
         var h = -height + map(spectrum[i], 0, 255, height, 0);
-        rect (x + w, height, width / spectrum.length - 3, h);
+        rect (x + w, height,  width / spectrum.length, h);
       }
 
   }
