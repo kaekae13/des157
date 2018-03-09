@@ -1,24 +1,27 @@
+
 html {
-height: 100%;
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #b721ff 0%, #b721ff 10%, #21d4fd 100%);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 
-body {
-background-image: linear-gradient(to bottom, #b721ff 0%, #b721ff 10%, #21d4fd 100%);
-width: 100%;
-color: white;
-font-family: 'Maven Pro', sans-serif;
-}
+
 
 /*#header, #nxtPage {
   z-index: -1;
 } */
 h1 {
-
   text-align: center;
-  margin-top: 65%;
-  font-size: 6em;
-font-family: 'Quicksand',sans-serif;
-
+  margin-top:25%;
+  font-size: 3em;
+  font-family: 'Quicksand',sans-serif;
 }
 
 .title {
@@ -26,11 +29,9 @@ font-family: 'Quicksand',sans-serif;
 }
 
 nav {
-  width: 40%;
-  bottom: 0;
-  margin-top: 10%;
-  margin-left: 30%;
-  margin-right: 30%;
+  padding-top: 3%;
+  width: 37%;
+  margin: 0 auto;
 }
 
 ol li {
@@ -39,13 +40,14 @@ ol li {
 }
 
 li {
-  padding: 1.5%;
+  padding: 1%;
   display: inline-block;
-  border: 3px white solid;
+  border: 2px white solid;
+  margin-right: 2%;
   text-align: center;
-  font-size:1.5em;
+  font-size:1em;
   list-style: decimal;
-
+  border-radius: 25px;
 }
 
 p {
@@ -55,9 +57,12 @@ p {
   margin-top: 4%;
 }
 
-/* overlay */
+a {
+  text-decoration:none;
+  color: white;
+}
 
-
+/* fade animation */
 
 .fade {
   animation-name: displayFade;
@@ -69,15 +74,8 @@ p {
   100%{opacity:1}
 }
 
-.disappear{
-  animation-name: displayDisappear;
-  animation-duration:1s;
-}
 
-@keyframes displayDisappear {
-  0%{opacity:1}
-  100%{opacity:0}
-}
+/* page styles */
 
 #about {
   position: absolute;
@@ -86,14 +84,19 @@ p {
 
 #instructions {
   width: 45%;
+  text-align: left;
+  position: absolute;
+  top:
 }
 
 #instructions li {
   border-style: none;
   text-align: left;
 }
+
+
 /* Add animation (Standard syntax) */
-@keyframes scrollup {
+@keyframes scrolldown {
     from {top: 0;}
     to {bottom:100%;}
 }
@@ -101,25 +104,24 @@ p {
 /* Display the page when targeted */
 .page:target {
   position: absolute;
-  top:60%; /* works with or without top/left set, but best practice is to set values when using fixed or absolute positioning*/
-  margin-left: 27%;
+  top:50%;
+  margin: 0 auto;
   display: block;
-  animation-name: scrollup;
-  animation-duration: 1s;
+  animation-name: scrolldown;
+  animation-duration: 1.5s;
 }
 
 .page {
   position: fixed;
-  left: 0;
-  top: 0;
-  height: 110%; /* so background does not show with animation */
+  top: 100%;
   width: 100%;
   display:none;
   font-size: 1em;
   color: white;
-
 }
 
+
+/* footer and link styles */
 
 footer {
   font-family: 'Quicksand', sans-serif;
@@ -127,7 +129,7 @@ footer {
   margin-left: 5%;
   bottom:0;
   width: 100%;
-  position: absolute;
+  position: fixed;
   font-weight: 600;
   text-align: center;
   color: white;
