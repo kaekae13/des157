@@ -77,16 +77,14 @@ function setup() {
   song.setVolume(0.1);
 
   // stop default track from playing when user is uploading audio audioFile
-  chooseAudio.addEventListener('click', function() {
-    song.stop();
-  })
+
 
   fft = new p5.FFT(0.9, 128);
   fft.setInput(song);
 
   amp = new p5.Amplitude();
 
-  fill(colorChoices[10]);
+
   w = width/64;
 }
 
@@ -193,11 +191,35 @@ decrease.onclick = function(event) {
     });
 
 
+var barClick= false;
+var waveClick= false;
+var radialClick= false;
+
+function visualizer () {
+  if (bar.clicked) {
+    var barClick=true;
+    var waveClick=false;
+    var radial= false;
+  }
+
+  if (wave.clicked){
+    var waveClick= true;
+    var radialClick=false;
+    var barClick=false;
+  }
+
+  if (radial.clicked) {
+    var radialClick=true;
+    var barClick=false;
+    var waveClick=false;
+  }
 
 
-('.click-me').click(function () {
-  switch((this).attr('id')) {
-    case 'bar':
+
+
+
+  switch(visualizer) {
+    case 'barClick':
         var spectrum=fft.analyze();
         beginShape();
         smooth();
@@ -214,7 +236,7 @@ decrease.onclick = function(event) {
         break;
 
 
-    case 'wave':
+    case 'waveClick':
         noStroke();
         var spectrum = fft.analyze();
         for (var i = 0; i< spectrum.length; i++) {
@@ -239,7 +261,7 @@ decrease.onclick = function(event) {
       }
       endShape();
     }
-})
+}
 
 
 
