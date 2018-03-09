@@ -196,19 +196,19 @@ var waveClick= false;
 var radialClick= false;
 
 function visualizer () {
-  if (bar.clicked) {
+  if (bar.clicked == true) {
     var barClick=true;
     var waveClick=false;
     var radial= false;
   }
 
-  if (wave.clicked){
+  if (wave.clicked == true){
     var waveClick= true;
     var radialClick=false;
     var barClick=false;
   }
 
-  if (radial.clicked) {
+  if (radial.clicked == true) {
     var radialClick=true;
     var barClick=false;
     var waveClick=false;
