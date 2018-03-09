@@ -190,35 +190,38 @@ decrease.onclick = function(event) {
       stroke(colorChoices[13]);
     });
 
-
+/*
 var barClick= false;
 var waveClick= false;
 var radialClick= false;
+*/
 
-function visualizer () {
-  if (bar.clicked == true) {
-    var barClick=true;
-    var waveClick=false;
-    var radial= false;
+function draw() {
+  background('white');
+
+
+  function visualizer () {
+    bar.onclick = function(event) {
+      var buttonClick = "barClick";
+
+
+    }
+
+    wave.onclick = function(event) {
+      var buttonClick = "waveClick";
+
+    }
+
+  radial.onclick = function(event) {
+    var buttonClick = "radialClick";
+    }
+}
+    console.log(buttonClick);
   }
 
-  if (wave.clicked == true){
-    var waveClick= true;
-    var radialClick=false;
-    var barClick=false;
-  }
-
-  if (radial.clicked == true) {
-    var radialClick=true;
-    var barClick=false;
-    var waveClick=false;
-  }
 
 
-
-
-
-  switch(visualizer) {
+  /*switch(button_click) {
     case 'barClick':
         var spectrum=fft.analyze();
         beginShape();
@@ -262,15 +265,12 @@ function visualizer () {
       endShape();
     }
 }
+*/
 
 
 
 
 
-
-function draw() {
-  background('white');
-}
 
 
 
