@@ -195,15 +195,39 @@ var barClick= false;
 var waveClick= false;
 var radialClick= false;
 */
+function bars() {
+  var spectrum=fft.analyze();
+  beginShape();
+  smooth();
+  noFill();
+  strokeWeight(3);
+
+  for (var i = 0; i<spectrum.length; i++) {
+  var x = map(i, 0, spectrum.length, 0, width);
+  var h = map(spectrum[i], 0, 255, height-50, 0);
+  vertex(i+x, h);
+  clear();
+}
+  endShape();
+}
+
+function waves() {
+  noStroke();
+  var spectrum = fft.analyze();
+  for (var i = 0; i< spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      var h = -height + map(spectrum[i], 0, 255, height, 0);
+      rect (x + w, height,  width / spectrum.length - 3, h);
+    }
+}
 
 function draw() {
   background('white');
 
-
+  var buttonClick = "";
   function visualizer () {
     bar.onclick = function(event) {
       var buttonClick = "barClick";
-
 
     }
 
@@ -215,57 +239,27 @@ function draw() {
   radial.onclick = function(event) {
     var buttonClick = "radialClick";
     }
-}
+  }
     console.log(buttonClick);
   }
 
 
 
-  /*switch(button_click) {
+  switch(buttonClick) {
     case 'barClick':
-        var spectrum=fft.analyze();
-        beginShape();
-        smooth();
-        noFill();
-        strokeWeight(3);
-
-        for (var i = 0; i<spectrum.length; i++) {
-        var x = map(i, 0, spectrum.length, 0, width);
-        var h = map(spectrum[i], 0, 255, height-50, 0);
-        vertex(i+x, h);
-        clear();
-      }
-        endShape();
-        break;
+            bars();
+            break;
 
 
     case 'waveClick':
-        noStroke();
-        var spectrum = fft.analyze();
-        for (var i = 0; i< spectrum.length; i++) {
-            var x = map(i, 0, spectrum.length, 0, width);
-            var h = -height + map(spectrum[i], 0, 255, height, 0);
-            rect (x + w, height,  width / spectrum.length - 3, h);
-          }
-        break;
+          waves();
+          break;
 
     default:
-      var spectrum=fft.analyze();
-      beginShape();
-      smooth();
-      noFill();
-      strokeWeight(3);
+      bars();
 
-      for (var i = 0; i<spectrum.length; i++) {
-        var x = map(i, 0, spectrum.length, 0, width);
-        var h = map(spectrum[i], 0, 255, height-50, 0);
-        vertex(i+x, h);
-        clear();
-      }
-      endShape();
-    }
 }
-*/
+
 
 
 
