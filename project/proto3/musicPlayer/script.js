@@ -190,34 +190,47 @@ decrease.onclick = function(event) {
       stroke(colorChoices[13]);
     });
 
+
+chooseAudio.onclick= function() {
+  song.stop();
+}
 /*
 var barClick= false;
 var waveClick= false;
 var radialClick= false;
 */
 function bars() {
-  var spectrum=fft.analyze();
-  beginShape();
-  smooth();
-  noFill();
-  strokeWeight(3);
+    var spectrum=fft.analyze();
+    beginShape();
+    smooth();
+    noFill();
+    strokeWeight(3);
 
-  for (var i = 0; i<spectrum.length; i++) {
-  var x = map(i, 0, spectrum.length, 0, width);
-  var h = map(spectrum[i], 0, 255, height-50, 0);
-  vertex(i+x, h);
-  clear();
-}
-  endShape();
-}
+    for (var i = 0; i<spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      var h = map(spectrum[i], 0, 255, height-50, 0);
+      vertex(i+x, h);
+      clear();
+    }
+    endShape();
+  }
+
 
 function waves() {
-  noStroke();
-  var spectrum = fft.analyze();
-  for (var i = 0; i< spectrum.length; i++) {
-      var x = map(i, 0, spectrum.length, 0, width);
-      var h = -height + map(spectrum[i], 0, 255, height, 0);
-      rect (x + w, height,  width / spectrum.length - 3, h);
+    noStroke();
+    var spectrum = fft.analyze();
+    for (var i = 0; i< spectrum.length; i++) {
+        var x = map(i, 0, spectrum.length, 0, width);
+        var h = -height + map(spectrum[i], 0, 255, height, 0);
+        rect (x + w, height,  width / spectrum.length - 3, h);
+      }
+    }
+
+function radial() {
+    var spectrum=fft.analyze();
+    translate(width/2, height/2);
+    for (var i=0; i<spectrum.length; i++) {
+      ellipse(0,0,spectrum[i] *50, spectrum[i]*50);
     }
 }
 
@@ -225,7 +238,7 @@ function draw() {
   background('white');
 
   var buttonClick = "";
-  function visualizer () {
+
     bar.onclick = function(event) {
       var buttonClick = "barClick";
 
@@ -239,9 +252,8 @@ function draw() {
   radial.onclick = function(event) {
     var buttonClick = "radialClick";
     }
-  }
+
     console.log(buttonClick);
-  }
 
 
 
@@ -255,12 +267,16 @@ function draw() {
           waves();
           break;
 
+    case 'radialClick':
+          radial();
+          break;
+
+
     default:
       bars();
+    }
 
 }
-
-
 
 
 

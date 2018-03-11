@@ -21,33 +21,22 @@ h1 {
   text-align: center;
   margin-top:25%;
   font-size: 3em;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   font-family: 'Quicksand',sans-serif;
+}
+
+hr {
+  color: white;
+  width: 550px;
+  margin-top: 1.25%;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .title {
   font-size: 2em;
-}
-
-nav {
-  padding-top: 3%;
-  width: 37%;
-  margin: 0 auto;
-}
-
-ol li {
-  list-style: decimal;
-  width: 100%;
-}
-
-li {
-  padding: 1%;
-  display: inline-block;
-  border: 2px white solid;
-  margin-right: 2%;
-  text-align: center;
-  font-size:1em;
-  list-style: decimal;
-  border-radius: 25px;
 }
 
 p {
@@ -55,6 +44,37 @@ p {
   width: 50%;
   line-height: 1.25em;
   margin-top: 4%;
+  font-family: 'Raleway', sans-serif;
+}
+
+header p {
+  font-size: 0.75em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 2%;
+}
+/* nav and list styles */
+
+nav {
+  padding-top: 10%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+li {
+  padding: 0.5%;
+  list-style: decimal;
+  display: inline-block;
+  border: 2px white solid;
+  margin-right: 2%;
+  text-align: center;
+  font-size:0.80em;
+  list-style: decimal;
+  border-radius: 25px;
+  letter-spacing: 2.5px;
 }
 
 a {
@@ -69,70 +89,50 @@ a {
   animation-duration:2s;
 }
 
+.longerFade {
+  animation-name: displayFade;
+  animation-duration: 12s;
+}
+
 @keyframes displayFade {
   0%{opacity:0}
   100%{opacity:1}
 }
 
 
-/* page styles */
+/* page scroll styles */
 
-#about {
-  position: absolute;
-  width: 70%;
+.title {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 3px;
+  font-size: 2em;
 }
 
-#instructions {
-  width: 45%;
-  text-align: left;
-  position: absolute;
-  top:
-}
-
-#instructions li {
-  border-style: none;
-  text-align: left;
+section p {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0;
+  font-size: 0.75em;
+  letter-spacing: 2px;
 }
 
 
-/* Add animation (Standard syntax) */
-@keyframes scrolldown {
-    from {top: 0;}
-    to {bottom:100%;}
-}
-
-/* Display the page when targeted */
-.page:target {
-  position: absolute;
-  top:50%;
-  margin: 0 auto;
-  display: block;
-  animation-name: scrolldown;
-  animation-duration: 1.5s;
-}
-
-.page {
-  position: fixed;
-  top: 100%;
-  width: 100%;
-  display:none;
-  font-size: 1em;
-  color: white;
-}
 
 
 /* footer and link styles */
 
 footer {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.75em;
   margin-left: 5%;
-  bottom:0;
-  width: 100%;
-  position: fixed;
+  position: absolute;
   font-weight: 600;
-  text-align: center;
   color: white;
+  float: right;
+  top: 0;
+  margin-left: 77%;
+  padding-top: 3%;
+  padding-right: 3%;
+
 }
 
 a {
@@ -147,8 +147,13 @@ a:visited {
  color: white;
 }
 
+
 a:hover {
  color: white;
+}
+
+footer a:hover {
+  color: darkBlue;
 }
 
 a:active {

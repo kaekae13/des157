@@ -5,56 +5,64 @@
         <title>Mood Visualizer</title>
           <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
           <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
           <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
           <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
           <link rel= "stylesheet" href="styles.css">
+          <link rel="stylesheet" href="onepage-scroll.css">
     </head>
 
-    <body class='fade'>
-      <header>
-          <h1 id='title'>Mood Visualizer</h1>
+    <body>
+      <header class= 'fade'>
+          <h1 id='title'>MOOD VISUALIZER</h1><hr>
+          <p>How can music and color interact to influence your state of mind?</p>
       </header>
 
-      <nav>
+      <nav class='longerFade'>
         <ul>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#research">RESEARCH</a></li>
-          <li><a href="#instructions">INSTRUCTIONS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="research.html">RESEARCH</a></li>
+          <li><a href="instruct.html">INSTRUCTIONS</a></li>
           <li><a href="musicPlayer/index.html">VISUALIZE</a></li>
         </ul>
       </nav>
 
 
+        <section class='page1'>
+          <article id="about">
+            <p class="title">ABOUT</p>
+            <p class= "content">Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. These findings bring forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions in a way that brings forth visual creativity.</p>
+          </article>
+        </section>
 
-      <article class="page" id="about">
-        <p class="title">ABOUT</p>
-        <p class= "content">Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. These findings bring forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions in a way that brings forth visual creativity and accesses personal music preferences.</p>
-      </article>
+        <section class='page2'>
+          <article id="research">
+            <p class="title">Colors, emotions, and music</p>
+            <p class="content"></p>
+          </article>
+        </section>
 
-      <article class="page" id="research">
-        <p class="title">Colors, emotions, and music</p>
-        <p class="content"></p>
-      </article>
+        <section class='page3'>
+          <article id="instructions">
+            <p class="title">INSTRUCTIONS</p><hr>
+            <ol id ='steps'>
+              <li>Upload your audiofile (mp3).</li>
+              <li>Select one of the three choices for the type of audiovisualizer that will be displayed</li>
+              <li>Tap the drop-down menu (located between the audio upload button and the audio control buttons) to display the color picker menu.<br>*To make the menu disappear, just tap the menu again!*</li>
+            </ol>
+          </article>
+        </section>
 
-      <article class="page" id="instructions">
-        <p class="title">INSTRUCTIONS</p>
-        <ol id ='steps'>
-          <li>Upload your audiofile (mp3).</li>
-          <li>Select one of the three choices for the type of audiovisualizer that will be displayed</li>
-          <li>Tap the drop-down menu (located between the audio upload button and the audio control buttons) to display the color picker menu.<br>*To make the menu disappear, just tap the menu again!*</li>
-        </ol>
-      </article>
+      </div>
 
 
-      <script src="script.js"></script>
-
-      <footer>
-          <a href = "https://kaekae13.github.io/des157/">Home //</a>
-          <a href="https://validator.w3.org/check?uri=referer">Valid HTML5 // </a>
-          <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+      <footer class= 'longerFade'>
+          <a href = "https://kaekae13.github.io/des157/">Home |</a>
+          <a href="https://validator.w3.org/check?uri=referer">Valid HTML5 |</a>
+          <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS |</a>
+          <a href="https://p5js.org/reference/#/libraries/p5.sound">p5 Sound</a>
         </footer>
 
+        <script src="script.js"></script>
     </body>
 
   </html>
