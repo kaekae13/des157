@@ -199,7 +199,7 @@ var barClick= false;
 var waveClick= false;
 var radialClick= false;
 */
-function bars() {
+function waves() {
     var spectrum=fft.analyze();
     beginShape();
     smooth();
@@ -216,9 +216,11 @@ function bars() {
   }
 
 
-function waves() {
+function bars() {
+  
     noStroke();
     var spectrum = fft.analyze();
+
     for (var i = 0; i< spectrum.length; i++) {
         var x = map(i, 0, spectrum.length, 0, width);
         var h = -height + map(spectrum[i], 0, 255, height, 0);
@@ -237,7 +239,7 @@ function radial() {
 function draw() {
   background('white');
 
-  var buttonClick = "";
+  var buttonClick;
 
     bar.onclick = function(event) {
       var buttonClick = "barClick";
@@ -270,7 +272,6 @@ function draw() {
     case 'radialClick':
           radial();
           break;
-
 
     default:
       bars();

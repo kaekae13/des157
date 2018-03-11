@@ -1,6 +1,7 @@
-
 html {
     height: 100%;
+    overflow-y: hidden;
+
 }
 body {
     height: 100%;
@@ -25,6 +26,11 @@ h1 {
   margin-bottom: 0;
   padding-bottom: 0;
   font-family: 'Quicksand',sans-serif;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
 }
 
 hr {
@@ -60,9 +66,8 @@ nav {
   padding-top: 10%;
   text-align: center;
   margin: 0 auto;
+
 }
-
-
 
 li {
   padding: 0.5%;
@@ -101,6 +106,9 @@ a {
 
 
 /* page scroll styles */
+.page {
+  width: 30%;
+}
 
 .title {
   font-family: 'Quicksand', sans-serif;
@@ -112,10 +120,14 @@ section p {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0;
   font-size: 0.75em;
-  letter-spacing: 2px;
 }
 
-
+#instructions li {
+  border:none;
+  font-size: 0.75em;
+  display: block;
+  text-align: left;
+}
 
 
 /* footer and link styles */
@@ -123,20 +135,20 @@ section p {
 footer {
   font-family: 'Raleway', sans-serif;
   font-size: 0.75em;
-  margin-left: 5%;
+
   position: absolute;
   font-weight: 600;
   color: white;
-  float: right;
+  float: left;
   top: 0;
-  margin-left: 77%;
   padding-top: 3%;
-  padding-right: 3%;
+  padding-left: 3%;
 
 }
 
-a {
+footer a {
  color: white;
+ letter-spacing: 2px;
 }
 
 a:link {
