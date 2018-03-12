@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    overflow-y: hidden;
+
 
 }
 body {
@@ -33,12 +33,14 @@ h2 {
   font-size: 2em;
 }
 
-hr {
+header hr {
   color: white;
   width: 550px;
   margin-top: 1.25%;
   margin-bottom: 0;
   text-align: center;
+  background-color: white;
+  border: 0.21px white solid;
 }
 
 .title {
@@ -46,11 +48,7 @@ hr {
 }
 
 p {
-  margin-left: 7%;
-  width: 50%;
-  line-height: 1.25em;
-  margin-top: 4%;
-  font-family: 'Raleway', sans-serif;
+  margin-top: 1%;
 }
 
 header p {
@@ -71,13 +69,11 @@ nav {
 
 li {
   padding: 0.5%;
-  list-style: decimal;
   display: inline-block;
   border: 2px white solid;
   margin-right: 2%;
   text-align: center;
   font-size:0.80em;
-  list-style: decimal;
   border-radius: 25px;
   letter-spacing: 2.5px;
 }
@@ -91,13 +87,9 @@ a {
 
 .fade {
   animation-name: displayFade;
-  animation-duration:2s;
+  animation-duration:4s;
 }
 
-.longerFade {
-  animation-name: displayFade;
-  animation-duration: 12s;
-}
 
 @keyframes displayFade {
   0%{opacity:0}
@@ -107,26 +99,109 @@ a {
 
 /* page scroll styles */
 .page {
-  width: 30%;
+  height: 100%;
 }
 
-.title {
+#page2 {
+  height: 120%;
+}
+
+h3 {
   font-family: 'Quicksand', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   font-size: 2em;
+  margin-left: 3%;
+  margin-bottom: 0.40%;
+  padding-top: 20%;
 }
 
-section p {
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin-left: 3%;
+  margin-bottom: 0;
+
+}
+
+#page2 h3 {
+  padding-top: 5%;
+}
+
+#page1 p, #page2 p, #page3 p {
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   font-size: 0.75em;
+  width: 40%;
+  margin-left: 3%;
+  padding-top: 0.5%;
+  line-height: 1.25em;
+  margin-top: 1%;
 }
 
-#instructions li {
+#page2 p {
+  width: 60%;
+}
+
+#music p {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+
+#page1 hr, #page2 hr, #page3 hr {
+  background-color: white;
+  margin-left: 3%;
+  height: 1px;
+  border: 0.25px white solid;
+  text-align: left;
+}
+
+#page1 hr {
+  width: 125px;
+}
+
+#page2 hr {
+  width: 515px;
+}
+
+#page3 hr {
+  width: 270px;
+}
+
+#page2 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#page2 li {
+  letter-spacing: 1px;
+}
+
+#page2 p, #page2 li,  {
+  font-size: 0.70em;
+}
+
+#page2 li, #page3 li {
   border:none;
-  font-size: 0.75em;
   display: block;
   text-align: left;
+  width: 100%;
+}
+
+#page3 ol {
+  margin-top: 1.5%;
+}
+
+ul li {
+  font-family: 'Raleway', sans-serif;
+}
+
+ol li {
+  list-style: decimal;
+  letter-spacing: 0.25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -135,7 +210,6 @@ section p {
 footer {
   font-family: 'Raleway', sans-serif;
   font-size: 0.75em;
-
   position: absolute;
   font-weight: 600;
   color: white;
