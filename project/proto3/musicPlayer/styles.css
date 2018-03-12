@@ -36,8 +36,6 @@ h3 {
   z-index: -1;
 }
 
-
-
 section {
   margin-bottom: 2%;
 }
@@ -188,7 +186,7 @@ section {
 }
 
 .nav ul  li:hover ul li {
-    height: 55px;
+    height: 58px;
 
 }
 
