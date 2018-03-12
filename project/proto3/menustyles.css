@@ -1,0 +1,119 @@
+/*@mixin transition{
+  -webkit-transition:0.3s ease;
+  -moz-transition:0.3s ease;
+  -o-transition:0.3s ease;
+  -ms-transition:0.3s ease;
+  transition:0.3s ease;
+}
+
+$abs:absolute;
+$rel:relative;
+
+ul{
+margin:0 auto;
+width:620px;
+}
+
+ul li{
+    list-style:none;
+    float:left;
+    margin-right:10px;
+    position:$rel;
+  }
+    li a{
+      font:700 15px Open Sans;
+      text-transform:uppercase;
+      position:$rel;
+      color:#333;
+      text-decoration:none;
+      border:3px solid #000;
+      letter-spacing:1px;
+      padding:10px 15px 10px 25px;
+      display:block;
+      width:150px;
+      z-index:5000;
+    }
+      i {
+        font-size:12px !important;
+        position:$abs;
+        right:10px;
+        top:14px;
+      }
+
+
+    .drop-down{
+      position:$abs;
+      padding:0;
+      display:none;
+      margin:0;
+      left:0;
+      z-index:0;
+    }
+
+    .drop-down li{
+        position:$rel;
+        float:none;
+}
+    .drop-down li a{
+          border-top:none;
+          width:150px;
+        }
+    .drop-down li a:hover{
+            background:#000;
+            color:#FFF;
+          }
+
+
+    .drop-down  li:nth-of-type(1) a{
+        border-top:none;
+      }
+
+.accent{
+  width:0%;
+  height:100%;
+  background:#000;
+  position:$abs;
+  top:0;
+  left:0;
+  @include transition;
+}
+
+.animate{
+  width:100%;
+  @include transition;
+}
+
+.item:hover{
+  color:#FFF;
+}*/
+
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+}
+.nav li ul li {
+    overflow:hidden;
+    height:0;
+    -webkit-transition:height 200ms ease-in;
+    -moz-transition:height 200ms ease-in;
+    -o-transition:height 200ms ease-in;
+    transition:height 200ms ease-in;
+
+    font-family: 'Raleway', sans-serif
+
+}
+
+.nav li ul li a {
+  text-decoration: none;
+    background-image: linear-gradient(to right, #b721ff 0%, #b721ff 10%, #21d4fd 100%);
+  width: 100px;
+  height: 200px;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.nav ul > li:hover ul li {
+    height:36px;
+}

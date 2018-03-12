@@ -3,7 +3,7 @@ html, body {
       height: 100%;
       margin: 0px;
       border: 0;
-      overflow: hidden;
+
       display: block;
     }
 
@@ -130,19 +130,68 @@ section {
 
 /* drop down menu */
 
-#menu {
+
+.nav {
   position: absolute;
   border-radius: 15px;
   display: inline-block;
   padding-left: 2%;
+  top: 0;
+  margin-top: 5%;
+  margin-left: 3%;
 }
-#menu div {
-    width: 25px;
+
+.nav div {
+    width: 30px;
     height: 4px;
     background-color: gray;
     margin: 5px 0;
     top: 0;
+    z-index: 1;
 }
+
+.nav li ul {
+    position:absolute;
+    left:0;
+    margin-left: 2%;
+    top:40px;
+    z-index:1;
+}
+
+.nav li ul li {
+    overflow:hidden;
+    height:0;
+    -webkit-transition:height 200ms ease-in;
+    -moz-transition:height 200ms ease-in;
+    -o-transition:height 200ms ease-in;
+    transition:height 200ms ease-in;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.nav li ul li a {
+  text-decoration: none;
+  border: 4px lightGrey solid;
+  letter-spacing: 2px;
+  font-size:0.75em;
+  left: 0;
+  color: black;
+  width: 100px;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding-right: 13%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 13%;
+  display: block;
+  text-align: center;
+}
+
+.nav ul  li:hover ul li {
+    height: 55px;
+
+}
+
 
  /* color picker buttons */
 
