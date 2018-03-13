@@ -202,45 +202,55 @@ decrease.onclick = function(event) {
     });
 
 
+function bars() {
+  noStroke();
+  fill(colorChoices[13]);
+  var spectrum = fft.analyze();
+  for (var i = 0; i< spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      var h = -height + map(spectrum[i], 0, 255, height, 0);
+      rect (x + w, height,  width / spectrum.length - 3, h);
+    }
+}
 
+function waves() {
+  beginShape();
+  var spectrum = fft.analyze();
+  smooth();
+  noFill();
+  strokeWeight(3);
+  for (var i = 0; i<spectrum.length; i++) {
+    var x = map(i, 0, spectrum.length, 0, width);
+    var h = map(spectrum[i], 0, 255, height-50, 0);
+    vertex(i+x, h);
+    clear();
+    }
+    endShape();
+}
 
-
+function radial() {
+  var spectrum = fft.analyze();
+  translate(width/2, height/2);
+  for (var i=0; i<spectrum.length; i++) {
+    ellipse(0,0,spectrum[i] *50, spectrum[i]*50);
+  }
+}
 
 function draw() {
   background('white');
-var spectrum = fft.analyze();
-  bar.addEventListener('click', function() {
-  
-      noStroke();
-      for (var i = 0; i< spectrum.length; i++) {
-          var x = map(i, 0, spectrum.length, 0, width);
-          var h = -height + map(spectrum[i], 0, 255, height, 0);
-          rect (x + w, height,  width / spectrum.length - 3, h);
-        }
+radial();
 
-      }
-  });
+  bar.addEventListener('click', function() {
+      bars();
+      });
 
   wave.addEventListener('click', function() {
-    beginShape();
-    smooth();
-    noFill();
-    strokeWeight(3);
-    for (var i = 0; i<spectrum.length; i++) {
-      var x = map(i, 0, spectrum.length, 0, width);
-      var h = map(spectrum[i], 0, 255, height-50, 0);
-      vertex(i+x, h);
-      clear();
-    }
-    endShape();
+      waves();
   });
 
 
   radial.addEventListener('click', function() {
-    translate(width/2, height/2);
-    for (var i=0; i<spectrum.length; i++) {
-      ellipse(0,0,spectrum[i] *50, spectrum[i]*50);
-    }
-  });
+    radial();
 
+}
 }
