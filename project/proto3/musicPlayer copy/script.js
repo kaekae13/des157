@@ -75,33 +75,23 @@ function setup() {
   console.log('playing');
   var canvas = createCanvas(1600,360);
   canvas.parent('barContainer');
-
   window.onload(alert('Select audiovisualizer and color first to begin!'));
-
   song.loop();
   song.setVolume(0.1);
 
   // stop default track from playing when user is uploading audio audioFile
-
+  chooseAudio.onclick= function() {
+    song.stop();
+  }
 
   fft = new p5.FFT(0.9, 128);
   fft.setInput(song);
 
   amp = new p5.Amplitude();
-
-
   w = width/64;
-
-
-
-
-
-
 }
 
-chooseAudio.onclick= function() {
-  song.stop();
-}
+
 
 // pause and play events
 

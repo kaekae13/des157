@@ -41,6 +41,20 @@ section {
   margin-bottom: 2%;
 }
 
+/* page fade animation */
+
+.fade {
+  animation-name: displayFade;
+  animation-duration:4s;
+}
+
+
+@keyframes displayFade {
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
+
 /* basic buttons and choices */
 #btnMenu {
   padding-top: 2%;
