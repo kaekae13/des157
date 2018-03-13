@@ -75,7 +75,7 @@ function preload() {
 
 function setup() {
   console.log('playing');
-  var canvas = createCanvas(1600,360);
+  var canvas = createCanvas(1600,400);
   canvas.parent('barContainer');
   alert('// FOR FULL SCREEN VIEW ONLY // to begin, select audiovisualizer type and color button.');
 
@@ -249,7 +249,7 @@ decrease.onclick = function(event) {
         }
         endShape();
       } else if (radialClick) {
-        translate(width/2.5, height/1.75);
+        translate(width/2.5, height/2);
         noFill();
         strokeWeight(1.5);
         for (var i=0; i<spectrum.length; i++) {
