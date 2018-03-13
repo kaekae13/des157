@@ -158,7 +158,7 @@ section {
 .nav div {
     width: 30px;
     height: 4px;
-    background-image: linear-gradient(to right, #b721ff 0%, #21d4fd 130%);
+    background-color: darkGrey;
     margin: 5px 0;
     top: 0;
     z-index: 1;
@@ -175,12 +175,11 @@ section {
 .nav li ul li {
     overflow:hidden;
     height:0;
-    -webkit-transition:height 200ms ease-in;
-    -moz-transition:height 200ms ease-in;
-    -o-transition:height 200ms ease-in;
-    transition:height 200ms ease-in;
+    -webkit-transition:height 300ms ease-in;
+    -moz-transition:height 300ms ease-in;
+    -o-transition:height 300ms ease-in;
+    transition:height 300ms ease-in;
     font-family: 'Raleway', sans-serif;
-
 }
 
 .nav li ul li a {
@@ -188,11 +187,10 @@ section {
   border: 4px white solid;
   letter-spacing: 2px;
   font-size:0.75em;
-
   left: 0;
   color: white;
   width: 100px;
-  background-image: linear-gradient(to right, #b721ff 0%, #21d4fd 130%);
+  background-color: lightGrey;
   font-family: 'Quicksand', sans-serif;
   padding-right: 13%;
   padding-top: 8%;
