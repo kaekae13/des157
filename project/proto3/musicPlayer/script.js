@@ -3,9 +3,9 @@
 console.log("reading js");
 
 var song,
-    fft,
-    w,
-    amp;
+  fft,
+  w,
+  amp;
 
 
 var play = document.getElementById('play');
@@ -16,7 +16,7 @@ var decrease = document.getElementById('decrease');
 
 var chooseAudio = document.getElementById('audioFile');
 
-var disclaimer=document.getElementById('disclaimer');
+var disclaimer = document.getElementById('disclaimer');
 
 
 // colorPicker
@@ -37,7 +37,7 @@ var color13 = document.getElementById('color13');
 var color14 = document.getElementById('color14');
 
 
-var colorChoices= [
+var colorChoices = [
   '#FD8BD9',
   '#ffd1ff',
   '#ffafbd',
@@ -61,21 +61,21 @@ var bar = document.getElementById('bar');
 var wave = document.getElementById('wave');
 var radial = document.getElementById('radial');
 
-var barClick= false;
+var barClick = false;
 var waveClick = false;
 var radialClick = false;
 
 // load audio
 
 function preload() {
-  song = loadSound( "https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
+  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
 
-  }
+}
 
 
 function setup() {
   console.log('playing');
-  var canvas = createCanvas(1600,400);
+  var canvas = createCanvas(1600, 400);
   canvas.parent('barContainer');
   alert('// FOR FULL SCREEN VIEW ONLY // to begin, select audiovisualizer type and color button.');
 
@@ -91,14 +91,14 @@ function setup() {
   amp = new p5.Amplitude();
 
 
-  w = width/64;
+  w = width / 64;
 
 }
 
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
 
 
-chooseAudio.onclick= function() {
+chooseAudio.onclick = function() {
   song.stop();
 }
 
@@ -110,7 +110,7 @@ pause.onclick = function(event) {
   pause.className = "hide";
 }
 
-play.onclick = function (event) {
+play.onclick = function(event) {
   song.play();
   play.className = "hide";
   pause.className = "btnShow";
@@ -119,142 +119,141 @@ play.onclick = function (event) {
 
 // volume events
 increase.onclick = function(event) {
-  song.amp+=0.2;
+  song.amp += 0.2;
 }
 
 decrease.onclick = function(event) {
-  song.amp-=0.2;
+  song.amp -= 0.2;
 }
 
 
 
 // create separate function for sound bars
 
-    // eventlisteners for color buttons
-    color1.addEventListener('click', function() {
-      fill(colorChoices[0]);
-      stroke(colorChoices[0]);
-    });
+// eventlisteners for color buttons
+color1.addEventListener('click', function() {
+  fill(colorChoices[0]);
+  stroke(colorChoices[0]);
+});
 
-    color2.addEventListener('click', function() {
-      fill(colorChoices[1]);
-      stroke(colorChoices[1]);
-    });
+color2.addEventListener('click', function() {
+  fill(colorChoices[1]);
+  stroke(colorChoices[1]);
+});
 
-    color3.addEventListener('click', function() {
-      fill(colorChoices[2]);
-      stroke(colorChoices[2]);
-    });
+color3.addEventListener('click', function() {
+  fill(colorChoices[2]);
+  stroke(colorChoices[2]);
+});
 
-    color4.addEventListener('click', function() {
-      fill(colorChoices[3]);
-      stroke(colorChoices[3]);
-    });
+color4.addEventListener('click', function() {
+  fill(colorChoices[3]);
+  stroke(colorChoices[3]);
+});
 
-    color5.addEventListener('click', function() {
-      fill(colorChoices[4]);
-      stroke(colorChoices[4]);
-    });
+color5.addEventListener('click', function() {
+  fill(colorChoices[4]);
+  stroke(colorChoices[4]);
+});
 
-    color6.addEventListener('click', function() {
-      fill(colorChoices[5]);
-      stroke(colorChoices[5]);
-    });
+color6.addEventListener('click', function() {
+  fill(colorChoices[5]);
+  stroke(colorChoices[5]);
+});
 
-    color7.addEventListener('click', function() {
-      fill(colorChoices[6]);
-      stroke(colorChoices[6]);
-    });
+color7.addEventListener('click', function() {
+  fill(colorChoices[6]);
+  stroke(colorChoices[6]);
+});
 
-    color8.addEventListener('click', function() {
-      fill(colorChoices[7]);
-      stroke(colorChoices[7]);
-    });
+color8.addEventListener('click', function() {
+  fill(colorChoices[7]);
+  stroke(colorChoices[7]);
+});
 
-    color9.addEventListener('click', function() {
-      fill(colorChoices[8]);
-      stroke(colorChoices[8]);
-    });
+color9.addEventListener('click', function() {
+  fill(colorChoices[8]);
+  stroke(colorChoices[8]);
+});
 
-    color10.addEventListener('click', function() {
-      fill(colorChoices[9]);
-      stroke(colorChoices[9]);
-    });
+color10.addEventListener('click', function() {
+  fill(colorChoices[9]);
+  stroke(colorChoices[9]);
+});
 
-    color11.addEventListener('click', function() {
-      fill(colorChoices[10]);
-      stroke(colorChoices[10]);
-    });
+color11.addEventListener('click', function() {
+  fill(colorChoices[10]);
+  stroke(colorChoices[10]);
+});
 
-    color12.addEventListener('click', function() {
-      fill(colorChoices[11]);
-      stroke(colorChoices[11]);
-    });
+color12.addEventListener('click', function() {
+  fill(colorChoices[11]);
+  stroke(colorChoices[11]);
+});
 
-    color13.addEventListener('click', function() {
-      fill(colorChoices[12]);
-      stroke(colorChoices[12]);
-    });
+color13.addEventListener('click', function() {
+  fill(colorChoices[12]);
+  stroke(colorChoices[12]);
+});
 
-    color14.addEventListener('click', function() {
-      fill(colorChoices[13]);
-      stroke(colorChoices[13]);
-    });
-
-
-    bar.addEventListener('click', function() {
-      barClick = true;
-      waveClick = false;
-      radialClick = false;
-
-    });
-
-    wave.addEventListener('click', function() {
-      barClick = false;
-      waveClick = true;
-      radialClick = false;
-    });
+color14.addEventListener('click', function() {
+  fill(colorChoices[13]);
+  stroke(colorChoices[13]);
+});
 
 
-    radial.addEventListener('click', function() {
-      barClick = false;
-      waveClick = false;
-      radialClick = true;
-    });
+bar.addEventListener('click', function() {
+  barClick = true;
+  waveClick = false;
+  radialClick = false;
+
+});
+
+wave.addEventListener('click', function() {
+  barClick = false;
+  waveClick = true;
+  radialClick = false;
+});
+
+
+radial.addEventListener('click', function() {
+  barClick = false;
+  waveClick = false;
+  radialClick = true;
+});
 
 
 
-    function draw() {
+function draw() {
 
-      background('white');
-      var spectrum = fft.analyze();
+  background('white');
+  var spectrum = fft.analyze();
 
-      if (barClick) {
-          noStroke();
-          for (var i = 0; i< spectrum.length; i++) {
-              var x = map(i, 0, spectrum.length, 0, width);
-              var h = -height + map(spectrum[i], 0, 255, height, 0);
-              rect (x + w, height,  width / spectrum.length - 3, h);
-            }
-      }else if (waveClick) {
-        beginShape();
-        smooth();
-        noFill();
-        strokeWeight(5);
-        for (var i = 0; i<spectrum.length; i++) {
-          var x = map(i, 0, spectrum.length, 0, width);
-          var h = map(spectrum[i], 0, 255, height-50, 0);
-          vertex(i+x, h);
-          clear();
-        }
-        endShape();
-      } else if (radialClick) {
-        translate(width/2.5, height/2);
-        noFill();
-        strokeWeight(1.5);
-        for (var i=0; i<spectrum.length; i++) {
-          ellipse(0,0,spectrum[i]*2, spectrum[i]*2);
-        }
-
-      }
+  if (barClick) {
+    noStroke();
+    for (var i = 0; i < spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      var h = -height + map(spectrum[i], 0, 255, height, 0);
+      rect(x + w, height, width / spectrum.length - 3, h);
     }
+  } else if (waveClick) {
+    beginShape();
+    smooth();
+    noFill();
+    strokeWeight(5);
+    for (var i = 0; i < spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      var h = map(spectrum[i], 0, 255, height - 50, 0);
+      vertex(i + x, h);
+      clear();
+    }
+    endShape();
+  } else if (radialClick) {
+    translate(width / 2.5, height / 2);
+    noFill();
+    strokeWeight(1.5);
+    for (var i = 0; i < spectrum.length; i++) {
+      ellipse(0, 0, spectrum[i] * 2, spectrum[i] * 2);
+    }
+  }
+}
