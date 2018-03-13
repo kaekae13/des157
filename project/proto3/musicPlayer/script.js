@@ -16,7 +16,7 @@ var decrease = document.getElementById('decrease');
 
 var chooseAudio = document.getElementById('audioFile');
 
-
+var disclaimer=document.getElementById('disclaimer');
 
 
 // colorPicker
@@ -69,6 +69,7 @@ var radialClick = false;
 
 function preload() {
   song = loadSound( "https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
+
   }
 
 
@@ -76,7 +77,7 @@ function setup() {
   console.log('playing');
   var canvas = createCanvas(1600,360);
   canvas.parent('barContainer');
-
+  alert('// FOR FULL SCREEN VIEW ONLY // to begin, select audiovisualizer type and color button.');
 
   song.loop();
   song.setVolume(0.1);
@@ -92,12 +93,10 @@ function setup() {
 
   w = width/64;
 
-
-
-
-
-
 }
+
+disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
+
 
 chooseAudio.onclick= function() {
   song.stop();
@@ -256,6 +255,6 @@ decrease.onclick = function(event) {
         for (var i=0; i<spectrum.length; i++) {
           ellipse(0,0,spectrum[i]*2, spectrum[i]*2);
         }
-      
+
       }
     }
