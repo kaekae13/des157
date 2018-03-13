@@ -210,7 +210,7 @@ function draw() {
   background('white');
 var spectrum = fft.analyze();
   bar.addEventListener('click', function() {
-    if (barClick == true) {
+  
       noStroke();
       for (var i = 0; i< spectrum.length; i++) {
           var x = map(i, 0, spectrum.length, 0, width);
