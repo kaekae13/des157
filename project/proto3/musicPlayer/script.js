@@ -83,7 +83,7 @@ function setup() {
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
-
+alert('Color is coming soon!');
   // stop default track from playing when user is uploading audio audioFile
 
 
@@ -137,71 +137,84 @@ decrease.onclick = function(event) {
 
 // eventlisteners for color buttons
 colorbtn.addEventListener ('click', function() {
-  alert('Color is coming soon!');
+
 })
 color1.addEventListener('click', function() {
   fill(colorChoices[0]);
   stroke(colorChoices[0]);
+
 });
 
 color2.addEventListener('click', function() {
   fill(colorChoices[1]);
   stroke(colorChoices[1]);
+
 });
 
 color3.addEventListener('click', function() {
   fill(colorChoices[2]);
   stroke(colorChoices[2]);
+
 });
 
 color4.addEventListener('click', function() {
   fill(colorChoices[3]);
   stroke(colorChoices[3]);
+
 });
 
 color5.addEventListener('click', function() {
   fill(colorChoices[4]);
   stroke(colorChoices[4]);
+
 });
 
 color6.addEventListener('click', function() {
   fill(colorChoices[5]);
   stroke(colorChoices[5]);
+
 });
 
 color7.addEventListener('click', function() {
   fill(colorChoices[6]);
   stroke(colorChoices[6]);
+    
 });
 
 color8.addEventListener('click', function() {
   fill(colorChoices[7]);
   stroke(colorChoices[7]);
+  alert('Color is coming soon!');
 });
 
 color9.addEventListener('click', function() {
   fill(colorChoices[8]);
   stroke(colorChoices[8]);
+    alert('Color is coming soon!');
 });
 
 color10.addEventListener('click', function() {
   fill(colorChoices[9]);
   stroke(colorChoices[9]);
+    alert('Color is coming soon!');
 });
 
 color11.addEventListener('click', function() {
   fill(colorChoices[10]);
   stroke(colorChoices[10]);
+    alert('Color is coming soon!');
 });
 
 color12.addEventListener('click', function() {
   fill(colorChoices[11]);
   stroke(colorChoices[11]);
+    alert('Color is coming soon!');
 });
 
 color13.addEventListener('click', function() {
   fill(colorChoices[12]);
   stroke(colorChoices[12]);
+    alert('Color is coming soon!');
 });
 
 color14.addEventListener('click', function() {
