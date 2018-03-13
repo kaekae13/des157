@@ -1,0 +1,298 @@
+html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      border: 0;
+
+      display: block;
+    }
+
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+  color: #353535;
+  font-size: 2em;
+  margin-top: 10%;
+  margin-bottom: 1%;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Quicksand', sans-serif;
+  z-index: 1;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 0.75em;
+  color: #353535;
+  letter-spacing: 2px;
+}
+
+#waveContainer, #barContainer {
+  left: 0;
+  height: 95%;
+  z-index: -1;
+}
+
+section {
+  margin-bottom: 2%;
+}
+
+/* basic buttons and choices */
+#btnMenu {
+  padding-top: 2%;
+  text-align: center;
+  width: 100%;
+}
+
+#btnMenu, #chooseAudio, #visualizers {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#chooseAudio input {
+  font-size: 0.75em;
+  font-family: 'Raleway', sans-serif;
+}
+
+#controlBtn {
+  display: inline-block;
+  width: 245px;
+  padding-left: 3%;
+}
+
+#audioFile, .loader {
+  display: inline-block;
+}
+
+#audioFile {
+  width: 200px;
+  border: 1px black;
+  color: #353535;
+}
+
+#controlBtn button {
+  background-color: white;
+  color: gray;
+}
+
+#playPause {
+  margin-right: 1.5%;
+
+}
+
+#playPause, #volume {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+#pause {
+  width: 32px;
+  height: 32px;
+  border-radius: 21px;
+  font-size: 0.5em;
+  z-index: -1;
+}
+
+#increase, #decrease {
+  display: inline-block;
+  border-radius: 10px;
+  color: gray;
+}
+
+.hide {
+   display: none;
+ }
+
+ .btnShow {
+   width: 32px;
+   height: 32px;
+   border-radius: 21px;
+   font-size: 0.5em;
+   margin-right: 1%;
+   z-index: 1;
+   background-color: white;
+ }
+
+#visualizers button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #353535;
+  border-radius: 15px;
+  background-color: white;
+    letter-spacing: 2px;
+}
+
+/* drop down menu */
+
+
+.nav {
+  position: absolute;
+  border-radius: 15px;
+  display: inline-block;
+  padding-left: 2%;
+  top: 0;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.nav div {
+    width: 30px;
+    height: 4px;
+    background-color: gray;
+    margin: 5px 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav li ul {
+    position:absolute;
+    left:0;
+    margin-left: 2%;
+    top:40px;
+    z-index:1;
+}
+
+.nav li ul li {
+    overflow:hidden;
+    height:0;
+    -webkit-transition:height 200ms ease-in;
+    -moz-transition:height 200ms ease-in;
+    -o-transition:height 200ms ease-in;
+    transition:height 200ms ease-in;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.nav li ul li a {
+  text-decoration: none;
+  border: 4px lightGrey solid;
+  letter-spacing: 2px;
+  font-size:0.75em;
+  left: 0;
+  color: black;
+  width: 100px;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding-right: 13%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 13%;
+  display: block;
+  text-align: center;
+}
+
+.nav ul  li:hover ul li {
+    height: 58px;
+
+}
+
+
+ /* color picker buttons */
+
+.colorPicker {
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.colorPicker button {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-style: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 21px;
+  margin-bottom: 1%;
+}
+
+ #color1 {
+   background-color: #FD8BD9;
+ }
+
+ #color2 {
+   background-color: #ffd1ff;
+ }
+
+ #color3 {
+   background-color: #ffafbd;
+ }
+
+ #color4 {
+   background-color: #fcb69f;
+ }
+
+ #color5 {
+   background-color: #fddb92;
+ }
+
+ #color6 {
+   background-color: #f9f586;
+ }
+
+ #color7 {
+   background-color: #92fe9d;
+ }
+
+#color8 {
+  background-color: #2af598;
+}
+
+#color9 {
+  background-color: #00cdac;
+}
+
+#color10 {
+  background-color: #00f2fe;
+}
+
+#color11 {
+  background-color: #00c6fb;
+}
+
+#color12 {
+  background-color: #4facfe;
+}
+
+#color13 {
+  background-color: #cd9cf2;
+}
+
+#color14 {
+  background-color: #d57eeb;
+}
+
+ /* footer and links */
+
+ footer {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 0.75em;
+   text-align: center;
+   bottom:0;
+   width: 100%;
+
+ }
+
+footer a {
+  color: black;
+  letter-spacing: 2px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: lightBlue;
+}
+
+a:active {
+  color: gray;
+}
