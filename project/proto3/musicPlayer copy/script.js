@@ -221,10 +221,9 @@ decrease.onclick = function(event) {
 function draw() {
   background('white');
 
-
+  var spectrum = fft.analyze();
   if (barClick == true) {
     noStroke();
-    var spectrum = fft.analyze();
     for (var i = 0; i< spectrum.length; i++) {
         var x = map(i, 0, spectrum.length, 0, width);
         var h = -height + map(spectrum[i], 0, 255, height, 0);
@@ -236,7 +235,6 @@ function draw() {
 
 
    if (waveClick == true) {
-    var spectrum=fft.analyze();
     beginShape();
     smooth();
     noFill();
@@ -251,7 +249,6 @@ function draw() {
   }
 
    if (radialClick == true) {
-    var spectrum=fft.analyze();
     translate(width/2, height/2);
     for (var i=0; i<spectrum.length; i++) {
       ellipse(0,0,spectrum[i] *50, spectrum[i]*50);
