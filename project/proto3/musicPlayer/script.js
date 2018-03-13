@@ -7,19 +7,17 @@ var song,
   w,
   amp;
 
-
+// audio control buttons
 var play = document.getElementById('play');
 var pause = document.getElementById('pause');
-
 var increase = document.getElementById('increase');
 var decrease = document.getElementById('decrease');
-
 var chooseAudio = document.getElementById('audioFile');
 
 var disclaimer = document.getElementById('disclaimer');
 
-
-// colorPicker
+// color colorButtons
+var colorButtons = document.getElementsByClassName('colorbtn');
 
 var color1 = document.getElementById('color1');
 var color2 = document.getElementById('color2');
@@ -35,9 +33,6 @@ var color11 = document.getElementById('color11');
 var color12 = document.getElementById('color12');
 var color13 = document.getElementById('color13');
 var color14 = document.getElementById('color14');
-
-
-
 
 var colorChoices = [
   '#FD8BD9',
@@ -56,9 +51,9 @@ var colorChoices = [
   '#d57eeb'
 ];
 
+var currentColor;
 
 // visualizer buttons
-
 var bar = document.getElementById('bar');
 var wave = document.getElementById('wave');
 var radial = document.getElementById('radial');
@@ -70,38 +65,32 @@ var radialClick = false;
 var spectrum;
 
 // load audio
-
 function preload() {
   song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
-
 }
 
-// var myViz;
+
 function setup() {
   console.log('playing');
   var canvas = createCanvas(1600, 400);
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
-  // stop default track from playing when user is uploading audio audioFile
-
+  smooth();
 
   fft = new p5.FFT(0.9, 128);
   fft.setInput(song);
-
   amp = new p5.Amplitude();
 
   w = width / 64;
   barClick = true;
-
-
-  //myViz =
+  currentColor = colorChoices[0];
 }
 
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
 
 
-  chooseAudio.onclick = function() {
+chooseAudio.onclick = function() {
   song.stop();
 }
 
@@ -135,90 +124,15 @@ decrease.onclick = function(event) {
 
 // eventlisteners for color buttons
 
+for (let i = 0; i < colorButtons.length; i++) {
+  console.log(colorButtons[i]);
+  colorButtons[i].addEventListener('click', function() {
+    currentColor = colorChoices[i];
+  });
+}
 
+// color1.addEventListener('click', function() {
 
-color1.addEventListener('click', function() {
-  fill(colorChoices[0]);
-  stroke(colorChoices[0]);
-
-});
-
-color2.addEventListener('click', function() {
-  fill(colorChoices[1]);
-  stroke(colorChoices[1]);
-
-});
-
-color3.addEventListener('click', function() {
-  fill(colorChoices[2]);
-  stroke(colorChoices[2]);
-
-});
-
-color4.addEventListener('click', function() {
-  fill(colorChoices[3]);
-  stroke(colorChoices[3]);
-
-});
-
-color5.addEventListener('click', function() {
-  fill(colorChoices[4]);
-  stroke(colorChoices[4]);
-
-});
-
-color6.addEventListener('click', function() {
-  fill(colorChoices[5]);
-  stroke(colorChoices[5]);
-
-});
-
-color7.addEventListener('click', function() {
-  fill(colorChoices[6]);
-  stroke(colorChoices[6]);
-
-});
-
-color8.addEventListener('click', function() {
-  fill(colorChoices[7]);
-  stroke(colorChoices[7]);
-  alert('Color is coming soon!');
-});
-
-color9.addEventListener('click', function() {
-  fill(colorChoices[8]);
-  stroke(colorChoices[8]);
-    alert('Color is coming soon!');
-});
-
-color10.addEventListener('click', function() {
-  fill(colorChoices[9]);
-  stroke(colorChoices[9]);
-    alert('Color is coming soon!');
-});
-
-color11.addEventListener('click', function() {
-  fill(colorChoices[10]);
-  stroke(colorChoices[10]);
-    alert('Color is coming soon!');
-});
-
-color12.addEventListener('click', function() {
-  fill(colorChoices[11]);
-  stroke(colorChoices[11]);
-    alert('Color is coming soon!');
-});
-
-color13.addEventListener('click', function() {
-  fill(colorChoices[12]);
-  stroke(colorChoices[12]);
-    alert('Color is coming soon!');
-});
-
-color14.addEventListener('click', function() {
-  fill(colorChoices[13]);
-  stroke(colorChoices[13]);
-});
 
 
 bar.addEventListener('click', function() {
@@ -245,7 +159,8 @@ radial.addEventListener('click', function() {
 
 
 function draw() {
-  spectrum= fft.analyze();
+  // console.log('draw', currentColor);
+  spectrum = fft.analyze();
   background('white');
 
   if (barClick) {
@@ -253,15 +168,14 @@ function draw() {
   } else if (waveClick) {
     showWaveClick();
   } else if (radialClick) {
-      showRadialClick();
+    showRadialClick();
   }
 }
 
-function showBarClick() {
-  fill(colorChoices[0]);
-  noStroke();
-  console.log('show bar click');
 
+function showBarClick() {
+  fill(currentColor);
+  noStroke();
   for (var i = 0; i < spectrum.length; i++) {
     var x = map(i, 0, spectrum.length, 0, width);
     var h = -height + map(spectrum[i], 0, 255, height, 0);
@@ -269,11 +183,12 @@ function showBarClick() {
   }
 }
 
+
 function showWaveClick() {
   noFill();
-  stroke(colorChoices[0]);
+  stroke(currentColor);
+
   beginShape();
-  // smooth();
   strokeWeight(5);
   for (var i = 0; i < spectrum.length; i++) {
     var x = map(i, 0, spectrum.length, 0, width);
@@ -284,11 +199,11 @@ function showWaveClick() {
   endShape();
 }
 
+
 function showRadialClick() {
   noFill();
-  stroke(colorChoices[0]);
+  stroke(currentColor);
   translate(width / 2.5, height / 2);
-
   strokeWeight(1.5);
   for (var i = 0; i < spectrum.length; i++) {
     ellipse(0, 0, spectrum[i] * 2, spectrum[i] * 2);
