@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Audiovisualizer</title>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel= "stylesheet" href="styles.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js'></script>
+    </head>
+
+  <body class='fade'>
+    <header>
+        <h1>HOW DO YOU VISUALIZE MUSIC?</h1>
+          <div id='disclaimer'></div>
+
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </a>
+
+                    <ul>
+                        <li><a href="https://kaekae13.github.io/des157/project/proto3/index.html#footer">MAIN</a></li>
+                        <li><a href="https://kaekae13.github.io/des157/project/proto3/index.html#page1">ABOUT</a></li>
+                        <li><a href="https://kaekae13.github.io/des157/project/proto3/index.html#page2">RESEARCH</a></li>
+                        <li><a href="https://kaekae13.github.io/des157/project/proto3/index.html#page3">INSTRUCTIONS</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+
+        <div id = 'musicPlayer'>
+          <div id='barContainer'></div>
+          <div id='waveContainer'></div>
+        </div>
+
+        <div id='btnMenu'>
+
+          <div id='chooseAudio'>
+            <input id='audioFile' type = 'file'/>
+            <h3 class='loader'>LOADING...</h3>
+          </div>
+
+          <div id='controlBtn'>
+              <div id='playPause'>
+                  <button id="play" class= "hide">&#9658;</button>
+                  <button id="pause">&#9612;&#9612;</button>
+              </div>
+
+              <div id='volume'>
+                  <button id="increase">&#43;</button>
+                  <button id="decrease">&minus;</button>
+              </div>
+          </div>
+
+          <div id='visualizers'>
+            <button class = 'visual' id='bar'>BARS</button>
+            <button class = 'visual' id='wave'>SOUNDWAVES</button>
+            <button class = 'visual' id='radial'>RADIAL</button>
+          </div>
+        </div>
+
+
+           <div id= 'colorMenu'>
+             <div class='colorPicker'>
+                <button class='colorbtn' id='color1'></button>
+                <button class='colorbtn' id='color2'></button>
+                <button class='colorbtn' id='color3'></button>
+                <button class='colorbtn' id='color4'></button>
+                <button class='colorbtn' id='color5'></button>
+                <button class='colorbtn' id='color6'></button>
+                <button class='colorbtn' id='color7'></button>
+                <button class='colorbtn' id='color8'></button>
+                <button class='colorbtn' id='color9'></button>
+                <button class='colorbtn' id='color10'></button>
+                <button class='colorbtn' id='color11'></button>
+                <button class='colorbtn' id='color12'></button>
+                <button class='colorbtn' id='color13'></button>
+                <button class='colorbtn' id='color14'></button>
+             </div>
+           </div>
+
+
+      </section>
+    <script src = "script.js"></script>
+
+    <footer>
+        <a href = "https://kaekae13.github.io/des157/">HOME |</a>
+        <a href="https://validator.w3.org/check?uri=referer">VALID HTML5 |</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS |</a>
+        <a href="https://p5js.org/reference/#/libraries/p5.sound">p5 SOUND</a>
+  </footer>
+  </body>
+
+  </html>
