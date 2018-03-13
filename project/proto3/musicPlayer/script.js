@@ -236,12 +236,11 @@ decrease.onclick = function(event) {
               var h = -height + map(spectrum[i], 0, 255, height, 0);
               rect (x + w, height,  width / spectrum.length - 3, h);
             }
-
       }else if (waveClick) {
         beginShape();
         smooth();
         noFill();
-        strokeWeight(3);
+        strokeWeight(5);
         for (var i = 0; i<spectrum.length; i++) {
           var x = map(i, 0, spectrum.length, 0, width);
           var h = map(spectrum[i], 0, 255, height-50, 0);
@@ -254,8 +253,7 @@ decrease.onclick = function(event) {
         noFill();
         strokeWeight(1.5);
         for (var i=0; i<spectrum.length; i++) {
-          ellipse(0,0,spectrum[i]*1.90, spectrum[i]*1.90);
-          
+          ellipse(0,0,spectrum[i]*2, spectrum[i]*2);
         }
       }
     }

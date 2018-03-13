@@ -45,8 +45,9 @@ section {
 
 .fade {
   animation-name: displayFade;
-  animation-duration:4s;
+  animation-duration:6.5s;
 }
+
 
 
 @keyframes displayFade {
