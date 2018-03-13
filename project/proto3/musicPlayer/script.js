@@ -2,6 +2,8 @@
 
 console.log("reading js");
 
+window.onload(alert('Click on a color to begin! *Site is under construction*'));
+
 var song,
     fft,
     w,
@@ -59,7 +61,7 @@ var bar = document.getElementById('bar');
 var wave = document.getElementById('wave');
 var radial = document.getElementById('radial');
 
-
+  var buttonClick="barClick";
 // load audio
 
 function preload() {
@@ -86,10 +88,43 @@ function setup() {
 
 
   w = width/64;
+
+
 }
 
-chooseAudio.onclick= function() {
-  song.stop();
+function waves() {
+    var spectrum=fft.analyze();
+    beginShape();
+    smooth();
+    noFill();
+    strokeWeight(3);
+    for (var i = 0; i<spectrum.length; i++) {
+      var x = map(i, 0, spectrum.length, 0, width);
+      var h = map(spectrum[i], 0, 255, height-50, 0);
+      vertex(i+x, h);
+      clear();
+    }
+    endShape();
+  }
+
+
+function bars() {
+    noStroke();
+    var spectrum = fft.analyze();
+    for (var i = 0; i< spectrum.length; i++) {
+        var x = map(i, 0, spectrum.length, 0, width);
+        var h = -height + map(spectrum[i], 0, 255, height, 0);
+        rect (x + w, height,  width / spectrum.length - 3, h);
+      }
+    }
+
+
+function radial() {
+    var spectrum=fft.analyze();
+    translate(width/2, height/2);
+    for (var i=0; i<spectrum.length; i++) {
+      ellipse(0,0,spectrum[i] *50, spectrum[i]*50);
+    }
 }
 
 // pause and play events
@@ -192,64 +227,24 @@ decrease.onclick = function(event) {
       stroke(colorChoices[13]);
     });
 
+    bar.addEventListener('click', function() {
+      var buttonClick = "barClick";
+    });
 
+    wave.addEventListener ('click', function() {
+      var buttonClick = "waveClick";
+    });
 
+    radial.addEventListener ('click', function() {
+    var buttonClick = "radialClick";
+    });
 
-
-
-  function waves() {
-      var spectrum=fft.analyze();
-      beginShape();
-      smooth();
-      noFill();
-      strokeWeight(3);
-      for (var i = 0; i<spectrum.length; i++) {
-        var x = map(i, 0, spectrum.length, 0, width);
-        var h = map(spectrum[i], 0, 255, height-50, 0);
-        vertex(i+x, h);
-        clear();
-      }
-      endShape();
-    }
-
-
-  function bars() {
-      noStroke();
-      var spectrum = fft.analyze();
-      for (var i = 0; i< spectrum.length; i++) {
-          var x = map(i, 0, spectrum.length, 0, width);
-          var h = -height + map(spectrum[i], 0, 255, height, 0);
-          rect (x + w, height,  width / spectrum.length - 3, h);
-        }
-      }
-
-
-  function radial() {
-      var spectrum=fft.analyze();
-      translate(width/2, height/2);
-      for (var i=0; i<spectrum.length; i++) {
-        ellipse(0,0,spectrum[i] *50, spectrum[i]*50);
-      }
-  }
-
+    chooseAudio.addEventListener('click', function() {
+    song.stop();
+    });
 
 function draw() {
   background('white');
-  var buttonClick=" ";
-
-  bar.onclick = function(event) {
-    var buttonClick = "barClick";
-
-  }
-
-  wave.onclick = function(event) {
-    var buttonClick = "waveClick";
-
-  }
-
-radial.onclick = function(event) {
-  var buttonClick = "radialClick";
-  }
 
   console.log(buttonClick);
 
