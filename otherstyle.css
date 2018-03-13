@@ -158,6 +158,13 @@ p {
   margin-left: 13%;
   margin-right: 17%;
 }
+
+#audience1, #audience2 {
+  width: 46%;
+  display: inline-block;
+  padding-right: 3%;
+  margin-top: 7%;
+}
 /* end img styles */
 
 ul {
@@ -189,7 +196,7 @@ margin-left: 75px;
 #audienceTest h3 {
   font-size: 18px;
   font-weight: bolder;
-  
+
 }
 
 #audienceTest ol li {
