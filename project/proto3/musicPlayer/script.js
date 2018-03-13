@@ -121,20 +121,15 @@ play.addEventListener('click', function() {
 
 
 // volume events
-increase.onclick = function(event) {
-  song.amp += 0.2;
-}
+increase.addEventListener('click', function() {
+  song.amp+=0.2;
+});
 
-decrease.onclick = function(event) {
-  song.amp -= 0.2;
-}
+decrease.addEventListener('click', function() {
+  song.amp-=0.2;
+});
 
-
-
-// create separate function for sound bars
-
-// eventlisteners for color buttons
-
+// color
 for (let i = 0; i < colorButtons.length; i++) {
   console.log(colorButtons[i]);
   colorButtons[i].addEventListener('click', function() {
@@ -142,15 +137,11 @@ for (let i = 0; i < colorButtons.length; i++) {
   });
 }
 
-// color1.addEventListener('click', function() {
-
-
-
+// set values to audiovisualizer click functions
 bar.addEventListener('click', function() {
   barClick = true;
   waveClick = false;
   radialClick = false;
-
 });
 
 wave.addEventListener('click', function() {
@@ -164,10 +155,12 @@ radial.addEventListener('click', function() {
   barClick = false;
   waveClick = false;
   radialClick = true;
-  //myViz = 'radialClick';
 });
 
 
+// audiovisualizer functions
+
+// bar function
 function showBarClick() {
   fill(currentColor);
   noStroke();
@@ -178,11 +171,10 @@ function showBarClick() {
   }
 }
 
-
+// waveform function
 function showWaveClick() {
   noFill();
   stroke(currentColor);
-
   beginShape();
   strokeWeight(5);
   for (var i = 0; i < spectrum.length; i++) {
@@ -194,7 +186,7 @@ function showWaveClick() {
   endShape();
 }
 
-
+// radial function
 function showRadialClick() {
   noFill();
   stroke(currentColor);
