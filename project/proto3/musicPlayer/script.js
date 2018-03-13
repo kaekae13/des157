@@ -36,6 +36,8 @@ var color12 = document.getElementById('color12');
 var color13 = document.getElementById('color13');
 var color14 = document.getElementById('color14');
 
+var colorbtn = document.getElementsByClassName('colorbtn');
+
 
 var colorChoices = [
   '#FD8BD9',
@@ -65,6 +67,8 @@ var barClick = false;
 var waveClick = false;
 var radialClick = false;
 
+var spectrum;
+
 // load audio
 
 function preload() {
@@ -72,13 +76,11 @@ function preload() {
 
 }
 
-
+// var myViz;
 function setup() {
   console.log('playing');
   var canvas = createCanvas(1600, 400);
   canvas.parent('barContainer');
-  alert('// FOR FULL SCREEN VIEW ONLY // to begin, select audiovisualizer type and color button.');
-
   song.loop();
   song.setVolume(0.1);
 
@@ -90,9 +92,12 @@ function setup() {
 
   amp = new p5.Amplitude();
 
-
   w = width / 64;
 
+  barClick = true;
+
+
+  //myViz =
 }
 
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
@@ -131,6 +136,9 @@ decrease.onclick = function(event) {
 // create separate function for sound bars
 
 // eventlisteners for color buttons
+colorbtn.addEventListener ('click', function() {
+  alert('Color is coming soon!');
+})
 color1.addEventListener('click', function() {
   fill(colorChoices[0]);
   stroke(colorChoices[0]);
@@ -220,40 +228,58 @@ radial.addEventListener('click', function() {
   barClick = false;
   waveClick = false;
   radialClick = true;
+  //myViz = 'radialClick';
 });
 
 
 
 function draw() {
-
+  spectrum= fft.analyze();
   background('white');
-  var spectrum = fft.analyze();
 
   if (barClick) {
-    noStroke();
-    for (var i = 0; i < spectrum.length; i++) {
-      var x = map(i, 0, spectrum.length, 0, width);
-      var h = -height + map(spectrum[i], 0, 255, height, 0);
-      rect(x + w, height, width / spectrum.length - 3, h);
-    }
+    showBarClick();
   } else if (waveClick) {
-    beginShape();
-    smooth();
-    noFill();
-    strokeWeight(5);
-    for (var i = 0; i < spectrum.length; i++) {
-      var x = map(i, 0, spectrum.length, 0, width);
-      var h = map(spectrum[i], 0, 255, height - 50, 0);
-      vertex(i + x, h);
-      clear();
-    }
-    endShape();
+    showWaveClick();
   } else if (radialClick) {
-    translate(width / 2.5, height / 2);
-    noFill();
-    strokeWeight(1.5);
-    for (var i = 0; i < spectrum.length; i++) {
-      ellipse(0, 0, spectrum[i] * 2, spectrum[i] * 2);
-    }
+    showRadialClick();
+  }
+}
+
+function showBarClick() {
+  fill(colorChoices[0]);
+  noStroke();
+  console.log('show bar click');
+
+  for (var i = 0; i < spectrum.length; i++) {
+    var x = map(i, 0, spectrum.length, 0, width);
+    var h = -height + map(spectrum[i], 0, 255, height, 0);
+    rect(x + w, height, width / spectrum.length - 3, h);
+  }
+}
+
+function showWaveClick() {
+  noFill();
+  stroke(colorChoices[0]);
+  beginShape();
+  // smooth();
+  strokeWeight(5);
+  for (var i = 0; i < spectrum.length; i++) {
+    var x = map(i, 0, spectrum.length, 0, width);
+    var h = map(spectrum[i], 0, 255, height - 50, 0);
+    vertex(i + x, h);
+    clear();
+  }
+  endShape();
+}
+
+function showRadialClick() {
+  noFill();
+  stroke(colorChoices[0]);
+  translate(width / 2.5, height / 2);
+
+  strokeWeight(1.5);
+  for (var i = 0; i < spectrum.length; i++) {
+    ellipse(0, 0, spectrum[i] * 2, spectrum[i] * 2);
   }
 }
