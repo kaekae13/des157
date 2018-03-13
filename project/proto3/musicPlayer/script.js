@@ -36,7 +36,7 @@ var color12 = document.getElementById('color12');
 var color13 = document.getElementById('color13');
 var color14 = document.getElementById('color14');
 
-var colorbtn = document.getElementsByClassName('colorbtn');
+
 
 
 var colorChoices = [
@@ -83,7 +83,6 @@ function setup() {
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
-alert('Color is coming soon!');
   // stop default track from playing when user is uploading audio audioFile
 
 
@@ -93,7 +92,6 @@ alert('Color is coming soon!');
   amp = new p5.Amplitude();
 
   w = width / 64;
-
   barClick = true;
 
 
@@ -103,7 +101,7 @@ alert('Color is coming soon!');
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
 
 
-chooseAudio.onclick = function() {
+  chooseAudio.onclick = function() {
   song.stop();
 }
 
@@ -136,9 +134,9 @@ decrease.onclick = function(event) {
 // create separate function for sound bars
 
 // eventlisteners for color buttons
-colorbtn.addEventListener ('click', function() {
 
-})
+
+
 color1.addEventListener('click', function() {
   fill(colorChoices[0]);
   stroke(colorChoices[0]);
@@ -178,7 +176,7 @@ color6.addEventListener('click', function() {
 color7.addEventListener('click', function() {
   fill(colorChoices[6]);
   stroke(colorChoices[6]);
-    
+
 });
 
 color8.addEventListener('click', function() {
@@ -255,7 +253,7 @@ function draw() {
   } else if (waveClick) {
     showWaveClick();
   } else if (radialClick) {
-    showRadialClick();
+      showRadialClick();
   }
 }
 
