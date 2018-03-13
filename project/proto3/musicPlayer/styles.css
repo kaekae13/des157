@@ -158,7 +158,7 @@ section {
 .nav div {
     width: 30px;
     height: 4px;
-    background-color: gray;
+    background-image: linear-gradient(to right, #b721ff 0%, #21d4fd 130%);
     margin: 5px 0;
     top: 0;
     z-index: 1;
@@ -185,16 +185,17 @@ section {
 
 .nav li ul li a {
   text-decoration: none;
-  border: 4px lightGrey solid;
+  border: 4px white solid;
   letter-spacing: 2px;
   font-size:0.75em;
+
   left: 0;
-  color: black;
+  color: white;
   width: 100px;
-  background-color: white;
+  background-image: linear-gradient(to right, #b721ff 0%, #21d4fd 130%);
   font-family: 'Quicksand', sans-serif;
   padding-right: 13%;
-  padding-top: 10%;
+  padding-top: 8%;
   padding-bottom: 10%;
   padding-left: 13%;
   display: block;
@@ -202,8 +203,7 @@ section {
 }
 
 .nav ul  li:hover ul li {
-    height: 58px;
-
+    height: 45px;
 }
 
 

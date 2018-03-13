@@ -89,6 +89,9 @@ a {
   height: 100%;
 }
 
+#page1, #page2, #page3 {
+  padding-left: 5%;
+}
 
 #page1 {
   height: 100%;
@@ -133,7 +136,7 @@ h4 {
   width: 40%;
   margin-left: 3%;
   padding-top: 0.5%;
-  line-height: 1.25em;
+  line-height: 1.5em;
   margin-top: 1%;
   text-align: left;
 }
@@ -153,7 +156,7 @@ h4 {
 
 #music p {
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 #page2 ul {
@@ -174,7 +177,7 @@ h4 {
   border:none;
   display: block;
   text-align: left;
-  width: 100%;
+
 }
 
 #page3 ol {
@@ -192,8 +195,8 @@ ol li {
   letter-spacing: 0.25px;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 2%;
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /* scroll */

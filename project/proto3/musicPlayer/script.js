@@ -17,6 +17,8 @@ var decrease = document.getElementById('decrease');
 var chooseAudio = document.getElementById('audioFile');
 
 
+
+
 // colorPicker
 
 var color1 = document.getElementById('color1');
@@ -224,10 +226,9 @@ decrease.onclick = function(event) {
 
 
     function draw() {
+
       background('white');
-
       var spectrum = fft.analyze();
-
 
       if (barClick) {
           noStroke();
@@ -255,5 +256,6 @@ decrease.onclick = function(event) {
         for (var i=0; i<spectrum.length; i++) {
           ellipse(0,0,spectrum[i]*2, spectrum[i]*2);
         }
+      
       }
     }
