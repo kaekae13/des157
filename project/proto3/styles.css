@@ -15,9 +15,7 @@ body {
 
 
 
-/*#header, #nxtPage {
-  z-index: -1;
-} */
+/* typography*/
 h1 {
   text-align: center;
   margin-top:20%;
@@ -33,78 +31,6 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2em;
 }
-
-p {
-  margin-top: 1%;
-}
-
-header p {
-  font-size: 0.75em;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  letter-spacing:1px;
-  margin: 0 auto;
-  padding-top: 3%;
-}
-/* nav and list styles */
-
-nav {
-  padding-top: 13%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-li {
-  padding: 0.75%;
-  display: inline-block;
-  border: 2px white solid;
-  margin-right: 2%;
-  text-align: center;
-  font-size:0.80em;
-  border-radius: 25px;
-  letter-spacing: 2.5px;
-}
-
-a {
-  text-decoration:none;
-  color: white;
-}
-
-/* fade animation */
-
-.fade {
-  animation-name: displayFade;
-  animation-duration:4s;
-}
-
-
-@keyframes displayFade {
-  0%{opacity:0}
-  100%{opacity:1}
-}
-
-
-/* page scroll styles */
-.page {
-  height: 100%;
-}
-
-#page1, #page2, #page3 {
-  padding-left: 5%;
-}
-
-#page1 {
-  height: 100%;
-}
-
-#page2 {
-  height: 170%;
-}
-
-#page3 {
-  height: 120%;
-}
-
 
 h3 {
   font-family: 'Quicksand', sans-serif;
@@ -129,6 +55,18 @@ h4 {
   padding-top: 10%;
 }
 
+p {
+  margin-top: 1%;
+}
+
+header p {
+  font-size: 0.75em;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  letter-spacing:1px;
+  margin: 0 auto;
+  padding-top: 3%;
+}
 #page1 p, #page2 p, #page3 p {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
@@ -149,14 +87,83 @@ h4 {
   width: 60%;
 }
 
-#page3 ol {
-  margin-bottom: 30%;
-  margin-top: 15%;
-}
-
 #music p {
   margin-top: 1%;
   margin-bottom: 3%;
+}
+
+/* nav and list styles */
+nav {
+  padding-top: 13%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+li {
+  padding: 0.75%;
+  display: inline-block;
+  border: 2px white solid;
+  margin-right: 2%;
+  text-align: center;
+  font-size:0.80em;
+  border-radius: 25px;
+  letter-spacing: 2.5px;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+/* fade animation */
+.fade {
+  animation-name: displayFade;
+  animation-duration:4s;
+}
+
+@keyframes displayFade {
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
+/* page scroll styles */
+.page {
+  height: 100%;
+}
+
+#page1, #page2, #page3 {
+  padding-left: 5%;
+}
+
+#page1 {
+  height: 100%;
+}
+
+#page2 {
+  height: 170%;
+}
+
+#page3 {
+  height: 120%;
+}
+
+/* nav and list styles */
+ul li {
+  font-family: 'Raleway', sans-serif;
+}
+
+ol li {
+  list-style: decimal;
+  letter-spacing: 0.25px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 2%;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#page3 ol {
+  margin-bottom: 30%;
+  margin-top: 15%;
 }
 
 #page2 ul {
@@ -186,22 +193,7 @@ h4 {
 
 }
 
-ul li {
-  font-family: 'Raleway', sans-serif;
-}
-
-ol li {
-  list-style: decimal;
-  letter-spacing: 0.25px;
-  font-family: 'Raleway', sans-serif;
-  padding-bottom: 2%;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* scroll */
-
-
+/* scroll menu */
 .dotnav-right {
     right: 2%;
     top: 50%;
@@ -252,7 +244,6 @@ ol li {
 
 
 /* footer and link styles */
-
 footer {
   font-family: 'Raleway', sans-serif;
   font-size: 0.75em;
@@ -278,7 +269,6 @@ a:link {
 a:visited {
  color: white;
 }
-
 
 a:hover {
  color: white;

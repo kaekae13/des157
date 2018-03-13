@@ -87,26 +87,37 @@ function setup() {
   currentColor = colorChoices[0];
 }
 
+function draw() {
+  // console.log('draw', currentColor);
+  spectrum = fft.analyze();
+  background('white');
+
+  if (barClick) {
+    showBarClick();
+  } else if (waveClick) {
+    showWaveClick();
+  } else if (radialClick) {
+    showRadialClick();
+  }
+}
+
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
-
-
 chooseAudio.onclick = function() {
   song.stop();
 }
 
 // pause and play events
-
-pause.onclick = function(event) {
+pause.addEventListener ('click', function() {
   song.pause();
   play.className = "btnShow";
   pause.className = "hide";
-}
+});
 
-play.onclick = function(event) {
+play.addEventListener('click', function() {
   song.play();
   play.className = "hide";
   pause.className = "btnShow";
-}
+});
 
 
 // volume events
@@ -155,22 +166,6 @@ radial.addEventListener('click', function() {
   radialClick = true;
   //myViz = 'radialClick';
 });
-
-
-
-function draw() {
-  // console.log('draw', currentColor);
-  spectrum = fft.analyze();
-  background('white');
-
-  if (barClick) {
-    showBarClick();
-  } else if (waveClick) {
-    showWaveClick();
-  } else if (radialClick) {
-    showRadialClick();
-  }
-}
 
 
 function showBarClick() {
