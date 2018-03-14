@@ -84,7 +84,7 @@ function setup() {
 
   w = width / 64;
   barClick = true;
-  currentColor = colorChoices[0];
+  currentColor = colorChoices[10];
 }
 
 function draw() {
