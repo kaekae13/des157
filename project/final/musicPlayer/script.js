@@ -194,6 +194,6 @@ function showRadialClick() {
   translate(width / 2.5, height / 2);
   strokeWeight(1.25);
   for (var i = 0; i < spectrum.length; i++) {
-    ellipse(0, 0, spectrum[i] * 2, spectrum[i] * 2);
+    ellipse(0, 0, spectrum[i] * 1.5, spectrum[i] * 1.5);
   }
 }
