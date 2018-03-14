@@ -1,7 +1,6 @@
 html {
     height: 100%;
     scroll-behavior: smooth;
-    data-scroll-time: 2;
 }
 body {
     height: 100%;
@@ -176,7 +175,7 @@ ol li {
   letter-spacing: 1px;
 }
 
-#page2 p, #page2 li,  {
+#page2 p, #page2 li  {
   font-size: 0.70em;
 }
 
