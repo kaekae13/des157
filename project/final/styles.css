@@ -242,6 +242,16 @@ ol li {
     margin-top: 10px;
   }
 
+  img {
+    position: fixed;
+    width: 2.75%;
+    top: 0;
+    right: 0;
+    padding-right: 2%;
+    margin-top: 425px;
+  }
+
+
 
 /* footer and link styles */
 footer {
