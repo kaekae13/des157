@@ -77,7 +77,7 @@ function setup() {
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
-  loading.setClassName('.hide');
+  
   smooth();
 
   fft = new p5.FFT(0.9, 128);
