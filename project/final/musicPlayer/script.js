@@ -77,7 +77,7 @@ function setup() {
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
-  
+
   smooth();
 
   fft = new p5.FFT(0.9, 128);
@@ -86,7 +86,7 @@ function setup() {
 
   w = width / 64;
   barClick = true;
-  currentColor = colorChoices[0];
+  currentColor = colorChoices[7];
 }
 
 function draw() {
