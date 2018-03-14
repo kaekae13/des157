@@ -243,15 +243,13 @@ ol li {
   }
 
   img {
-    position: fixed;
-    width: 2.75%;
+    width: 2.5%;
     top: 0;
+    margin-right: 2%;
+    margin-top: 420px;
+    position: fixed;
     right: 0;
-    padding-right: 2%;
-    margin-top: 425px;
   }
-
-
 
 /* footer and link styles */
 footer {
