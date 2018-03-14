@@ -67,7 +67,7 @@ var spectrum;
 
 // load audio
 function preload() {
-  song = loadSound("https://kaekae13.github.io/des157/project/final/audioFile2.mp3");
+  song = loadSound("https://kaekae13.github.io/des157/project/final/musicPlayer/audioFile2.mp3");
 }
 
 
@@ -161,7 +161,6 @@ radial.addEventListener('click', function() {
 
 
 // audiovisualizer functions
-
 // bar function
 function showBarClick() {
   fill(currentColor);
