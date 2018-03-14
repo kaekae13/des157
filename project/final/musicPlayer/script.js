@@ -15,6 +15,7 @@ var decrease = document.getElementById('decrease');
 var chooseAudio = document.getElementById('audioFile');
 
 var disclaimer = document.getElementById('disclaimer');
+var loading = document.getElementById('p5_loading');
 
 // color colorButtons
 var colorButtons = document.getElementsByClassName('colorbtn');
@@ -66,7 +67,7 @@ var spectrum;
 
 // load audio
 function preload() {
-  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile2.mp4a");
+  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile2.mp3");
 }
 
 
@@ -76,6 +77,7 @@ function setup() {
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
+  loading.setClassName('.hide');
   smooth();
 
   fft = new p5.FFT(0.9, 128);
