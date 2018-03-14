@@ -66,7 +66,7 @@ var spectrum;
 
 // load audio
 function preload() {
-  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile.mp3");
+  song = loadSound("https://kaekae13.github.io/des157/studio4/audio/audioFile2.mp3");
 }
 
 
