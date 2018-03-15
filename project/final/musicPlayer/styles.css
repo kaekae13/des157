@@ -38,7 +38,7 @@ h3 {
   letter-spacing: 2px;
 }
 
-/* structural positioning */
+/* positioning main content */
 #waveContainer, #barContainer {
   left: 0;
   height: 95%;
@@ -60,7 +60,7 @@ section {
   100%{opacity:1}
 }
 
-/* button and menu styles */
+/* audio control buttons */
 #btnMenu {
   padding-top: 2%;
   text-align: center;
@@ -98,6 +98,7 @@ section {
   color: gray;
 }
 
+/* play and pause buttons */
 #playPause {
   margin-right: 1.5%;
 }
@@ -115,12 +116,6 @@ section {
   z-index: -1;
 }
 
-#increase, #decrease {
-  display: inline-block;
-  border-radius: 10px;
-  color: gray;
-}
-
 .hide {
    display: none;
  }
@@ -135,6 +130,14 @@ section {
    background-color: white;
  }
 
+/* volume buttons */
+#increase, #decrease {
+  display: inline-block;
+  border-radius: 10px;
+  color: gray;
+}
+
+/* visualizer buttons */
 #visualizers button {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
