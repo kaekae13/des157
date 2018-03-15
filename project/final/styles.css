@@ -9,6 +9,7 @@ body {
     background-image: linear-gradient(to bottom, #b721ff 0%, #b721ff 10%, #21d4fd 100%);
     background-attachment: fixed;
     color: white;
+    letter-spacing: 2px;
 }
 
 
@@ -40,6 +41,10 @@ h3 {
   text-align: left;
 }
 
+#page2 h3 {
+  padding-top: 10%;
+}
+
 h4 {
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 2px;
@@ -47,10 +52,6 @@ h4 {
   margin-left: 3%;
   margin-bottom: 1%;
   text-align: left;
-}
-
-#page2 h3 {
-  padding-top: 10%;
 }
 
 p {
@@ -65,6 +66,7 @@ header p {
   margin: 0 auto;
   padding-top: 3%;
 }
+
 #page1 p, #page2 p, #page3 p {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
@@ -83,6 +85,7 @@ header p {
 
 #page2 p {
   width: 60%;
+  font-size: 0.70em;
 }
 
 #music p {
@@ -106,12 +109,36 @@ li {
   text-align: center;
   font-size:0.80em;
   border-radius: 25px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
 }
 
-a {
-  text-decoration:none;
-  color: white;
+ol li {
+  letter-spacing: 1.5px;
+  padding-bottom: 1%;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 0.75em;
+}
+
+#page2 li, #page3 li {
+  border:none;
+  display: block;
+  text-align: left;
+}
+
+#page2 ul {
+  font-size: 0.85em;
+}
+
+#page3 ol {
+  margin-bottom: 30%;
+  margin-top: 1.5%;
+  width: 100%;
+}
+
+#page3 ol li {
+  padding-bottom: 2%;
 }
 
 /* fade animation */
@@ -125,7 +152,7 @@ a {
   100%{opacity:1}
 }
 
-/* page scroll styles */
+/* page height for scrolls */
 .page {
   height: 100%;
 }
@@ -139,58 +166,13 @@ a {
 }
 
 #page2 {
-  height: 170%;
+  height: 200%;
 }
 
 #page3 {
-  height: 120%;
+  height: 110%;
 }
 
-/* nav and list styles */
-ul li {
-  font-family: 'Raleway', sans-serif;
-}
-
-ol li {
-  list-style: decimal;
-  letter-spacing: 0.25px;
-  font-family: 'Raleway', sans-serif;
-  padding-bottom: 2%;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-#page3 ol {
-  margin-bottom: 30%;
-  margin-top: 15%;
-}
-
-#page2 ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-#page2 li {
-  letter-spacing: 1px;
-}
-
-#page2 p, #page2 li  {
-  font-size: 0.70em;
-}
-
-#page2 li, #page3 li {
-  border:none;
-  display: block;
-  text-align: left;
-
-}
-
-#page3 ol {
-  margin-top: 1.5%;
-  width: 50%;
-
-}
 
 /* scroll menu */
 .dotnav-right {
@@ -241,7 +223,7 @@ ol li {
     margin-top: 10px;
   }
 
-  img {
+#visualizerIcon {
     width: 2.5%;
     top: 0;
     margin-right: 2%;
@@ -261,12 +243,6 @@ footer {
   top: 0;
   padding-top: 3%;
   padding-left: 3%;
-
-}
-
-footer a {
- color: white;
- letter-spacing: 2px;
 }
 
 a:link {
@@ -278,10 +254,6 @@ a:visited {
 }
 
 a:hover {
- color: white;
-}
-
-footer a:hover {
   color: darkBlue;
 }
 
