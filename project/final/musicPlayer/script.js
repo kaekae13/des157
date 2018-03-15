@@ -5,7 +5,8 @@ console.log("reading js");
 var song,
   fft,
   w,
-  amp;
+  amp,
+  audio;
 
 // audio control buttons
 var play = document.getElementById('play');
@@ -15,7 +16,7 @@ var decrease = document.getElementById('decrease');
 var chooseAudio = document.getElementById('audioFile');
 
 var disclaimer = document.getElementById('disclaimer');
-var loading = document.getElementById('p5_loading');
+var audioFile = document.getElementById('audioFile');
 
 // color colorButtons
 var colorButtons = document.getElementsByClassName('colorbtn');
@@ -104,9 +105,11 @@ function draw() {
 }
 
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
-chooseAudio.onclick = function() {
-  song.stop();
-}
+
+audioFile.onchange = function () {
+    song.stop();
+    fft.setInput(audioFile);
+  };
 
 // pause and play events
 pause.addEventListener ('click', function() {
@@ -139,7 +142,7 @@ for (let i = 0; i < colorButtons.length; i++) {
   });
 }
 
-// set values to audiovisualizer click functions
+// set values to audiovisualizer click variables
 bar.addEventListener('click', function() {
   barClick = true;
   waveClick = false;
