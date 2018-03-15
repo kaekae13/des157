@@ -5,8 +5,7 @@ console.log("reading js");
 var song,
   fft,
   w,
-  amp,
-  audio;
+  amp;
 
 // audio control buttons
 var play = document.getElementById('play');
@@ -78,13 +77,10 @@ function setup() {
   canvas.parent('barContainer');
   song.loop();
   song.setVolume(0.1);
-
   smooth();
-
   fft = new p5.FFT(0.9, 128);
   fft.setInput(song);
   amp = new p5.Amplitude();
-
   w = width / 64;
   barClick = true;
   currentColor = colorChoices[7];
@@ -106,12 +102,8 @@ function draw() {
 
 disclaimer.innerHTML = '// SITE IS CURRENTLY UNDER CONSTRUCTION //';
 
-audioFile.onchange = function () {
-    song.stop();
-    fft.setInput(audioFile);
-  };
 
-// pause and play events
+// event listeners for play and pause buttons
 pause.addEventListener ('click', function() {
   song.pause();
   play.className = "btnShow";
@@ -125,7 +117,7 @@ play.addEventListener('click', function() {
 });
 
 
-// volume events
+// event listeners for volume buttons
 increase.addEventListener('click', function() {
   song.amp+=0.2;
 });
@@ -134,13 +126,15 @@ decrease.addEventListener('click', function() {
   song.amp-=0.2;
 });
 
-// color
+
+// color selctors
 for (let i = 0; i < colorButtons.length; i++) {
   console.log(colorButtons[i]);
   colorButtons[i].addEventListener('click', function() {
     currentColor = colorChoices[i];
   });
 }
+
 
 // set values to audiovisualizer click variables
 bar.addEventListener('click', function() {
@@ -164,6 +158,7 @@ radial.addEventListener('click', function() {
 
 
 // audiovisualizer functions
+
 // bar function
 function showBarClick() {
   fill(currentColor);
