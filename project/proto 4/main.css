@@ -272,7 +272,6 @@ body .dropdown_content li {
   width: 200px;
   opacity: 0;
   z-index: 1;
-  margin-top: 20%;
   margin-left: 5%;
   margin-bottom: 0;
   text-decoration: none;
@@ -288,6 +287,10 @@ body .dropdown_content li {
   transition: box-shadow 0.3s, text-indent 0.3s, -webkit-box-shadow 0.3s;
   position: relative;
   font-weight: bold;
+}
+
+.list1 {
+  margin-top: 20%;
 }
 
 body .dropdown_content li:hover {
