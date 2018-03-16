@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Audiovisualizer</title>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel= "stylesheet" href="dropdown.css">
+        <link rel= "stylesheet" href="pageStyles.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
+    </head>
+
+<body>
+  <!-- / My brand -->
+  <!-- / Begin Body -->
+  <div class='content'>
+    <!-- / Introduction Block -->
+    <div class='title'>
+      <h1>MOOD VISUALIZER</h1>
+      <p>How can music and color interact to influence your state of mind?</p>
+      <div class='link'>
+        <a href='musicPlayer/index.html' target='_blank'>
+          <div class='slide'>
+            <div class='arrow'>
+              <div class='stem'></div>
+              <div class='point'></div>
+            </div>
+          </div>
+          <img id= 'visualizerIcon' src="images/visualizerIcon.svg" alt="Music Player Page Icon">
+          VISUALIZER
+        </a>
+      </div>
+    </div>
+</div>
+    <!-- /////////// Begin Dropdown //////////// -->
+    <div class='dropdown_wrapper'>
+      <input id='About' name='radio' type='radio'>
+      <label for='About'>
+        <span>ABOUT</span>
+        <div class='arrow'></div>
+        <div class='bar'></div>
+        <div class='dropdown_content'>
+          <ul>
+            <li><a href="#page1">Mission Statement<a></li>
+            <li><a href="#page2">Instructions</a></li>
+          </ul>
+        </div>
+      </label>
+      <input id='Process' name='radio' type='radio'>
+
+      <label for='Process'>
+        <span>PROCESS</span>
+        <div class='arrow'></div>
+        <div class='bar'></div>
+        <div class='dropdown_content'>
+          <ul>
+            <li>Research</li>
+            <li>Wireframes | Prototypes</li>
+          </ul>
+        </div>
+      </label>
+    <!-- /////////// End Dropdown //////////// -->
+  </div>
+
+<!-- Page 1 -->
+<article class='page' id='page1'>
+  <h3>MISSION STATEMENT</h3>
+  <p>The concept behind this interface stems from personal experience and observation. Music is something that I myself constantly use to destress and relax - I find that I cannot go a day without listening to my favorite tracks as I go about my daily routine.</p>
+  <p>I drew on my love for music and considered how it could be paired with different visual aspects to create an interactive interface that gives users a new way of visualizing sound movement.</p>
+  <p>There are a variety of different music player applications that already exist - bandcamp, Soundcloud, and Spotify, to name a few. The primary function of these applications is in allowing users to listen to and save tracks, share these tracks, and compile playlists, as well as interacting with other artists or users. There is no visual or creative aspect to these applications.</p>
+  <p>Thus, I wanted to create an interface that gives users a new way to experience their favorite tracks. The Mood Visualizer is an interactive audiovisualizer that allows people to select a type of visuals and color, as well as upload their own mp3 track.</p>
+  <p>Especially in a day and age where technology is so prevalent, people often listen to music while viewing social media apps, responding to emails and texts, and other such mundane tasks - music is a commonplace and routine part of their day, something that is taken for granted, in a way.</p>
+  <p>Through the Mood Visualizer, I aim to force people to truly focus more on the music itself and even if for just a few moments, forget the busy noise that surrounds them. The conscious act of choosing and uploading an audio file, combined with stylizing the audio visualizer, forces users to look at the visuals as they listen to their music - making them more aware of the music itself.</p>
+</article>
+<!-- /////////// End Page 1 //////////// -->
+
+<!-- Page 2 -->
+<article class='page' id='page2'>
+  <h3>INSTRUCTIONS</h3>
+  <ol>
+    <li>1. Press play to begin the audiovisualizer (a default track is attached to the interface).</li>
+    <li>2. Select one of the three choices for the type of audiovisualizer that will be displayed</li>
+    <li>3. Select a color from the color picker menu (located under the audio control buttons).</li>
+    <li>4. Upload your own audio file (mp3) if you wish!</li>
+  </ol>
+</article>
+<!-- /////////// End Page 2 //////////// -->
+
+<!-- Page 3 -->
+<article class='page' id='page3'>
+  <h3>Colors, Emotions, and Music</h3>
+  <p>Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. My research centered around findings that brought forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions.</p>
+  <p>The meanings of colors have developed culturally and are commonly associated with emotions and ideas that constantly affect our behavior and emotions, depending primarily upon the the saturation and brightness of a color (saturation refers to the pureness of a color while brightness refers to how light or dark a color is). Colors that are less saturated but bright have been proven to induce feelings of relaxation while those that are more saturated while less bright are energizing and dynamic. Color also physiologically impacts the brain, directly influencing anxiety, pulse, blood flow, and arousal - even affecting our ability to recall words or memories. Studies have established associations between specific colors and emotions, as well as common cultural meanings that have, over time, been attached to certain colors, for example:</p>
+
+  <ul>
+      <li><strong>PINK</strong> - can be calming depending on context</li>
+      <li><strong>RED</strong> - strength, boldness, arousing, stimulates excitement, passion, aggression, intense</li>
+      <li><strong>ORANGE</strong> - arousing, enthusiasm, fun, energy, warmth</li>
+      <li><strong>YELLOW</strong> - joy, excitement, energizing, optimism, youth, intellect, comfort, liveliness, conflict</li>
+      <li><strong>GREEN</strong> - creativity, productivity, positivity, calming, healing, success, hope</li>
+      <li><strong>BLUE</strong> - trustworthiness, relaxation, calming, stability, loyalty, stability, tranquility
+      <li><strong>VIOLET</strong> - sophistication, royalty, luxury, spirituality</li>
+      <li><strong>BLACK</strong> - aggressive, power, mystery, professional</li>
+      <li><strong>GREY</strong> - neutral, practical, quiet</li>
+      <li><strong>WHITE</strong> - purity, cleanliness, innocence</li>
+  </ul>
+
+  <section id='music'>
+    <h4> How does this relate to music?</h4>
+    <p>Music has the ability to trigger the pleasure centers of our brain to release the neurotransmitter dopamine, which induces emotions of happiness. Other studies have also proven that listening to music improves physical health to a certain degree, helping the body to produce increasing amounts of immunity-boosting antibodies and cells that protect against harmful bacteria and viruses. Music is also commonly used in a variety of different treatment scenarios for those with mental illnesses and other health conditions. The mood boosting and therapeutic effects of music have long been a controversial topic for researchers but findings support that even sad music/minor-toned music induce feelings of pleasure and comfort for listeners. The majority of participants also reported feeling emotions of positivity. Thus, mixing color and music can have therapeutic effects on the mind, especially depending on the personal preferences of an individual and the state of mind/mood they are in.
+    <br>
+    The mood visualizer is simply an interface that gives people the freedom to experience and visualize music in a new way. While some users may be more conscious of their color or song selections, depending upon their state of mind, the Mood Visualizer is ultimately a way for people to relax and enjoy a small variety of interactive visuals through which they can fulfill their own creative desires.
+    </p>
+
+
+  <h4>SOURCES</h4>
+  <ol>
+    <li><a href="https://www.psychologytoday.com/blog/people-places-and-things/201504/the-surprising-effect-color-your-mind-and-mood">The Surprising Effect of Color on Your Mind and Mood - Psychology Today</a></li>
+    <li><a href="http://www.funderstanding.com/brain/your-brain-on-color/">Your Brain On Color - Funderstanding</a></li>
+    <li><a href="https://www.scienceofpeople.com/color-psychology/">Color Psychology - Science of People</a></li>
+    <li><a href="https://www.ashford.edu/online-degrees/student-lifestyle/how-does-music-affect-your-brain">How does Music Affect Your Brain - Ashford Education</a></li>
+  </ol>
+</section>
+</article>
+<!-- /////////// End Page 3 //////////// -->
+
+<!-- Page 4 -->
+<article
+<!-- /////////// End Page 4 //////////// -->
+
+  <!-- / My Footer -->
+
+  <!--  <footer id='footer'>
+        <a href="https://validator.w3.org/check?uri=referer">VALID HTML5 |</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS |</a>
+        <a href="https://p5js.org/reference/#/libraries/p5.sound">Made with p5 SOUND</a>
+    </footer>
+-->
+
+</body>
+</html>
