@@ -129,7 +129,7 @@ body .link a .slide .arrow .point {
           transform: rotate(45deg);
   border-top: 2px solid #858490;
 }
-body .link a img {
+/*body .link a img {
   width: 20px;
   margin-left: 10px;
   position: relative;
@@ -140,7 +140,7 @@ body .link a img {
           transition-duration: 0.1s;
   margin-top: 10px;
   top: 4px;
-}
+}*/
 body .link a:hover > .slide {
   left: -70px;
   -webkit-transition-property: left;
@@ -287,10 +287,14 @@ body .dropdown_content li {
   transition: box-shadow 0.3s, text-indent 0.3s, -webkit-box-shadow 0.3s;
   position: relative;
   font-weight: bold;
+  color: white;
 }
 
 .list1 {
   margin-top: 20%;
+}
+.list2 {
+  margin-top: 26%;
 }
 
 body .dropdown_content li:hover {
@@ -326,7 +330,7 @@ input[type="radio"]:checked + label > .arrow {
 }
 
 input[type="radio"]:checked + label {
-  height: 325px;
+  height: 300px;
   background: #212e41;
   text-indent: 4px;
   -webkit-transition-property: height;
