@@ -5,22 +5,26 @@ body {
 h3 {
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 4px;
-  font-size: 3em;
+  font-size: 2em;
   margin-left: 3%;
-  paddng-bottom: 0.40%;
+  padding-bottom: 0;
+  margin-bottom: 0;
   padding-top: 20%;
   text-align: left;
 }
 
-#page1 p, #page2 p, #page3 p {
+.page p  {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
   font-size: 0.75em;
   margin-left: 3%;
   padding-top: 0.5%;
   line-height: 1.5em;
-  margin-top: 1%;
   text-align: left;
+}
+
+#page4 p {
+  width: 75%;
 }
 
 h4 {
@@ -32,6 +36,7 @@ h4 {
   margin-top: 70%;
   margin-bottom: 2%;
 }
+
 #page1 p {
   width: 75%;
   margin-top: 1%;
@@ -42,9 +47,12 @@ h4 {
 #page2 h3 {
   margin-top: 50%;
 }
-#page2 p {
-  width: 60%;
-  font-size: 0.70em;
+
+
+#page2 li {
+  margin-left: 0;
+  padding-left: 0;
+  text-indent: 0;
 }
 
 #music p {
@@ -60,10 +68,10 @@ h4 {
   border:none;
   display: block;
   text-align: left;
-  text-indent: 3%;
   letter-spacing: 1px;
   padding-top: 2%;
   padding-bottom: 1%;
+  text-indent: 3%;
   font-family: 'Raleway',sans-serif;
 }
 
@@ -79,14 +87,23 @@ h4 {
   padding-bottom: 1%;
 }
 
-#page3 ol {
+#page4 ul {
   margin-bottom: 30%;
   width: 100%;
+  margin-top: 2%;
 }
 
-#page3 ol li {
-  padding
+#page4 h3 {
+  margin-top: 35%;
 }
+
+#page4 ul li {
+  padding: 1%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-indent: 2%;
+}
+
 #page3 a:hover {
   color: darkBlue;
 }
@@ -102,7 +119,6 @@ h4 {
 }
 
 
-
 /* page height for scrolls */
 
 #page1 {
@@ -111,5 +127,5 @@ h4 {
 
 
 #page3 {
-  height: 180%;
+  height: 185%;
 }

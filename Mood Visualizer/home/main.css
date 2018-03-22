@@ -61,31 +61,37 @@ body .title {
   color: white;
   position: relative;
   margin-top: 20%;
-  margin-right: 33%;
+  margin-right: 29%;
 }
 
 h1 {
   font-size: 3em;
   letter-spacing: 2.5px;
   font-weight: bolder;
-  padding-bottom:5%;
+
+}
+
+.title p {
+  width: 500px;
+  margin-bottom: 3%;
 }
 
 /* music player link */
 body .link a {
   position: relative;
   overflow: hidden;
-  width: 50%;
-  margin-right: 15px;
+  width: 175px;
+  margin-right: 10px;
   text-decoration: none;
   padding: 0px 0px 3px 0px;
   height: 50px;
   border: 2.5px solid white;
   float: left;
   color: white;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 400;
   margin-top: 20px;
+  border-radius: 4px;
 }
 
 body .link a .slide {
@@ -106,7 +112,7 @@ body .link a .slide {
 body .link a .slide .arrow {
   position: absolute;
   right: 31px;
-  top: 24px;
+  top: 26px;
   opacity: 0;
   -webkit-transform: skew(-20deg);
           transform: skew(-20deg);
@@ -140,7 +146,7 @@ body .link a img {
   -webkit-transition-duration: 0.1s;
           transition-duration: 0.1s;
   margin-top: 10px;
-  top: 2px;
+  top: 5px;
 }
 body .link a:hover > .slide {
   left: -70px;
@@ -399,14 +405,7 @@ input[type="radio"]:checked + label li:nth-of-type(4) {
   }
 }
 
-/* image styles */
-.researchImg {
-  width: 30%;
-  margin: 0 auto;
-  padding-top:5%;
-  padding-bottom: 3%;
-  display: inline-block;
-}
+
 
 /* footer and footer link */
 .footer {

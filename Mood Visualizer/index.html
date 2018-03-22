@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Audiovisualizer</title>
-        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link rel= "stylesheet" href="styles.css">
@@ -15,23 +15,6 @@
   <body>
     <header>
         <h1>HOW DO YOU VISUALIZE MUSIC?</h1>
-                    <div class='link'>
-                      <a href='home/visualizer.html' target='_blank'>
-                        <div class='slide'>
-                          <div class='arrow'>
-                            <div class='stem'></div>
-                            <div class='point'></div>
-                          </div>
-                        </div>
-                        <img id= 'visualizerIcon' src="home/images/visualizer2.svg" alt="Music Player Page Icon">
-                      LEARN MORE
-                      </a>
-                    </div>
-                  </div>
-                </li>
-            </ul>
-
-
     </header>
 
     <section>
@@ -63,9 +46,22 @@
 
           <div id='visualizers'>
             <button class = 'visual' id='bar'>BARS</button>
-            <button class = 'visual' id='wave'>SOUNDWAVES</button>
+            <button class = 'visual' id='wave'>WAVES</button>
             <button class = 'visual' id='radial'>RADIAL</button>
           </div>
+
+          <!-- HOME PAGE BUTTON -->
+              <div class='link'>
+                <a href='https://kaekae13.github.io/Visualizer/MoodVisualizer/home/index.html' target='_blank'>
+                    <div class='slide'>
+                    <div class='arrow'>
+                    <div class='stem'></div>
+                    <div class='point'></div>
+                    </div>
+                    </div>
+                <img id= 'visualizerIcon' src="home/images/visualizer2.svg" alt="Music Player Page Icon">LEARN MORE</a>
+                </div>
+              </div>
         </div>
 
   <!-- COLOR BUTTONS -->
@@ -87,20 +83,25 @@
                 <button class='colorbtn' id='color14'></button>
              </div>
            </div>
+           <div id = 'disclaimer'></div>
+
 
 
       </section>
 
-      <div id = 'disclaimer'></div>
+
   <!-- end main content -->
 
     <script src = "script.js"></script>
 
+<!-- FOOTER -->
     <footer>
         <a href="https://validator.w3.org/check?uri=referer">VALID HTML5 |</a>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">VALID CSS |</a>
-        <a href="https://p5js.org/reference/#/libraries/p5.sound">Made with p5 SOUND</a>
-  </footer>
+        <a href="https://p5js.org/reference/#/libraries/p5.sound"> Made with p5 SOUND</a>
+    </footer>
+
+    <script src = "script.js"></script>
   </body>
 
   </html>
