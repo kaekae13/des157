@@ -34,7 +34,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.5px;
   font-size: 0.60em;
-  padding-top: 1.25%;
+  padding-top: 1%;
 }
 
 h3 {
@@ -58,7 +58,8 @@ body .link a {
   letter-spacing: 2px;
   font-size: 0.75em;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 4px;
+
 }
 
 body .link a .slide {
@@ -148,7 +149,7 @@ body .link a:hover > .slide .arrow {
   left: 0;
   z-index: -1;
   top: 0;
-  margin-top: 7%;
+  margin-top: 8%;
   padding-bottom: 0;
 }
 
@@ -161,10 +162,10 @@ body .link a:hover > .slide .arrow {
   padding-top:1%;
   margin-top: 0;
   text-align: center;
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
 }
 
 #btnMenu, #chooseAudio, #visualizers {
@@ -179,7 +180,7 @@ body .link a:hover > .slide .arrow {
 }
 
 #chooseAudio {
-  margin-left: 10%;
+  margin-left: 0;
   margin-right: 0;
   padding-right: 0;
 }
@@ -266,7 +267,7 @@ body .link a:hover > .slide .arrow {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   color: #2a394f;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: white;
   letter-spacing: 2px;
   font-size: 0.75em;
@@ -279,7 +280,7 @@ body .link a:hover > .slide .arrow {
 
 #visualizers {
   margin-left: 0;
-  margin-right: 3%;
+  margin-right: 6%;
   width: 200px;
 }
 
@@ -302,7 +303,6 @@ body .link a:hover > .slide .arrow {
   width: 20px;
   height: 20px;
   border-radius: 23px;
-  margin-bottom: 0.5%;
 }
 
  #color1 {
@@ -370,8 +370,8 @@ body .link a:hover > .slide .arrow {
    text-align: center;
    color: #2a394f;
    letter-spacing: 2px;
-   padding-top: 1.25%;
-   padding-bottom: 2%;
+   padding-top: 2%;
+   padding-bottom: 1.5%;
  }
 
 a:link {
